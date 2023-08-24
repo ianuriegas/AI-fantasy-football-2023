@@ -15,7 +15,7 @@ X = df[['opponent_defense_rank',
         'team_offense_rank',
         'weather_condition',
         'days_since_last_game',
-        'player_past_avg_points',
+        'avg_points',
         'is_home_game',
         'injury_status']]
 y = df['next_game_points']
@@ -79,3 +79,5 @@ sorted_selections = sorted(player_selections.items(),
                            key=lambda x: x[1], reverse=True)
 for player, count in sorted_selections:
     print(f"{player}: {count} times")
+
+print(sorted_selections)

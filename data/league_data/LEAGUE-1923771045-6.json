@@ -2526,13 +2526,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "07cabce7-46c5-3c92-a22c-c2987913e30f",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "3b8035f7-e77d-3db7-95ad-d24910b03fab",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "3b8035f7-e77d-3db7-95ad-d24910b03fab",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "07cabce7-46c5-3c92-a22c-c2987913e30f",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
@@ -2631,13 +2631,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "4fed2cb9-4712-381a-a701-4769f201574d",
-                    "type": "DRAFT"
+                    "id": "1a0aa9fa-5e95-3bda-942d-99337f70033f",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "1a0aa9fa-5e95-3bda-942d-99337f70033f",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "4fed2cb9-4712-381a-a701-4769f201574d",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -2646,13 +2646,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "a3e1350f-a7f6-3d66-aa3f-0c6c1e3f83ae",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "4380a2c2-8da1-3318-b091-816ff58a57cd",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "4380a2c2-8da1-3318-b091-816ff58a57cd",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "a3e1350f-a7f6-3d66-aa3f-0c6c1e3f83ae",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
@@ -2736,23 +2736,18 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "8e951fcd-8ab4-3c88-942b-f584144201d7",
-                    "type": "TEAM_TRADE_OFFER"
-                },
-                {
-                    "enabled": true,
                     "id": "00f091e4-d1da-32ea-9664-e6c304bea3b3",
                     "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "1282ce22-d75d-3a8b-ba2f-22411d460af6",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "8e951fcd-8ab4-3c88-942b-f584144201d7",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "eb771699-ea8c-3942-b84d-9dd8e69897cc",
-                    "type": "DRAFT"
+                    "id": "1282ce22-d75d-3a8b-ba2f-22411d460af6",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2766,13 +2761,18 @@
                 },
                 {
                     "enabled": true,
-                    "id": "f746049e-6ec2-3986-b0d0-da68a1cc53c0",
-                    "type": "REDZONE"
+                    "id": "eb771699-ea8c-3942-b84d-9dd8e69897cc",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
                     "id": "ba4767c8-8cd4-3f01-90a6-45d9f972d375",
                     "type": "TEAM_PLAYER_INJURY"
+                },
+                {
+                    "enabled": true,
+                    "id": "f746049e-6ec2-3986-b0d0-da68a1cc53c0",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2916,23 +2916,23 @@
                 },
                 {
                     "enabled": true,
-                    "id": "bbc6edcc-dc93-3c74-849a-c9594e5b56a8",
-                    "type": "TEAM_TRADE_OFFER"
-                },
-                {
-                    "enabled": true,
                     "id": "169a06ac-df23-3a2d-8d51-9554622de00f",
                     "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "75ad4cd6-3e0f-34c7-ae94-f83cc395020e",
-                    "type": "REDZONE"
+                    "id": "bbc6edcc-dc93-3c74-849a-c9594e5b56a8",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
                     "id": "ab14cbfb-4f13-3076-a4fb-acc91af4f95a",
                     "type": "KEY_STAT_UPDATE"
+                },
+                {
+                    "enabled": true,
+                    "id": "75ad4cd6-3e0f-34c7-ae94-f83cc395020e",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2976,23 +2976,23 @@
                 },
                 {
                     "enabled": true,
-                    "id": "178527fc-ecd4-3080-8f67-b30fd63213df",
-                    "type": "TEAM_TRADE_OFFER"
-                },
-                {
-                    "enabled": true,
                     "id": "7e98339f-c669-3783-94bf-72ca8c9eaf86",
                     "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "4824be44-243a-3eb7-b7a7-1e74f45e91fb",
-                    "type": "DRAFT"
+                    "id": "178527fc-ecd4-3080-8f67-b30fd63213df",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
                     "id": "3bf4f28a-b657-39ee-a624-70ceb2867fe8",
                     "type": "KEY_STAT_UPDATE"
+                },
+                {
+                    "enabled": true,
+                    "id": "4824be44-243a-3eb7-b7a7-1e74f45e91fb",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -3011,13 +3011,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "7b955986-5b76-3675-b8ad-e804a483f76f",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "f618a461-11d8-36a3-917c-46805259fb42",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "f618a461-11d8-36a3-917c-46805259fb42",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "7b955986-5b76-3675-b8ad-e804a483f76f",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -3046,13 +3046,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "f2981f7b-d395-3938-8c7a-7072d4f912ed",
-                    "type": "REDZONE"
+                    "id": "da9e2c6f-7670-3dcf-8db5-6b627f639410",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
-                    "id": "da9e2c6f-7670-3dcf-8db5-6b627f639410",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "f2981f7b-d395-3938-8c7a-7072d4f912ed",
+                    "type": "REDZONE"
                 }
             ]
         }
@@ -27987,7 +27987,7 @@
                                 "injured": false,
                                 "injuryStatus": "ACTIVE",
                                 "lastName": "Tagovailoa",
-                                "lastNewsDate": 1692906833000,
+                                "lastNewsDate": 1692487055000,
                                 "lastVideoDate": 1692650285000,
                                 "ownership": {
                                     "auctionValueAverage": 3.1351877607788596,

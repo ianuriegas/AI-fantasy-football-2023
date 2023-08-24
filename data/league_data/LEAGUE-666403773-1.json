@@ -2525,13 +2525,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "91c690a3-8e6e-35e7-b946-9a9f0136e09f",
-                    "type": "REDZONE"
+                    "id": "8ce8a24e-9ad8-3e91-8052-7605e84eb0f2",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "8ce8a24e-9ad8-3e91-8052-7605e84eb0f2",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "91c690a3-8e6e-35e7-b946-9a9f0136e09f",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2545,13 +2545,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "3f9260ce-7c43-33f6-a6f0-349a9e4b3e49",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "25e54b12-82ca-3faf-b9da-40d77f205ea0",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "25e54b12-82ca-3faf-b9da-40d77f205ea0",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "3f9260ce-7c43-33f6-a6f0-349a9e4b3e49",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
@@ -2560,13 +2560,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "513efe89-8285-365d-9fd4-8aa2413d64cc",
-                    "type": "DRAFT"
+                    "id": "5333ba3a-2805-3699-acb8-4519c6071505",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
-                    "id": "5333ba3a-2805-3699-acb8-4519c6071505",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "513efe89-8285-365d-9fd4-8aa2413d64cc",
+                    "type": "DRAFT"
                 }
             ]
         },
@@ -2580,13 +2580,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "25584834-2fda-3e74-8a4d-c069594044f1",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "8ec5fcd3-37b2-3afb-897c-22324382b0bc",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "8ec5fcd3-37b2-3afb-897c-22324382b0bc",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "25584834-2fda-3e74-8a4d-c069594044f1",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
@@ -2635,8 +2635,8 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "f7719068-2f96-3386-95b9-792808b58332",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "708062b1-e4b0-36bf-8feb-a351af60d19b",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2645,8 +2645,8 @@
                 },
                 {
                     "enabled": true,
-                    "id": "708062b1-e4b0-36bf-8feb-a351af60d19b",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "f7719068-2f96-3386-95b9-792808b58332",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
@@ -2700,13 +2700,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "fa1ba648-a733-33e6-a125-a2eb34397d6d",
-                    "type": "REDZONE"
+                    "id": "0c3b0454-7c44-3d8e-941f-185c703d6109",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
-                    "id": "0c3b0454-7c44-3d8e-941f-185c703d6109",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "fa1ba648-a733-33e6-a125-a2eb34397d6d",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2765,6 +2765,11 @@
                 },
                 {
                     "enabled": true,
+                    "id": "cb38934d-e596-3d06-b605-0384e33ba3f9",
+                    "type": "TEAM_PLAYER_NEWS"
+                },
+                {
+                    "enabled": true,
                     "id": "7c2ca006-06a2-344c-929a-3e5f1cfaf065",
                     "type": "DRAFT"
                 },
@@ -2775,18 +2780,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "cb38934d-e596-3d06-b605-0384e33ba3f9",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "29af3eb5-9957-3706-be7f-a342128aa14f",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
                     "id": "880556f7-409a-31b7-9255-7f60558457db",
                     "type": "TEAM_PLAYER_INJURY"
-                },
-                {
-                    "enabled": true,
-                    "id": "29af3eb5-9957-3706-be7f-a342128aa14f",
-                    "type": "TEAM_MATCHUP_SCORE"
                 }
             ]
         },
@@ -2800,13 +2800,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "a5be6fe7-0b3f-39a6-8373-31e15cc789dc",
-                    "type": "REDZONE"
+                    "id": "f6a1b21e-59a3-328f-8399-1dff031f0375",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
-                    "id": "f6a1b21e-59a3-328f-8399-1dff031f0375",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "a5be6fe7-0b3f-39a6-8373-31e15cc789dc",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2815,13 +2815,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "1b845470-c523-3fae-8934-cd093456903a",
-                    "type": "DRAFT"
+                    "id": "eb007594-04b5-3e99-bd06-1944ef994951",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
-                    "id": "eb007594-04b5-3e99-bd06-1944ef994951",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "1b845470-c523-3fae-8934-cd093456903a",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -2870,13 +2870,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "57404ee3-726a-32fe-9488-f53a074ed633",
-                    "type": "DRAFT"
+                    "id": "de8dd8e5-68a7-3ff1-9b6a-d0192b850636",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "de8dd8e5-68a7-3ff1-9b6a-d0192b850636",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "57404ee3-726a-32fe-9488-f53a074ed633",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -2910,13 +2910,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "098e278d-d585-3163-8dab-7acc441908a6",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "2b3a1915-b66d-3c5d-b7b8-ce44d6b916de",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "2b3a1915-b66d-3c5d-b7b8-ce44d6b916de",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "098e278d-d585-3163-8dab-7acc441908a6",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
@@ -3020,13 +3020,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "121aa071-acca-35c9-a54c-d74c502b38b5",
-                    "type": "REDZONE"
+                    "id": "303a6753-ba04-36ca-8581-ae2cba2b9855",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "303a6753-ba04-36ca-8581-ae2cba2b9855",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "121aa071-acca-35c9-a54c-d74c502b38b5",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,

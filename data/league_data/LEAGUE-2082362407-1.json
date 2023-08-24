@@ -2667,13 +2667,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "1e79da26-9ff1-3857-b533-17a3209367b7",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "9ccb0c9d-f840-37fa-b373-c888f8a9a541",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "9ccb0c9d-f840-37fa-b373-c888f8a9a541",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "1e79da26-9ff1-3857-b533-17a3209367b7",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
@@ -2792,13 +2792,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "c4d9266d-abb5-340e-810f-002477fb8d5f",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "a59f41ed-d049-39dc-b848-f5ae99d73f68",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "a59f41ed-d049-39dc-b848-f5ae99d73f68",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "c4d9266d-abb5-340e-810f-002477fb8d5f",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
@@ -2832,13 +2832,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "ddce4e5e-8dd6-3ad4-84ff-75f7dd6dd079",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "0e014b22-0116-361d-b3de-152cd1ddb631",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "0e014b22-0116-361d-b3de-152cd1ddb631",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "ddce4e5e-8dd6-3ad4-84ff-75f7dd6dd079",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
@@ -2867,13 +2867,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "0cdd5174-b81b-3e7e-9656-93c2f5fe5f86",
-                    "type": "DRAFT"
+                    "id": "a64e8b95-dd3c-3a00-a327-4e897c31d118",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "a64e8b95-dd3c-3a00-a327-4e897c31d118",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "0cdd5174-b81b-3e7e-9656-93c2f5fe5f86",
+                    "type": "DRAFT"
                 }
             ]
         },

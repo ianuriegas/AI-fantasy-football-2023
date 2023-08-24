@@ -86,11 +86,11 @@ if __name__ == "__main__":
         players_list = get_players_list(league_id, team_id)
 
         # Create the data folder if it doesn't exist
-        if not os.path.exists("data/team"):
-            os.makedirs("data/team")
+        if not os.path.exists("data/team_data"):
+            os.makedirs("data/team_data")
 
         # Construct the filename and path
-        filename = f"data/team/TEAM-{league_id}-{team_id}.json"
+        filename = f"data/team_data/TEAM-{league_id}-{team_id}.json"
 
         # Write the JSON data to the file
         with open(filename, "w") as json_file:

@@ -2596,13 +2596,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "a5b7bc71-d3c7-3538-a61f-acb2b6759498",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "60b80e3a-d71c-3b74-b036-c185ee28d848",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
-                    "id": "60b80e3a-d71c-3b74-b036-c185ee28d848",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "a5b7bc71-d3c7-3538-a61f-acb2b6759498",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
@@ -2651,13 +2651,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "f9589f59-7e49-3747-9c1c-76a17b9c1773",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "92400c3e-3418-3ed9-b90f-07fb57e111cd",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
-                    "id": "92400c3e-3418-3ed9-b90f-07fb57e111cd",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "f9589f59-7e49-3747-9c1c-76a17b9c1773",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2766,13 +2766,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "99259506-c0d6-3e44-8e08-f6e38ae1f8a2",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "d12f32ec-f342-3325-9c19-47c70ccb27e6",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
-                    "id": "d12f32ec-f342-3325-9c19-47c70ccb27e6",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "99259506-c0d6-3e44-8e08-f6e38ae1f8a2",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2781,13 +2781,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "6742acae-8dde-3235-89d2-6bb736769245",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "5296fa00-8e6e-3a8d-b774-bf904b83d909",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
-                    "id": "5296fa00-8e6e-3a8d-b774-bf904b83d909",
-                    "type": "DRAFT"
+                    "id": "6742acae-8dde-3235-89d2-6bb736769245",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
@@ -2816,13 +2816,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "786301d0-075b-37dd-9ad9-dfcf033f2448",
-                    "type": "REDZONE"
+                    "id": "82dc2429-af6d-3c8a-86b5-32a02ea2fb41",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
-                    "id": "82dc2429-af6d-3c8a-86b5-32a02ea2fb41",
-                    "type": "DRAFT"
+                    "id": "786301d0-075b-37dd-9ad9-dfcf033f2448",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -21252,7 +21252,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21869,7 +21870,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22476,7 +22478,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23108,7 +23111,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23592,7 +23596,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24221,7 +24226,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24817,7 +24823,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25367,7 +25374,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26004,7 +26012,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26524,7 +26533,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27051,7 +27061,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27666,7 +27677,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28263,7 +28275,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28847,7 +28860,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29483,7 +29497,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -30143,7 +30158,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {

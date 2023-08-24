@@ -2550,13 +2550,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "c67f2bca-0114-3cfb-9680-059ba61f3edd",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "0d016fdc-ecfa-3eee-b8c4-c395858b4920",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "0d016fdc-ecfa-3eee-b8c4-c395858b4920",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "c67f2bca-0114-3cfb-9680-059ba61f3edd",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2600,13 +2600,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "70495896-9faa-3262-a30d-6baa86a8d302",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "81a161e2-ac05-3bfe-82e2-76433d6d5a88",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "81a161e2-ac05-3bfe-82e2-76433d6d5a88",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "70495896-9faa-3262-a30d-6baa86a8d302",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2645,13 +2645,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "ada4396b-84a1-3746-855e-07fb433b3558",
-                    "type": "REDZONE"
+                    "id": "e8177b60-8341-3501-91f9-3b258e2550f0",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "e8177b60-8341-3501-91f9-3b258e2550f0",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "ada4396b-84a1-3746-855e-07fb433b3558",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2675,13 +2675,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "222f35a3-e7ce-3b34-ab89-43fecec83430",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "84b1ae47-e941-373f-8f4e-04042252e8c1",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "84b1ae47-e941-373f-8f4e-04042252e8c1",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "222f35a3-e7ce-3b34-ab89-43fecec83430",
+                    "type": "TEAM_PLAYER_NEWS"
                 }
             ]
         },
@@ -2750,13 +2750,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "30ebf9fb-9077-35f8-b71d-9d606387562c",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "a6d83802-eb47-3ced-bd6e-71d90dc2c89a",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "a6d83802-eb47-3ced-bd6e-71d90dc2c89a",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "30ebf9fb-9077-35f8-b71d-9d606387562c",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2775,13 +2775,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "0c37ea67-97d5-3a06-8a1b-ba88630deb4a",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "e4b2ac10-16e6-3deb-ba8f-6111c0d622e6",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
-                    "id": "e4b2ac10-16e6-3deb-ba8f-6111c0d622e6",
-                    "type": "DRAFT"
+                    "id": "0c37ea67-97d5-3a06-8a1b-ba88630deb4a",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
@@ -2825,13 +2825,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "1dbf30cb-510a-3660-8cf1-5e747561e336",
-                    "type": "DRAFT"
+                    "id": "f406c9b6-0cc4-30b7-9988-4cccb99be3c8",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "f406c9b6-0cc4-30b7-9988-4cccb99be3c8",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "1dbf30cb-510a-3660-8cf1-5e747561e336",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -2885,13 +2885,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "6670b046-263c-35ff-bda5-4f1a61214c79",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "c6d49c0f-4027-3883-8230-d9990db191e5",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "c6d49c0f-4027-3883-8230-d9990db191e5",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "6670b046-263c-35ff-bda5-4f1a61214c79",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
@@ -2930,13 +2930,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "cffd3bad-5820-3c2d-a25c-aa1793a9cd0d",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "3a28647c-9121-3c0a-977c-8ed28e343e35",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "3a28647c-9121-3c0a-977c-8ed28e343e35",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "cffd3bad-5820-3c2d-a25c-aa1793a9cd0d",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2980,13 +2980,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "43a8cbb0-998f-3d90-ba8c-8ca52949d3c0",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "ec1442b3-c716-32c3-aa77-8f764fed2a6d",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "ec1442b3-c716-32c3-aa77-8f764fed2a6d",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "43a8cbb0-998f-3d90-ba8c-8ca52949d3c0",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
@@ -3025,13 +3025,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "3d8064f2-a225-385f-bd5c-25e7e5774f23",
-                    "type": "REDZONE"
+                    "id": "2f63e716-26f8-36bb-ba55-e8b3402aa0d1",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "2f63e716-26f8-36bb-ba55-e8b3402aa0d1",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "3d8064f2-a225-385f-bd5c-25e7e5774f23",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -20825,7 +20825,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21296,7 +21297,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21928,7 +21930,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22527,7 +22530,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23073,7 +23077,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23705,7 +23710,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24364,7 +24370,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24944,7 +24951,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25477,7 +25485,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26052,7 +26061,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26596,7 +26606,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27208,7 +27219,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27676,7 +27688,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28288,7 +28301,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28826,7 +28840,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29495,7 +29510,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {

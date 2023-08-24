@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Ja'Marr Chase",
+        "id": 4362628,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 20.86,
+        "position": "wr"
+    },
+    {
+        "name": "Stefon Diggs",
+        "id": 2976212,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 17.58,
+        "position": "wr"
+    },
+    {
+        "name": "Aaron Jones",
+        "id": 3042519,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 16.14,
+        "position": "rb"
+    },
+    {
+        "name": "Lamar Jackson",
+        "id": 3916387,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 21.73,
+        "position": "qb"
+    },
+    {
+        "name": "Chris Godwin",
+        "id": 3116165,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 14.59,
+        "position": "wr"
+    },
+    {
+        "name": "Darren Waller",
+        "id": 2576925,
+        "position_id": 4,
+        "health": false,
+        "week_proj_points": 12.39,
+        "position": "te"
+    },
+    {
+        "name": "J.K. Dobbins",
+        "id": 4241985,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.24,
+        "position": "rb"
+    },
+    {
+        "name": "Alexander Mattison",
+        "id": 4048244,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.35,
+        "position": "rb"
+    },
+    {
+        "name": "Brandon Aiyuk",
+        "id": 4360438,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.95,
+        "position": "wr"
+    },
+    {
+        "name": "Michael Thomas",
+        "id": 2976316,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 13.64,
+        "position": "wr"
+    },
+    {
+        "name": "DJ Chark Jr.",
+        "id": 3115394,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.6,
+        "position": "wr"
+    },
+    {
+        "name": "Khalil Herbert",
+        "id": 4035886,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 10.32,
+        "position": "rb"
+    },
+    {
+        "name": "Jeff Wilson Jr.",
+        "id": 3122976,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 11.6,
+        "position": "rb"
+    },
+    {
+        "name": "Raheem Mostert",
+        "id": 2576414,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 9.89,
+        "position": "rb"
+    },
+    {
+        "name": "Packers D/ST",
+        "id": -16009,
+        "position_id": 16,
+        "health": false,
+        "week_proj_points": 7.06,
+        "position": "defense"
+    },
+    {
+        "name": "Graham Gano",
+        "id": 12460,
+        "position_id": 5,
+        "health": false,
+        "week_proj_points": 8.25,
+        "position": "kicker"
+    }
+]

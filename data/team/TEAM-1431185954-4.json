@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Bijan Robinson",
+        "id": 4430807,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 18.18,
+        "position": "rb"
+    },
+    {
+        "name": "Derrick Henry",
+        "id": 3043078,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 17.88,
+        "position": "rb"
+    },
+    {
+        "name": "Jaylen Waddle",
+        "id": 4372016,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 15.28,
+        "position": "wr"
+    },
+    {
+        "name": "DK Metcalf",
+        "id": 4047650,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 15.01,
+        "position": "wr"
+    },
+    {
+        "name": "Dameon Pierce",
+        "id": 4360238,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.53,
+        "position": "rb"
+    },
+    {
+        "name": "Deshaun Watson",
+        "id": 3122840,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 18.72,
+        "position": "qb"
+    },
+    {
+        "name": "DJ Moore",
+        "id": 3915416,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 13.59,
+        "position": "wr"
+    },
+    {
+        "name": "Dallas Goedert",
+        "id": 3121023,
+        "position_id": 4,
+        "health": false,
+        "week_proj_points": 10.59,
+        "position": "te"
+    },
+    {
+        "name": "Christian Kirk",
+        "id": 3895856,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 12.64,
+        "position": "wr"
+    },
+    {
+        "name": "Jahan Dotson",
+        "id": 4361409,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.59,
+        "position": "wr"
+    },
+    {
+        "name": "Treylon Burks",
+        "id": 4567156,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.75,
+        "position": "wr"
+    },
+    {
+        "name": "Jordan Addison",
+        "id": 4429205,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.19,
+        "position": "wr"
+    },
+    {
+        "name": "Antonio Gibson",
+        "id": 4360294,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 10.45,
+        "position": "rb"
+    },
+    {
+        "name": "Tyler Higbee",
+        "id": 2573401,
+        "position_id": 4,
+        "health": false,
+        "week_proj_points": 9.54,
+        "position": "te"
+    },
+    {
+        "name": "Patriots D/ST",
+        "id": -16017,
+        "position_id": 16,
+        "health": false,
+        "week_proj_points": 6.22,
+        "position": "defense"
+    },
+    {
+        "name": "Jason Myers",
+        "id": 2473037,
+        "position_id": 5,
+        "health": false,
+        "week_proj_points": 8.15,
+        "position": "kicker"
+    }
+]

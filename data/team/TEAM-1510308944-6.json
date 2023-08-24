@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Cooper Kupp",
+        "id": 2977187,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 21.54,
+        "position": "wr"
+    },
+    {
+        "name": "Amon-Ra St. Brown",
+        "id": 4374302,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 16.09,
+        "position": "wr"
+    },
+    {
+        "name": "Breece Hall",
+        "id": 4427366,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 18.09,
+        "position": "rb"
+    },
+    {
+        "name": "Jahmyr Gibbs",
+        "id": 4429795,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 15.04,
+        "position": "rb"
+    },
+    {
+        "name": "Rachaad White",
+        "id": 4697815,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.48,
+        "position": "rb"
+    },
+    {
+        "name": "Miles Sanders",
+        "id": 4045163,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.23,
+        "position": "rb"
+    },
+    {
+        "name": "Mike Evans",
+        "id": 16737,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 13.75,
+        "position": "wr"
+    },
+    {
+        "name": "Deshaun Watson",
+        "id": 3122840,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 18.72,
+        "position": "qb"
+    },
+    {
+        "name": "Drake London",
+        "id": 4426502,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 12.91,
+        "position": "wr"
+    },
+    {
+        "name": "Pat Freiermuth",
+        "id": 4361411,
+        "position_id": 4,
+        "health": false,
+        "week_proj_points": 9.87,
+        "position": "te"
+    },
+    {
+        "name": "Treylon Burks",
+        "id": 4567156,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.75,
+        "position": "wr"
+    },
+    {
+        "name": "Brian Robinson Jr.",
+        "id": 4241474,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 10.83,
+        "position": "rb"
+    },
+    {
+        "name": "Allen Lazard",
+        "id": 3128390,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 10.04,
+        "position": "wr"
+    },
+    {
+        "name": "Jerick McKinnon",
+        "id": 16782,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 10.79,
+        "position": "rb"
+    },
+    {
+        "name": "Steelers D/ST",
+        "id": -16023,
+        "position_id": 16,
+        "health": false,
+        "week_proj_points": 8.0,
+        "position": "defense"
+    },
+    {
+        "name": "Tyler Bass",
+        "id": 3917232,
+        "position_id": 5,
+        "health": false,
+        "week_proj_points": 8.19,
+        "position": "kicker"
+    }
+]

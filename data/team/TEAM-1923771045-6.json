@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Austin Ekeler",
+        "id": 3068267,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 19.54,
+        "position": "rb"
+    },
+    {
+        "name": "Amon-Ra St. Brown",
+        "id": 4374302,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 16.09,
+        "position": "wr"
+    },
+    {
+        "name": "A.J. Brown",
+        "id": 4047646,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 15.24,
+        "position": "wr"
+    },
+    {
+        "name": "DeVonta Smith",
+        "id": 4241478,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 14.66,
+        "position": "wr"
+    },
+    {
+        "name": "Dameon Pierce",
+        "id": 4360238,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.53,
+        "position": "rb"
+    },
+    {
+        "name": "Chris Godwin",
+        "id": 3116165,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 14.59,
+        "position": "wr"
+    },
+    {
+        "name": "Justin Herbert",
+        "id": 4038941,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 18.48,
+        "position": "qb"
+    },
+    {
+        "name": "Dallas Goedert",
+        "id": 3121023,
+        "position_id": 4,
+        "health": false,
+        "week_proj_points": 10.59,
+        "position": "te"
+    },
+    {
+        "name": "Christian Kirk",
+        "id": 3895856,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 12.64,
+        "position": "wr"
+    },
+    {
+        "name": "Treylon Burks",
+        "id": 4567156,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.75,
+        "position": "wr"
+    },
+    {
+        "name": "Courtland Sutton",
+        "id": 3128429,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 11.17,
+        "position": "wr"
+    },
+    {
+        "name": "Gabe Davis",
+        "id": 4243537,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 10.8,
+        "position": "wr"
+    },
+    {
+        "name": "Tua Tagovailoa",
+        "id": 4241479,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 17.11,
+        "position": "qb"
+    },
+    {
+        "name": "Zach Charbonnet",
+        "id": 4426385,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 9.25,
+        "position": "rb"
+    },
+    {
+        "name": "Saints D/ST",
+        "id": -16018,
+        "position_id": 16,
+        "health": false,
+        "week_proj_points": 7.2,
+        "position": "defense"
+    },
+    {
+        "name": "Eddy Pineiro",
+        "id": 4034949,
+        "position_id": 5,
+        "health": false,
+        "week_proj_points": 7.7,
+        "position": "kicker"
+    }
+]

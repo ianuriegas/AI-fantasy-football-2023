@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Justin Jefferson",
+        "id": 4262921,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 21.56,
+        "position": "wr"
+    },
+    {
+        "name": "A.J. Brown",
+        "id": 4047646,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 15.24,
+        "position": "wr"
+    },
+    {
+        "name": "Josh Jacobs",
+        "id": 4047365,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 17.87,
+        "position": "rb"
+    },
+    {
+        "name": "Dameon Pierce",
+        "id": 4360238,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.53,
+        "position": "rb"
+    },
+    {
+        "name": "Rachaad White",
+        "id": 4697815,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 14.48,
+        "position": "rb"
+    },
+    {
+        "name": "Mike Evans",
+        "id": 16737,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 13.75,
+        "position": "wr"
+    },
+    {
+        "name": "George Kittle",
+        "id": 3040151,
+        "position_id": 4,
+        "health": false,
+        "week_proj_points": 11.14,
+        "position": "te"
+    },
+    {
+        "name": "David Montgomery",
+        "id": 4035538,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 13.74,
+        "position": "rb"
+    },
+    {
+        "name": "Dak Prescott",
+        "id": 2577417,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 17.57,
+        "position": "qb"
+    },
+    {
+        "name": "Daniel Jones",
+        "id": 3917792,
+        "position_id": 1,
+        "health": false,
+        "week_proj_points": 17.94,
+        "position": "qb"
+    },
+    {
+        "name": "Javonte Williams",
+        "id": 4361579,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 16.35,
+        "position": "rb"
+    },
+    {
+        "name": "Gabe Davis",
+        "id": 4243537,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 10.8,
+        "position": "wr"
+    },
+    {
+        "name": "Kadarius Toney",
+        "id": 4240600,
+        "position_id": 3,
+        "health": false,
+        "week_proj_points": 10.69,
+        "position": "wr"
+    },
+    {
+        "name": "Zach Charbonnet",
+        "id": 4426385,
+        "position_id": 2,
+        "health": false,
+        "week_proj_points": 9.25,
+        "position": "rb"
+    },
+    {
+        "name": "Bills D/ST",
+        "id": -16002,
+        "position_id": 16,
+        "health": false,
+        "week_proj_points": 7.53,
+        "position": "defense"
+    },
+    {
+        "name": "Matt Gay",
+        "id": 4249087,
+        "position_id": 5,
+        "health": false,
+        "week_proj_points": 7.8,
+        "position": "kicker"
+    }
+]

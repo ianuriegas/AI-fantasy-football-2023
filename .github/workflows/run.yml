@@ -19,6 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         pwd
+        ls -la
     #     source venv/bin/activate 
 
     # - name: Get all my teams info and store it into a JSON.

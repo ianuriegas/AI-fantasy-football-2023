@@ -2502,13 +2502,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "25584834-2fda-3e74-8a4d-c069594044f1",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "8ec5fcd3-37b2-3afb-897c-22324382b0bc",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "8ec5fcd3-37b2-3afb-897c-22324382b0bc",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "25584834-2fda-3e74-8a4d-c069594044f1",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
@@ -2632,23 +2632,23 @@
                 },
                 {
                     "enabled": true,
-                    "id": "6e415fc1-a0a5-3685-b206-4f2db91b6855",
-                    "type": "REDZONE"
-                },
-                {
-                    "enabled": true,
                     "id": "db56dc95-ef28-3e1d-94be-b6782a715be4",
                     "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "01eb7c5f-4ac0-3792-854e-8be2e3566786",
-                    "type": "DRAFT"
+                    "id": "6e415fc1-a0a5-3685-b206-4f2db91b6855",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
                     "id": "b865dbd1-66e4-3103-b356-0ae04652e381",
                     "type": "TEAM_PLAYER_AVAILABILITY"
+                },
+                {
+                    "enabled": true,
+                    "id": "01eb7c5f-4ac0-3792-854e-8be2e3566786",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -2667,13 +2667,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "9ccb0c9d-f840-37fa-b373-c888f8a9a541",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "1e79da26-9ff1-3857-b533-17a3209367b7",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "1e79da26-9ff1-3857-b533-17a3209367b7",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "9ccb0c9d-f840-37fa-b373-c888f8a9a541",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2682,13 +2682,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "57003227-2299-390c-9a9a-6498726fa9e0",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "e4920131-4b2c-302a-8f06-ee2dd8820c4f",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
-                    "id": "e4920131-4b2c-302a-8f06-ee2dd8820c4f",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "57003227-2299-390c-9a9a-6498726fa9e0",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
@@ -2787,11 +2787,6 @@
                 },
                 {
                     "enabled": true,
-                    "id": "19aab24c-db6f-373f-8706-cf3eb65ff129",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
-                },
-                {
-                    "enabled": true,
                     "id": "a59f41ed-d049-39dc-b848-f5ae99d73f68",
                     "type": "TEAM_PLAYER_STARTBENCH"
                 },
@@ -2802,13 +2797,18 @@
                 },
                 {
                     "enabled": true,
-                    "id": "7ddfeb53-dfc8-3d22-b4d5-4941235ec295",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "19aab24c-db6f-373f-8706-cf3eb65ff129",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
                     "id": "54a60e23-ca56-3c30-b335-541ab53ac13d",
                     "type": "TEAM_PLAYER_NEWS"
+                },
+                {
+                    "enabled": true,
+                    "id": "7ddfeb53-dfc8-3d22-b4d5-4941235ec295",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2832,13 +2832,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "0e014b22-0116-361d-b3de-152cd1ddb631",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "ddce4e5e-8dd6-3ad4-84ff-75f7dd6dd079",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "ddce4e5e-8dd6-3ad4-84ff-75f7dd6dd079",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "0e014b22-0116-361d-b3de-152cd1ddb631",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2962,8 +2962,8 @@
                 },
                 {
                     "enabled": true,
-                    "id": "49b64dfc-2c5b-32b1-a2f4-ee9b8ef4f2dd",
-                    "type": "DRAFT"
+                    "id": "654463e9-d217-32dd-ae02-99edd243aaf3",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2972,18 +2972,18 @@
                 },
                 {
                     "enabled": true,
-                    "id": "654463e9-d217-32dd-ae02-99edd243aaf3",
-                    "type": "TEAM_PLAYER_NEWS"
-                },
-                {
-                    "enabled": true,
-                    "id": "fc3980a4-6405-3e4b-af92-7aede81a75d4",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "49b64dfc-2c5b-32b1-a2f4-ee9b8ef4f2dd",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
                     "id": "20e129b5-206d-3b60-abaf-b4ff606ce1d1",
                     "type": "TEAM_PLAYER_STARTBENCH"
+                },
+                {
+                    "enabled": true,
+                    "id": "fc3980a4-6405-3e4b-af92-7aede81a75d4",
+                    "type": "KEY_STAT_UPDATE"
                 }
             ]
         },
@@ -3002,13 +3002,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "e09e3c3a-d714-3e3e-a906-31cd0152642e",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "877d6b8d-5684-32fb-8076-41f268178461",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
-                    "id": "877d6b8d-5684-32fb-8076-41f268178461",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "e09e3c3a-d714-3e3e-a906-31cd0152642e",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
@@ -27572,7 +27572,6 @@
                                 "injuryStatus": "QUESTIONABLE",
                                 "lastName": "Toney",
                                 "lastNewsDate": 1692225782000,
-                                "lastVideoDate": 1687976684000,
                                 "ownership": {
                                     "auctionValueAverage": 0.9332820118039518,
                                     "averageDraftPosition": 156.06810090094834,
@@ -27585,35 +27584,25 @@
                                     "0": [
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 46.75,
                                             "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 47.5,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
+                                            "rank": 46,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 48,
-                                            "rankSourceId": 3,
+                                            "rank": 57,
+                                            "rankSourceId": 7,
                                             "rankType": "STANDARD",
                                             "slotId": 4
                                         },
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 48,
-                                            "rankSourceId": 3,
+                                            "rank": 57,
+                                            "rankSourceId": 7,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -27628,6 +27617,14 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 48,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 46,
                                             "rankSourceId": 5,
                                             "rankType": "PPR",
@@ -27637,40 +27634,25 @@
                                             "auctionValue": 0,
                                             "published": true,
                                             "rank": 48,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 57,
-                                            "rankSourceId": 7,
+                                            "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 4
                                         },
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 57,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 46,
-                                            "rankSourceId": 9,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
                                             "rank": 48,
-                                            "rankSourceId": 10,
+                                            "rankSourceId": 3,
                                             "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 46.75,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
                                             "slotId": 4
                                         },
                                         {
@@ -27684,6 +27666,23 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 49,
+                                            "rankSourceId": 12,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 47.5,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 38,
                                             "rankSourceId": 11,
                                             "rankType": "PPR",
@@ -27692,8 +27691,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 49,
-                                            "rankSourceId": 12,
+                                            "rank": 48,
+                                            "rankSourceId": 10,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         }

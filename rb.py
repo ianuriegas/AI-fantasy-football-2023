@@ -4,27 +4,6 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 
-max_defense_rank = 32  # Assuming 32 is the worst rank
-max_offense_rank = 32  # Assuming 32 is the worst rank
-
-# Load data from CSV
-df = pd.read_csv('data/position_data/rb.csv')
-
-# Splitting features and target
-X = df[['opponent_defense_rank',
-        'team_offense_rank',
-        'weather_condition',
-        'days_since_last_game',
-        'avg_points',
-        'is_home_game',
-        'injury_status']]
-y = df['next_game_points']
-
-# Convert to PyTorch tensors
-X_tensor = torch.tensor(X.values, dtype=torch.float32)
-# Reshaping to align dimensions
-y_tensor = torch.tensor(y.values, dtype=torch.float32).view(-1, 1)
-
 # Define a simple neural network model using nn.Module
 
 
@@ -42,42 +21,265 @@ class SimpleNN(nn.Module):
         return x
 
 
-player_selections = {}
+def get_qb_pytorch_stats(data):
+    max_defense_rank = 32  # Assuming 32 is the worst rank
+    max_offense_rank = 32  # Assuming 32 is the worst rank
 
-# Run the process 100 times
-for _ in range(100):
-    # Instantiate the model and define loss and optimizer
-    model = SimpleNN()
-    criterion = nn.MSELoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.001)  # Added learning rate
+    # Load data from CSV
+    # df = pd.read_csv('data/position_data/rb.csv')
+    df = pd.DataFrame(data)
 
-    # Train the model
-    epochs = 100
-    for epoch in range(epochs):
-        optimizer.zero_grad()
-        outputs = model(X_tensor)
-        loss = criterion(outputs, y_tensor)
-        loss.backward()
-        optimizer.step()
+    # Splitting features and target
+    X = df[['opponent_defense_rank',
+            'team_offense_rank',
+            'weather_condition',
+            'days_since_last_game',
+            'avg_points',
+            'is_home_game',
+            'injury_status']]
+    y = df['next_game_points']
 
-    # Predict using the trained model
-    predictions = model(X_tensor)
+    # Convert to PyTorch tensors
+    X_tensor = torch.tensor(X.values, dtype=torch.float32)
+    # Reshaping to align dimensions
+    y_tensor = torch.tensor(y.values, dtype=torch.float32).view(-1, 1)
 
-    # Adding predictions back to DataFrame
-    df['predicted_points'] = predictions.detach().numpy()
+    player_selections = {}
 
-    # Select the player with the highest predicted points
-    selected_player = df.loc[df['predicted_points'].idxmax(), 'player_name']
+    # Run the process 100 times
+    for _ in range(100):
+        # Instantiate the model and define loss and optimizer
+        model = SimpleNN()
+        criterion = nn.MSELoss()
+        # Added learning rate
+        optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-    if selected_player in player_selections:
-        player_selections[selected_player] += 1
-    else:
-        player_selections[selected_player] = 1
+        # Train the model
+        epochs = 100
+        for epoch in range(epochs):
+            optimizer.zero_grad()
+            outputs = model(X_tensor)
+            loss = criterion(outputs, y_tensor)
+            loss.backward()
+            optimizer.step()
 
-# Print the tally of player selections
-sorted_selections = sorted(player_selections.items(),
-                           key=lambda x: x[1], reverse=True)
-for player, count in sorted_selections:
-    print(f"{player}: {count} times")
+        # Predict using the trained model
+        predictions = model(X_tensor)
 
-print(sorted_selections)
+        # Adding predictions back to DataFrame
+        df['predicted_points'] = predictions.detach().numpy()
+
+        # Select the player with the highest predicted points
+        selected_player = df.loc[df['predicted_points'].idxmax(),
+                                 'player_name']
+
+        if selected_player in player_selections:
+            player_selections[selected_player] += 1
+        else:
+            player_selections[selected_player] = 1
+
+    # Print the tally of player selections
+    sorted_selections = sorted(player_selections.items(),
+                               key=lambda x: x[1], reverse=True)
+    # for player, count in sorted_selections:
+    #     print(f"{player}: {count} times")
+
+    print(sorted_selections)
+
+
+def get_rb_pytorch_stats(data):
+    max_defense_rank = 32  # Assuming 32 is the worst rank
+    max_offense_rank = 32  # Assuming 32 is the worst rank
+
+    # Load data from CSV
+    # df = pd.read_csv('data/position_data/rb.csv')
+    df = pd.DataFrame(data)
+
+    # Splitting features and target
+    X = df[['opponent_defense_rank',
+            'team_offense_rank',
+            'weather_condition',
+            'days_since_last_game',
+            'avg_points',
+            'is_home_game',
+            'injury_status']]
+    y = df['next_game_points']
+
+    # Convert to PyTorch tensors
+    X_tensor = torch.tensor(X.values, dtype=torch.float32)
+    # Reshaping to align dimensions
+    y_tensor = torch.tensor(y.values, dtype=torch.float32).view(-1, 1)
+
+    player_selections = {}
+
+    # Run the process 100 times
+    for _ in range(100):
+        # Instantiate the model and define loss and optimizer
+        model = SimpleNN()
+        criterion = nn.MSELoss()
+        # Added learning rate
+        optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+        # Train the model
+        epochs = 100
+        for epoch in range(epochs):
+            optimizer.zero_grad()
+            outputs = model(X_tensor)
+            loss = criterion(outputs, y_tensor)
+            loss.backward()
+            optimizer.step()
+
+        # Predict using the trained model
+        predictions = model(X_tensor)
+
+        # Adding predictions back to DataFrame
+        df['predicted_points'] = predictions.detach().numpy()
+
+        # Select the player with the highest predicted points
+        selected_player = df.loc[df['predicted_points'].idxmax(),
+                                 'player_name']
+
+        if selected_player in player_selections:
+            player_selections[selected_player] += 1
+        else:
+            player_selections[selected_player] = 1
+
+    # Print the tally of player selections
+    sorted_selections = sorted(player_selections.items(),
+                               key=lambda x: x[1], reverse=True)
+    # for player, count in sorted_selections:
+    #     print(f"{player}: {count} times")
+
+    print(sorted_selections)
+
+
+def get_wr_pytorch_stats(data):
+    max_defense_rank = 32  # Assuming 32 is the worst rank
+    max_offense_rank = 32  # Assuming 32 is the worst rank
+
+    # Load data from CSV
+    # df = pd.read_csv('data/position_data/rb.csv')
+    df = pd.DataFrame(data)
+
+    # Splitting features and target
+    X = df[['opponent_defense_rank',
+            'team_offense_rank',
+            'weather_condition',
+            'days_since_last_game',
+            'avg_points',
+            'is_home_game',
+            'injury_status']]
+    y = df['next_game_points']
+
+    # Convert to PyTorch tensors
+    X_tensor = torch.tensor(X.values, dtype=torch.float32)
+    # Reshaping to align dimensions
+    y_tensor = torch.tensor(y.values, dtype=torch.float32).view(-1, 1)
+
+    player_selections = {}
+
+    # Run the process 100 times
+    for _ in range(100):
+        # Instantiate the model and define loss and optimizer
+        model = SimpleNN()
+        criterion = nn.MSELoss()
+        # Added learning rate
+        optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+        # Train the model
+        epochs = 100
+        for epoch in range(epochs):
+            optimizer.zero_grad()
+            outputs = model(X_tensor)
+            loss = criterion(outputs, y_tensor)
+            loss.backward()
+            optimizer.step()
+
+        # Predict using the trained model
+        predictions = model(X_tensor)
+
+        # Adding predictions back to DataFrame
+        df['predicted_points'] = predictions.detach().numpy()
+
+        # Select the player with the highest predicted points
+        selected_player = df.loc[df['predicted_points'].idxmax(),
+                                 'player_name']
+
+        if selected_player in player_selections:
+            player_selections[selected_player] += 1
+        else:
+            player_selections[selected_player] = 1
+
+    # Print the tally of player selections
+    sorted_selections = sorted(player_selections.items(),
+                               key=lambda x: x[1], reverse=True)
+    # for player, count in sorted_selections:
+    #     print(f"{player}: {count} times")
+
+    print(sorted_selections)
+
+
+def get_te_pytorch_stats(data):
+    max_defense_rank = 32  # Assuming 32 is the worst rank
+    max_offense_rank = 32  # Assuming 32 is the worst rank
+
+    # Load data from CSV
+    # df = pd.read_csv('data/position_data/rb.csv')
+    df = pd.DataFrame(data)
+
+    # Splitting features and target
+    X = df[['opponent_defense_rank',
+            'team_offense_rank',
+            'weather_condition',
+            'days_since_last_game',
+            'avg_points',
+            'is_home_game',
+            'injury_status']]
+    y = df['next_game_points']
+
+    # Convert to PyTorch tensors
+    X_tensor = torch.tensor(X.values, dtype=torch.float32)
+    # Reshaping to align dimensions
+    y_tensor = torch.tensor(y.values, dtype=torch.float32).view(-1, 1)
+
+    player_selections = {}
+
+    # Run the process 100 times
+    for _ in range(100):
+        # Instantiate the model and define loss and optimizer
+        model = SimpleNN()
+        criterion = nn.MSELoss()
+        # Added learning rate
+        optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+        # Train the model
+        epochs = 100
+        for epoch in range(epochs):
+            optimizer.zero_grad()
+            outputs = model(X_tensor)
+            loss = criterion(outputs, y_tensor)
+            loss.backward()
+            optimizer.step()
+
+        # Predict using the trained model
+        predictions = model(X_tensor)
+
+        # Adding predictions back to DataFrame
+        df['predicted_points'] = predictions.detach().numpy()
+
+        # Select the player with the highest predicted points
+        selected_player = df.loc[df['predicted_points'].idxmax(),
+                                 'player_name']
+
+        if selected_player in player_selections:
+            player_selections[selected_player] += 1
+        else:
+            player_selections[selected_player] = 1
+
+    # Print the tally of player selections
+    sorted_selections = sorted(player_selections.items(),
+                               key=lambda x: x[1], reverse=True)
+    # for player, count in sorted_selections:
+    #     print(f"{player}: {count} times")
+
+    print(sorted_selections)

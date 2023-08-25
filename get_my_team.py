@@ -59,15 +59,30 @@ def get_players_list(league_id, team_id):
                 # Default to "unknown" if position is not in POSITION_MAP
                 temp_position = "unknown"
             
+            if entry["playerPoolEntry"]["player"]["injured"] is False:
+                injured = 1
+            else:
+                injured = 0 
+
             player_info = {
-                "name": entry["playerPoolEntry"]["player"]["fullName"],
-                "id": entry["playerPoolEntry"]["player"]["id"],
-                "position": temp_position,
-                "injured": entry["playerPoolEntry"]["player"]["injured"],
-                "week_proj_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1),
-                "season_avg_points": round(entry["playerPoolEntry"]["player"]["stats"][3]["appliedAverage"], 1),
+                "player_name": entry["playerPoolEntry"]["player"]["fullName"],
+                "id": entry["playerPoolEntry"]["player"]["id"],                 # <------delete this line from the json in position_sorter.py
+                "position": temp_position,                                      # <------delete this line from the json in position_sorter.py || We need this to sort
+            #     "injured": entry["playerPoolEntry"]["player"]["injured"],
+            #     "week_proj_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1),
+            #     "season_avg_points": round(entry["playerPoolEntry"]["player"]["stats"][3]["appliedAverage"], 1),
                 "team_id": entry["playerPoolEntry"]["player"]["proTeamId"],
+
+                "opponent_defense_rank": 0,
+                "team_offense_rank": 0,
+                "weather_condition": 0,
+                "days_since_last_game": 0,
+                "avg_points": round(entry["playerPoolEntry"]["player"]["stats"][3]["appliedAverage"], 1),
+                "is_home_game": 0,
+                "injury_status": injured,
+                "next_game_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1)
             }
+
 
             # # Map position_id to position using POSITION_MAP
             # if "D/ST" in player_info["name"]:

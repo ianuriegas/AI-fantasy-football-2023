@@ -1,26 +1,28 @@
 name: Python run
 
-on:
-  [push]
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out the code
-      uses: actions/checkout@v2
+      - name: Check out the code
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.x
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    #     source venv/bin/activate 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    # - name: Get all my teams info and store it into a JSON.
-    #   run: python3 get_my_team.py 
+      - name: Activate virtual environment
+        run: |
+          source venv/bin/activate
+
+      - name: Get all my teams info and store it into a JSON.
+        run: python get_my_team.py

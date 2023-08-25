@@ -1,0 +1,24 @@
+name: Python run
+
+on:
+  workflow_dispatch:  # This event will trigger the workflow when manually dispatched
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.10.2
+
+    - name: Install dependencies
+      run: |
+        source venv/bin/activate 
+
+    - name: Get all my teams info and store it into a JSON.
+      run: python3 get_my_team.py 

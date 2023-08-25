@@ -18,7 +18,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        source venv/bin/activate 
+        pwd
+    #     source venv/bin/activate 
 
-    - name: Get all my teams info and store it into a JSON.
-      run: python3 get_my_team.py 
+    # - name: Get all my teams info and store it into a JSON.
+    #   run: python3 get_my_team.py 

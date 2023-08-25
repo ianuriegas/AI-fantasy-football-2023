@@ -2642,13 +2642,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "b865dbd1-66e4-3103-b356-0ae04652e381",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
+                    "id": "01eb7c5f-4ac0-3792-854e-8be2e3566786",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
-                    "id": "01eb7c5f-4ac0-3792-854e-8be2e3566786",
-                    "type": "DRAFT"
+                    "id": "b865dbd1-66e4-3103-b356-0ae04652e381",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
@@ -2802,23 +2802,23 @@
                 },
                 {
                     "enabled": true,
-                    "id": "54a60e23-ca56-3c30-b335-541ab53ac13d",
-                    "type": "TEAM_PLAYER_NEWS"
-                },
-                {
-                    "enabled": true,
                     "id": "7ddfeb53-dfc8-3d22-b4d5-4941235ec295",
                     "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "ea53ed61-173c-3340-9b8f-95eb1da03262",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "54a60e23-ca56-3c30-b335-541ab53ac13d",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
                     "id": "8e5ed4aa-8982-3aaf-9a9f-2b7e565165c1",
                     "type": "TEAM_PLAYER_INJURY"
+                },
+                {
+                    "enabled": true,
+                    "id": "ea53ed61-173c-3340-9b8f-95eb1da03262",
+                    "type": "KEY_STAT_UPDATE"
                 }
             ]
         },
@@ -2917,13 +2917,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "69f7d1fb-a146-3275-bf79-5094a0548056",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "b59f44cb-eb0d-3fdb-8e53-a84035da4db1",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "b59f44cb-eb0d-3fdb-8e53-a84035da4db1",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "69f7d1fb-a146-3275-bf79-5094a0548056",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2962,6 +2962,11 @@
                 },
                 {
                     "enabled": true,
+                    "id": "49b64dfc-2c5b-32b1-a2f4-ee9b8ef4f2dd",
+                    "type": "DRAFT"
+                },
+                {
+                    "enabled": true,
                     "id": "67ffa8b1-c68a-39ca-b3b8-f19477ce1bc6",
                     "type": "TEAM_PLAYER_AVAILABILITY"
                 },
@@ -2969,11 +2974,6 @@
                     "enabled": true,
                     "id": "654463e9-d217-32dd-ae02-99edd243aaf3",
                     "type": "TEAM_PLAYER_NEWS"
-                },
-                {
-                    "enabled": true,
-                    "id": "49b64dfc-2c5b-32b1-a2f4-ee9b8ef4f2dd",
-                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -9482,7 +9482,7 @@
                             }
                         },
                         {
-                            "lineupSlotId": 2,
+                            "lineupSlotId": 20,
                             "playerId": 4360238,
                             "playerPoolEntry": {
                                 "id": 4360238,
@@ -9581,7 +9581,7 @@
                             }
                         },
                         {
-                            "lineupSlotId": 23,
+                            "lineupSlotId": 2,
                             "playerId": 4697815,
                             "playerPoolEntry": {
                                 "id": 4697815,
@@ -9681,7 +9681,7 @@
                             }
                         },
                         {
-                            "lineupSlotId": 20,
+                            "lineupSlotId": 23,
                             "playerId": 16737,
                             "playerPoolEntry": {
                                 "id": 16737,
@@ -20180,7 +20180,7 @@
         "standingsUpdateDate": 1690130009007,
         "teamsJoined": 10,
         "transactionScoringPeriod": 1,
-        "waiverLastExecutionDate": 1692861259310,
+        "waiverLastExecutionDate": 1692947701113,
         "waiverProcessStatus": {
             "2023-07-25T07:01:43.226+0000": 3
         }
@@ -20312,79 +20312,15 @@
                                 "lastNewsDate": 1691706622000,
                                 "lastVideoDate": 1692285160000,
                                 "ownership": {
-                                    "auctionValueAverage": 65.11595006934813,
-                                    "averageDraftPosition": 1.4717431567383328,
-                                    "percentChange": 0.005017466813043825,
-                                    "percentOwned": 99.92643807005022,
-                                    "percentStarted": 99.70991203219211
+                                    "auctionValueAverage": 65.47677700795484,
+                                    "averageDraftPosition": 1.4699216205010759,
+                                    "percentChange": 0.0013008562995224793,
+                                    "percentOwned": 99.92379916199842,
+                                    "percentStarted": 99.71139192146539
                                 },
                                 "proTeamId": 16,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 9,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 2,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 1.25,
@@ -20392,22 +20328,6 @@
                                             "rank": 0,
                                             "rankSourceId": 0,
                                             "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 1,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
                                             "slotId": 4
                                         },
                                         {
@@ -20423,7 +20343,63 @@
                                             "auctionValue": 0,
                                             "published": true,
                                             "rank": 1,
-                                            "rankSourceId": 11,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 2,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -20432,6 +20408,30 @@
                                             "published": true,
                                             "rank": 1,
                                             "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 1,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         }
@@ -20535,7 +20535,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -20952,20 +20953,70 @@
                                 "lastNewsDate": 1691880568000,
                                 "lastVideoDate": 1692113424000,
                                 "ownership": {
-                                    "auctionValueAverage": 38.90124826629681,
-                                    "averageDraftPosition": 19.79888874022014,
-                                    "percentChange": 0.025928279861858528,
-                                    "percentOwned": 99.8393022125502,
-                                    "percentStarted": 97.02052290271872
+                                    "auctionValueAverage": 39.046445984090326,
+                                    "averageDraftPosition": 19.822333221456635,
+                                    "percentChange": 0.026823973493819153,
+                                    "percentOwned": 99.8409541092392,
+                                    "percentStarted": 97.03854890349693
                                 },
                                 "proTeamId": 21,
                                 "rankings": {
                                     "0": [
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 8.75,
                                             "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 9,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 9.0,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 9,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 9,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 9,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 9,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 9,
+                                            "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -20988,16 +21039,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 9,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 9,
-                                            "rankSourceId": 6,
+                                            "rank": 8,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -21005,33 +21048,8 @@
                                             "auctionValue": 0,
                                             "published": true,
                                             "rank": 9,
-                                            "rankSourceId": 5,
+                                            "rankSourceId": 10,
                                             "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 9,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 9,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 8.75,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
                                             "slotId": 4
                                         },
                                         {
@@ -21046,23 +21064,6 @@
                                             "auctionValue": 0,
                                             "published": true,
                                             "rank": 9,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 9.0,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 9,
                                             "rankSourceId": 11,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -21071,7 +21072,7 @@
                                             "auctionValue": 0,
                                             "published": true,
                                             "rank": 9,
-                                            "rankSourceId": 10,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         }
@@ -21156,7 +21157,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21476,103 +21478,15 @@
                                 "lastNewsDate": 1692804483000,
                                 "lastVideoDate": 1692804588000,
                                 "ownership": {
-                                    "auctionValueAverage": 36.42124237382141,
-                                    "averageDraftPosition": 20.112614262172706,
-                                    "percentChange": 0.023972543344854103,
-                                    "percentOwned": 99.76683189126703,
-                                    "percentStarted": 98.00898518233089
+                                    "auctionValueAverage": 36.50949204720369,
+                                    "averageDraftPosition": 20.10646853261907,
+                                    "percentChange": 0.023268437125153696,
+                                    "percentOwned": 99.76828108583982,
+                                    "percentStarted": 98.00194344895748
                                 },
                                 "proTeamId": 13,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 7,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 8,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 9,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 5,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 8.75,
@@ -21594,8 +21508,96 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 8,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 8,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 8,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 8,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 8,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 6,
                                             "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 7,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 9,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 8,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 5,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         }
@@ -21703,7 +21705,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22055,7 +22058,7 @@
                         "acquisitionDate": 1690130008861,
                         "acquisitionType": "DRAFT",
                         "injuryStatus": "NORMAL",
-                        "lineupSlotId": 2,
+                        "lineupSlotId": 20,
                         "pendingTransactionIds": null,
                         "playerId": 4360238,
                         "playerPoolEntry": {
@@ -22104,103 +22107,15 @@
                                 "lastNewsDate": 1692491304000,
                                 "lastVideoDate": 1691683827000,
                                 "ownership": {
-                                    "auctionValueAverage": 15.08377108100636,
-                                    "averageDraftPosition": 52.668734778672246,
-                                    "percentChange": 0.30204817250748306,
-                                    "percentOwned": 95.84435886015702,
-                                    "percentStarted": 70.45770127590453
+                                    "auctionValueAverage": 14.827090815802975,
+                                    "averageDraftPosition": 52.88132938466601,
+                                    "percentChange": 0.34883885523730385,
+                                    "percentOwned": 95.90400671072658,
+                                    "percentStarted": 70.76203705433986
                                 },
                                 "proTeamId": 34,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 15,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 16,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 21,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 23,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 17,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 25,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 19,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 22,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 23,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 19,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 17.5,
@@ -22222,8 +22137,96 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 19,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 19,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 14,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 17,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 21,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 15,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 16,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 20,
                                             "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 23,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 22,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 25,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 23,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         }
@@ -22331,7 +22334,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22678,7 +22682,7 @@
                         "acquisitionDate": 1690130008861,
                         "acquisitionType": "DRAFT",
                         "injuryStatus": "NORMAL",
-                        "lineupSlotId": 23,
+                        "lineupSlotId": 2,
                         "pendingTransactionIds": null,
                         "playerId": 4697815,
                         "playerPoolEntry": {
@@ -22727,103 +22731,15 @@
                                 "lastNewsDate": 1691791979000,
                                 "lastVideoDate": 1692375387000,
                                 "ownership": {
-                                    "auctionValueAverage": 11.752079866888518,
-                                    "averageDraftPosition": 62.466345070422534,
-                                    "percentChange": 0.48062637509285366,
-                                    "percentOwned": 93.94158330651359,
-                                    "percentStarted": 65.95709278318917
+                                    "auctionValueAverage": 11.50333504361211,
+                                    "averageDraftPosition": 62.690443755634966,
+                                    "percentChange": 0.5466356291381089,
+                                    "percentOwned": 94.03739062908778,
+                                    "percentStarted": 66.27763081944612
                                 },
                                 "proTeamId": 27,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 20,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 18,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 21,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 22,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 20,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 19,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 21,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 20,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 23,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 18,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 20,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 21.0,
@@ -22845,8 +22761,96 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 20,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 20,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 21,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 19,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 22,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 20,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 18,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 21,
                                             "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 20,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 23,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 21,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 18,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         }
@@ -22954,7 +22958,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23307,7 +23312,7 @@
                         "acquisitionDate": 1690130008861,
                         "acquisitionType": "DRAFT",
                         "injuryStatus": "NORMAL",
-                        "lineupSlotId": 20,
+                        "lineupSlotId": 23,
                         "pendingTransactionIds": null,
                         "playerId": 16737,
                         "playerPoolEntry": {
@@ -23357,20 +23362,70 @@
                                 "lastNewsDate": 1691792163000,
                                 "lastVideoDate": 1692717501000,
                                 "ownership": {
-                                    "auctionValueAverage": 8.112898751733702,
-                                    "averageDraftPosition": 70.54879577464789,
-                                    "percentChange": 0.16782437686599394,
-                                    "percentOwned": 93.88776502114915,
-                                    "percentStarted": 52.87177398873797
+                                    "auctionValueAverage": 8.184244290479857,
+                                    "averageDraftPosition": 70.36578656417817,
+                                    "percentChange": 0.260246113126712,
+                                    "percentOwned": 93.97118059881234,
+                                    "percentStarted": 53.47722270669822
                                 },
                                 "proTeamId": 27,
                                 "rankings": {
                                     "0": [
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 28.5,
                                             "published": true,
-                                            "rank": 31,
-                                            "rankSourceId": 9,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 29.125,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 29,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 29,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 25,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 26,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 28,
+                                            "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -23393,82 +23448,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 25,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 26,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 33,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 28.5,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 29.25,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 33,
-                                            "rankSourceId": 11,
+                                            "rank": 31,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -23477,6 +23458,30 @@
                                             "published": true,
                                             "rank": 31,
                                             "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 33,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 33,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 29,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         }
@@ -23561,7 +23566,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23875,95 +23881,15 @@
                                 "lastNewsDate": 1692653252000,
                                 "lastVideoDate": 1692199545000,
                                 "ownership": {
-                                    "auctionValueAverage": 9.997780859916782,
-                                    "averageDraftPosition": 54.30659314346883,
-                                    "percentChange": -0.034356579692811806,
-                                    "percentOwned": 98.27650756326807,
-                                    "percentStarted": 90.9330548421774
+                                    "auctionValueAverage": 10.083140877598153,
+                                    "averageDraftPosition": 54.41662279200779,
+                                    "percentChange": 0.005879560449997712,
+                                    "percentOwned": 98.29343244533959,
+                                    "percentStarted": 90.95782894873446
                                 },
                                 "proTeamId": 25,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 5,
-                                            "rankSourceId": 9,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 5,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 5,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 6,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 5,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 6,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 7,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 5,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 7,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 6,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 6
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 6.0,
@@ -23985,9 +23911,89 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 7,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 7,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 6,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 6,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 5,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 5,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 5,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 5,
+                                            "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 5,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 6,
                                             "rankSourceId": 11,
                                             "rankType": "STANDARD",
+                                            "slotId": 6
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 6,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
                                             "slotId": 6
                                         },
                                         {
@@ -24095,7 +24101,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24459,103 +24466,15 @@
                                 "lastNewsDate": 1685633789000,
                                 "lastVideoDate": 1692892513000,
                                 "ownership": {
-                                    "auctionValueAverage": 4.668053244592346,
-                                    "averageDraftPosition": 88.47683802816901,
-                                    "percentChange": 0.8862259805929682,
-                                    "percentOwned": 88.38280562403395,
-                                    "percentStarted": 26.117341063241923
+                                    "auctionValueAverage": 4.827860441251924,
+                                    "averageDraftPosition": 87.58259845214278,
+                                    "percentChange": 1.1329186129341338,
+                                    "percentOwned": 88.58452134264084,
+                                    "percentStarted": 26.665531603885235
                                 },
                                 "proTeamId": 8,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 28,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 27,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 28,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 24,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 24,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 30,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 27,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 30,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 30,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 27,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 30,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 29.0,
@@ -24577,8 +24496,96 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 30,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 30,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 28,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 30,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 24,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 28,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 27,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 26,
                                             "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 24,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 30,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 27,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 27,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         }
@@ -24686,7 +24693,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25077,87 +25085,15 @@
                                 "lastNewsDate": 1691260454000,
                                 "lastVideoDate": 1692651685000,
                                 "ownership": {
-                                    "auctionValueAverage": 3.800278164116829,
-                                    "averageDraftPosition": 100.18272762522471,
-                                    "percentChange": 0.21794416284491547,
-                                    "percentOwned": 87.09900109139203,
-                                    "percentStarted": 44.65327483355176
+                                    "auctionValueAverage": 3.8114226910213533,
+                                    "averageDraftPosition": 100.237393338385,
+                                    "percentChange": 0.3886619341618598,
+                                    "percentOwned": 87.23215417776086,
+                                    "percentStarted": 44.66594749193007
                                 },
                                 "proTeamId": 6,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 12,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 11,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 12,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 11,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 11,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 11,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 13,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 10.5,
@@ -25179,8 +25115,40 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 11,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 11,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 10,
-                                            "rankSourceId": 9,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 12,
+                                            "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 0
                                         },
@@ -25197,6 +25165,46 @@
                                             "published": true,
                                             "rank": 10,
                                             "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 12,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 11,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 11,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 13,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 0
                                         }
@@ -25315,7 +25323,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25747,87 +25756,15 @@
                                 "lastNewsDate": 1692415793000,
                                 "lastVideoDate": 1692115251000,
                                 "ownership": {
-                                    "auctionValueAverage": 2.3265646731571628,
-                                    "averageDraftPosition": 120.46055850482576,
-                                    "percentChange": -0.5998633667021096,
-                                    "percentOwned": 79.49532759436858,
-                                    "percentStarted": 19.818056700036816
+                                    "auctionValueAverage": 2.4193465397478775,
+                                    "averageDraftPosition": 120.61587069397223,
+                                    "percentChange": -0.3838755658978812,
+                                    "percentOwned": 79.61364023728659,
+                                    "percentStarted": 19.96878026879731
                                 },
                                 "proTeamId": 19,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 12,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 12,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 0
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 10,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 0
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 13.0,
@@ -25849,8 +25786,40 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 11,
-                                            "rankSourceId": 9,
+                                            "rank": 14,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 14,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 14,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 14,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 0
                                         },
@@ -25867,6 +25836,46 @@
                                             "published": true,
                                             "rank": 12,
                                             "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 11,
+                                            "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 12,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 12,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 0
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 10,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 0
                                         }
@@ -25984,7 +25993,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26426,15 +26436,73 @@
                                 "lastNewsDate": 1692903541000,
                                 "lastVideoDate": 1692801633000,
                                 "ownership": {
-                                    "auctionValueAverage": 7.065723793677205,
-                                    "averageDraftPosition": 83.3980788326514,
-                                    "percentChange": 2.1059507549522465,
-                                    "percentOwned": 87.19389776924407,
-                                    "percentStarted": 24.434976606509892
+                                    "auctionValueAverage": 7.292201128783992,
+                                    "averageDraftPosition": 82.19734123066799,
+                                    "percentChange": 2.32712647828626,
+                                    "percentOwned": 87.49525037529821,
+                                    "percentStarted": 25.76507889048767
                                 },
                                 "proTeamId": 7,
                                 "rankings": {
                                     "0": [
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 28.25,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 28.5,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 29,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 29,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 26,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 26,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 30,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
                                         {
                                             "auctionValue": 0,
                                             "published": true,
@@ -26454,16 +26522,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 26,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 6,
+                                            "rank": 28,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         },
@@ -26478,9 +26538,9 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 26,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
+                                            "rank": 31,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
                                             "slotId": 2
                                         },
                                         {
@@ -26494,58 +26554,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 31,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
                                             "rank": 31,
                                             "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 29,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 28.25,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 28.375,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 28,
-                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         }
@@ -26653,7 +26663,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27039,20 +27050,70 @@
                                 "lastNewsDate": 1674432119000,
                                 "lastVideoDate": 1692739115000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.7134535367545076,
-                                    "averageDraftPosition": 125.84375946309481,
-                                    "percentChange": -0.38649089383532953,
-                                    "percentOwned": 79.41307831752621,
-                                    "percentStarted": 4.537433553144348
+                                    "auctionValueAverage": 1.764947395432384,
+                                    "averageDraftPosition": 125.5548499187238,
+                                    "percentChange": -0.2332712301688673,
+                                    "percentOwned": 79.56629798119268,
+                                    "percentStarted": 4.6810666478413525
                                 },
                                 "proTeamId": 2,
                                 "rankings": {
                                     "0": [
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 39.5,
                                             "published": true,
-                                            "rank": 42,
-                                            "rankSourceId": 9,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 42.125,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 36,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 36,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 38,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 44,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 39,
+                                            "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -27075,40 +27136,16 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 38,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 38,
-                                            "rankSourceId": 6,
+                                            "rank": 42,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 44,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 36,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 36,
-                                            "rankSourceId": 3,
+                                            "rank": 42,
+                                            "rankSourceId": 10,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -27123,32 +27160,6 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 41,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 39.5,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 42.0,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
                                             "rank": 44,
                                             "rankSourceId": 11,
                                             "rankType": "PPR",
@@ -27157,8 +27168,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 42,
-                                            "rankSourceId": 10,
+                                            "rank": 41,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         }
@@ -27243,7 +27254,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27560,80 +27572,17 @@
                                 "injuryStatus": "QUESTIONABLE",
                                 "lastName": "Toney",
                                 "lastNewsDate": 1692225782000,
+                                "lastVideoDate": 1687976684000,
                                 "ownership": {
-                                    "auctionValueAverage": 0.9276005547850208,
-                                    "averageDraftPosition": 156.2911921914943,
-                                    "percentChange": -3.06857355340491,
-                                    "percentOwned": 53.24899946579793,
-                                    "percentStarted": 1.8261391202304949
+                                    "auctionValueAverage": 0.9332820118039518,
+                                    "averageDraftPosition": 156.06810090094834,
+                                    "percentChange": -2.535297222845827,
+                                    "percentOwned": 53.14178576100295,
+                                    "percentStarted": 1.825086530695298
                                 },
                                 "proTeamId": 12,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 46,
-                                            "rankSourceId": 9,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 57,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 57,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 42,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 48,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 46,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 48,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 48,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 46.75,
@@ -27641,22 +27590,6 @@
                                             "rank": 0,
                                             "rankSourceId": 0,
                                             "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 40,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 49,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
                                             "slotId": 4
                                         },
                                         {
@@ -27671,8 +27604,64 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 38,
-                                            "rankSourceId": 11,
+                                            "rank": 48,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 48,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 42,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 46,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 48,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 57,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 57,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 46,
+                                            "rankSourceId": 9,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -27681,6 +27670,30 @@
                                             "published": true,
                                             "rank": 48,
                                             "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 40,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 38,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 49,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         }
@@ -27794,7 +27807,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28170,103 +28184,15 @@
                                 "lastName": "Charbonnet",
                                 "lastNewsDate": 1692513617000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.3272323904603438,
-                                    "averageDraftPosition": 144.99380277325898,
-                                    "percentChange": 2.7302436593809674,
-                                    "percentOwned": 62.75213409494451,
-                                    "percentStarted": 1.752596053429549
+                                    "auctionValueAverage": 1.3306824012314007,
+                                    "averageDraftPosition": 145.06282905127935,
+                                    "percentChange": 2.8076801583457396,
+                                    "percentOwned": 63.189761137503744,
+                                    "percentStarted": 1.7883542075014118
                                 },
                                 "proTeamId": 26,
                                 "rankings": {
                                     "0": [
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 41,
-                                            "rankSourceId": 7,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 41,
-                                            "rankSourceId": 7,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 39,
-                                            "rankSourceId": 5,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 42,
-                                            "rankSourceId": 6,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 36,
-                                            "rankSourceId": 10,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 39,
-                                            "rankSourceId": 5,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 42,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 38,
-                                            "rankSourceId": 3,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 43,
-                                            "rankSourceId": 11,
-                                            "rankType": "STANDARD",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 43,
-                                            "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 38,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 2
-                                        },
                                         {
                                             "auctionValue": 0,
                                             "averageRank": 40.25,
@@ -28288,8 +28214,96 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
+                                            "rank": 38,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 38,
+                                            "rankSourceId": 3,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 39,
+                                            "rankSourceId": 5,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 39,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 42,
+                                            "rankSourceId": 6,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 41,
+                                            "rankSourceId": 7,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 41,
+                                            "rankSourceId": 7,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
                                             "rank": 43,
                                             "rankSourceId": 9,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 36,
+                                            "rankSourceId": 10,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 43,
+                                            "rankSourceId": 11,
+                                            "rankType": "STANDARD",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 42,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
+                                            "slotId": 2
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 43,
+                                            "rankSourceId": 12,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         }
@@ -28397,7 +28411,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28632,15 +28647,33 @@
                                 "injured": false,
                                 "lastName": "D/ST",
                                 "ownership": {
-                                    "auctionValueAverage": 2.2310791366906475,
-                                    "averageDraftPosition": 102.16293667927809,
-                                    "percentChange": -0.3811093458477046,
-                                    "percentOwned": 97.1530469977768,
-                                    "percentStarted": 83.18781599870553
+                                    "auctionValueAverage": 2.2328877005347594,
+                                    "averageDraftPosition": 102.76959762344055,
+                                    "percentChange": -0.3689144929330297,
+                                    "percentOwned": 97.12532747969941,
+                                    "percentStarted": 83.17269481625392
                                 },
                                 "proTeamId": 2,
                                 "rankings": {
                                     "0": [
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 2.75,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 16
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 2.875,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 16
+                                        },
                                         {
                                             "auctionValue": 0,
                                             "published": true,
@@ -28653,7 +28686,7 @@
                                             "auctionValue": 0,
                                             "published": true,
                                             "rank": 2,
-                                            "rankSourceId": 5,
+                                            "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 16
                                         },
@@ -28663,6 +28696,14 @@
                                             "rank": 2,
                                             "rankSourceId": 5,
                                             "rankType": "STANDARD",
+                                            "slotId": 16
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 2,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
                                             "slotId": 16
                                         },
                                         {
@@ -28678,7 +28719,7 @@
                                             "published": true,
                                             "rank": 3,
                                             "rankSourceId": 7,
-                                            "rankType": "PPR",
+                                            "rankType": "STANDARD",
                                             "slotId": 16
                                         },
                                         {
@@ -28686,7 +28727,7 @@
                                             "published": true,
                                             "rank": 3,
                                             "rankSourceId": 7,
-                                            "rankType": "STANDARD",
+                                            "rankType": "PPR",
                                             "slotId": 16
                                         },
                                         {
@@ -28710,7 +28751,7 @@
                                             "published": true,
                                             "rank": 4,
                                             "rankSourceId": 11,
-                                            "rankType": "PPR",
+                                            "rankType": "STANDARD",
                                             "slotId": 16
                                         },
                                         {
@@ -28718,7 +28759,7 @@
                                             "published": true,
                                             "rank": 4,
                                             "rankSourceId": 11,
-                                            "rankType": "STANDARD",
+                                            "rankType": "PPR",
                                             "slotId": 16
                                         },
                                         {
@@ -28726,32 +28767,6 @@
                                             "published": true,
                                             "rank": 2,
                                             "rankSourceId": 12,
-                                            "rankType": "PPR",
-                                            "slotId": 16
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 2.875,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "PPR",
-                                            "slotId": 16
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 2.75,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 16
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 2,
-                                            "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 16
                                         }
@@ -28875,7 +28890,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29343,20 +29359,46 @@
                                 "lastName": "Gay",
                                 "lastNewsDate": 1678766019000,
                                 "ownership": {
-                                    "auctionValueAverage": 0.6487529691211401,
-                                    "averageDraftPosition": 162.8804929986449,
-                                    "percentChange": -4.2628242966161665,
-                                    "percentOwned": 55.2726310570165,
-                                    "percentStarted": 48.39498651464045
+                                    "auctionValueAverage": 0.6419068736141907,
+                                    "averageDraftPosition": 163.3414457443383,
+                                    "percentChange": -4.611988444537992,
+                                    "percentOwned": 54.90271380069254,
+                                    "percentStarted": 47.89105971374372
                                 },
                                 "proTeamId": 11,
                                 "rankings": {
                                     "0": [
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 13.75,
                                             "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 5,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 17
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "averageRank": 15.5,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "PPR",
+                                            "slotId": 17
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 17,
+                                            "rankSourceId": 3,
+                                            "rankType": "STANDARD",
+                                            "slotId": 17
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 17,
+                                            "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 17
                                         },
@@ -29366,6 +29408,14 @@
                                             "rank": 14,
                                             "rankSourceId": 5,
                                             "rankType": "STANDARD",
+                                            "slotId": 17
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 14,
+                                            "rankSourceId": 5,
+                                            "rankType": "PPR",
                                             "slotId": 17
                                         },
                                         {
@@ -29381,7 +29431,7 @@
                                             "published": true,
                                             "rank": 10,
                                             "rankSourceId": 7,
-                                            "rankType": "PPR",
+                                            "rankType": "STANDARD",
                                             "slotId": 17
                                         },
                                         {
@@ -29389,7 +29439,7 @@
                                             "published": true,
                                             "rank": 10,
                                             "rankSourceId": 7,
-                                            "rankType": "STANDARD",
+                                            "rankType": "PPR",
                                             "slotId": 17
                                         },
                                         {
@@ -29397,32 +29447,6 @@
                                             "published": true,
                                             "rank": 18,
                                             "rankSourceId": 9,
-                                            "rankType": "PPR",
-                                            "slotId": 17
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 15.5,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "PPR",
-                                            "slotId": 17
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 13.75,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 17
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 14,
-                                            "rankSourceId": 11,
                                             "rankType": "PPR",
                                             "slotId": 17
                                         },
@@ -29437,16 +29461,8 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 17,
-                                            "rankSourceId": 3,
-                                            "rankType": "PPR",
-                                            "slotId": 17
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 17,
-                                            "rankSourceId": 3,
+                                            "rank": 14,
+                                            "rankSourceId": 11,
                                             "rankType": "STANDARD",
                                             "slotId": 17
                                         },
@@ -29455,7 +29471,7 @@
                                             "published": true,
                                             "rank": 14,
                                             "rankSourceId": 11,
-                                            "rankType": "STANDARD",
+                                            "rankType": "PPR",
                                             "slotId": 17
                                         },
                                         {
@@ -29540,7 +29556,8 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {}
+                                        "stats": {},
+                                        "variance": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29821,7 +29838,7 @@
                 "drops": 0,
                 "matchupAcquisitionTotals": {},
                 "misc": 0,
-                "moveToActive": 0,
+                "moveToActive": 1,
                 "moveToIR": 0,
                 "paid": 0.0,
                 "teamCharges": 0.0,

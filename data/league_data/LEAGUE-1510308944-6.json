@@ -2841,13 +2841,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "b3b6d3c1-8ecf-3fc5-810d-2c27c4c19e09",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "7304244a-ebb8-3d03-bdb7-6161dfd5b8c7",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "7304244a-ebb8-3d03-bdb7-6161dfd5b8c7",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "b3b6d3c1-8ecf-3fc5-810d-2c27c4c19e09",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
@@ -2886,13 +2886,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "d14fa6bf-3294-3492-9b21-f0d982e71f04",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "151f08fd-1d61-36d3-8ccf-c2d9e0941d6f",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
-                    "id": "151f08fd-1d61-36d3-8ccf-c2d9e0941d6f",
-                    "type": "REDZONE"
+                    "id": "d14fa6bf-3294-3492-9b21-f0d982e71f04",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
@@ -20231,7 +20231,7 @@
         "standingsUpdateDate": 1689906357489,
         "teamsJoined": 10,
         "transactionScoringPeriod": 1,
-        "waiverLastExecutionDate": 1692861088002,
+        "waiverLastExecutionDate": 1692946972407,
         "waiverProcessStatus": {}
     },
     "teams": [
@@ -21025,11 +21025,11 @@
                                 "lastNewsDate": 1692900650000,
                                 "lastVideoDate": 1692199782000,
                                 "ownership": {
-                                    "auctionValueAverage": 54.586130374479886,
-                                    "averageDraftPosition": 8.433342018718179,
-                                    "percentChange": 0.023679241818612695,
-                                    "percentOwned": 99.84827818730747,
-                                    "percentStarted": 98.53291794104962
+                                    "auctionValueAverage": 54.78137028483449,
+                                    "averageDraftPosition": 8.425098550209604,
+                                    "percentChange": 0.023434948372511144,
+                                    "percentOwned": 99.8486361682734,
+                                    "percentStarted": 98.56692295394096
                                 },
                                 "proTeamId": 14,
                                 "rankings": {
@@ -21252,8 +21252,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21644,11 +21643,11 @@
                                 "lastNewsDate": 1692741617000,
                                 "lastVideoDate": 1692286276000,
                                 "ownership": {
-                                    "auctionValueAverage": 38.29875173370319,
-                                    "averageDraftPosition": 21.782945190526828,
-                                    "percentChange": -0.010677023547984277,
-                                    "percentOwned": 99.74910127463559,
-                                    "percentStarted": 96.05392790055127
+                                    "auctionValueAverage": 38.48113933795227,
+                                    "averageDraftPosition": 21.767493896138937,
+                                    "percentChange": -0.009766878439464222,
+                                    "percentOwned": 99.75001141974411,
+                                    "percentStarted": 96.06351038781452
                                 },
                                 "proTeamId": 8,
                                 "rankings": {
@@ -21870,8 +21869,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22251,11 +22249,11 @@
                                 "lastNewsDate": 1692726422000,
                                 "lastVideoDate": 1692056275000,
                                 "ownership": {
-                                    "auctionValueAverage": 13.126733222407099,
-                                    "averageDraftPosition": 61.16893314647493,
-                                    "percentChange": -0.5878868828222608,
-                                    "percentOwned": 94.88145619823493,
-                                    "percentStarted": 41.908392099853096
+                                    "auctionValueAverage": 13.496921498204207,
+                                    "averageDraftPosition": 59.92830536360645,
+                                    "percentChange": -0.28218580717155817,
+                                    "percentOwned": 94.93311074982819,
+                                    "percentStarted": 41.63432769192117
                                 },
                                 "proTeamId": 20,
                                 "rankings": {
@@ -22478,8 +22476,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22877,11 +22874,11 @@
                                 "lastName": "Gibbs",
                                 "lastNewsDate": 1692463118000,
                                 "ownership": {
-                                    "auctionValueAverage": 24.937603993344425,
-                                    "averageDraftPosition": 37.15533098591549,
-                                    "percentChange": 0.8924857859722977,
-                                    "percentOwned": 97.35283042000911,
-                                    "percentStarted": 80.21398921077521
+                                    "auctionValueAverage": 25.366598255515648,
+                                    "averageDraftPosition": 36.906220385384856,
+                                    "percentChange": 0.9154839152226373,
+                                    "percentOwned": 97.44360652470017,
+                                    "percentStarted": 80.63747882130163
                                 },
                                 "proTeamId": 8,
                                 "rankings": {
@@ -22913,7 +22910,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 18,
+                                            "rank": 15,
                                             "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 2
@@ -22985,7 +22982,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 14.875,
+                                            "averageRank": 14.5,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -23111,8 +23108,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23369,11 +23365,11 @@
                                 "lastNewsDate": 1691791979000,
                                 "lastVideoDate": 1692375387000,
                                 "ownership": {
-                                    "auctionValueAverage": 11.752079866888518,
-                                    "averageDraftPosition": 62.466345070422534,
-                                    "percentChange": 0.48062637509285366,
-                                    "percentOwned": 93.94158330651359,
-                                    "percentStarted": 65.95709278318917
+                                    "auctionValueAverage": 11.50333504361211,
+                                    "averageDraftPosition": 62.690443755634966,
+                                    "percentChange": 0.5466356291381089,
+                                    "percentOwned": 94.03739062908778,
+                                    "percentStarted": 66.27763081944612
                                 },
                                 "proTeamId": 27,
                                 "rankings": {
@@ -23596,8 +23592,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23999,11 +23994,11 @@
                                 "lastNewsDate": 1692724137000,
                                 "lastVideoDate": 1692892533000,
                                 "ownership": {
-                                    "auctionValueAverage": 10.656683305601774,
-                                    "averageDraftPosition": 67.27945070422535,
-                                    "percentChange": 0.1486227718369122,
-                                    "percentOwned": 93.88706806523437,
-                                    "percentStarted": 63.643588547858464
+                                    "auctionValueAverage": 10.530271934325295,
+                                    "averageDraftPosition": 67.47583134258619,
+                                    "percentChange": 0.2438832750286366,
+                                    "percentOwned": 93.96513419348945,
+                                    "percentStarted": 63.74471053822739
                                 },
                                 "proTeamId": 29,
                                 "rankings": {
@@ -24035,7 +24030,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 17,
+                                            "rank": 18,
                                             "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 2
@@ -24107,7 +24102,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 20.75,
+                                            "averageRank": 20.875,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -24226,8 +24221,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24619,11 +24613,11 @@
                                 "lastNewsDate": 1691792163000,
                                 "lastVideoDate": 1692717501000,
                                 "ownership": {
-                                    "auctionValueAverage": 8.112898751733702,
-                                    "averageDraftPosition": 70.54879577464789,
-                                    "percentChange": 0.16782437686599394,
-                                    "percentOwned": 93.88776502114915,
-                                    "percentStarted": 52.87177398873797
+                                    "auctionValueAverage": 8.184244290479857,
+                                    "averageDraftPosition": 70.36578656417817,
+                                    "percentChange": 0.260246113126712,
+                                    "percentOwned": 93.97118059881234,
+                                    "percentStarted": 53.47722270669822
                                 },
                                 "proTeamId": 27,
                                 "rankings": {
@@ -24663,7 +24657,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 29,
+                                            "rank": 28,
                                             "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -24694,6 +24688,15 @@
                                         },
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 28.5,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
                                             "published": true,
                                             "rank": 33,
                                             "rankSourceId": 11,
@@ -24710,16 +24713,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 28.5,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
-                                            "rankType": "STANDARD",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 29.25,
+                                            "averageRank": 29.125,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -24823,8 +24817,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25136,11 +25129,11 @@
                                 "lastNewsDate": 1692541789000,
                                 "lastVideoDate": 1692637788000,
                                 "ownership": {
-                                    "auctionValueAverage": 6.985813630041725,
-                                    "averageDraftPosition": 78.17659665968712,
-                                    "percentChange": 0.70890265089335,
-                                    "percentOwned": 90.32954413463162,
-                                    "percentStarted": 61.68701525541479
+                                    "auctionValueAverage": 6.835863133521997,
+                                    "averageDraftPosition": 77.88240294140903,
+                                    "percentChange": 0.8685469269223489,
+                                    "percentOwned": 90.47490376381187,
+                                    "percentStarted": 61.80899091264331
                                 },
                                 "proTeamId": 5,
                                 "rankings": {
@@ -25374,8 +25367,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25808,11 +25800,11 @@
                                 "lastNewsDate": 1692415069000,
                                 "lastVideoDate": 1692373375000,
                                 "ownership": {
-                                    "auctionValueAverage": 5.315395284327323,
-                                    "averageDraftPosition": 88.39200704225352,
-                                    "percentChange": 0.6588227205414654,
-                                    "percentOwned": 88.71892213785917,
-                                    "percentStarted": 20.833661736244295
+                                    "auctionValueAverage": 5.392353092122145,
+                                    "averageDraftPosition": 87.96567337053807,
+                                    "percentChange": 0.8776461925503867,
+                                    "percentOwned": 88.9101366222333,
+                                    "percentStarted": 21.399858809850087
                                 },
                                 "proTeamId": 1,
                                 "rankings": {
@@ -25852,7 +25844,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 28,
+                                            "rank": 27,
                                             "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -25908,7 +25900,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 27.0,
+                                            "averageRank": 26.875,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -26012,8 +26004,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26328,14 +26319,14 @@
                                 "injured": false,
                                 "injuryStatus": "ACTIVE",
                                 "lastName": "Freiermuth",
-                                "lastNewsDate": 1692503355000,
+                                "lastNewsDate": 1692923297000,
                                 "lastVideoDate": 1692893147000,
                                 "ownership": {
-                                    "auctionValueAverage": 3.0693481276005548,
-                                    "averageDraftPosition": 89.23934982710415,
-                                    "percentChange": 0.8872098172359841,
-                                    "percentOwned": 89.75399786313558,
-                                    "percentStarted": 68.44271626994552
+                                    "auctionValueAverage": 3.1673081857839365,
+                                    "averageDraftPosition": 89.07994998190135,
+                                    "percentChange": 1.0474576591002602,
+                                    "percentOwned": 89.91856447567315,
+                                    "percentStarted": 68.62344479327585
                                 },
                                 "proTeamId": 23,
                                 "rankings": {
@@ -26533,8 +26524,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26835,11 +26825,11 @@
                                 "lastNewsDate": 1692226003000,
                                 "lastVideoDate": 1692805998000,
                                 "ownership": {
-                                    "auctionValueAverage": 2.0624133148404993,
-                                    "averageDraftPosition": 113.17217022655089,
-                                    "percentChange": -0.8874073348791853,
-                                    "percentOwned": 80.30720997644256,
-                                    "percentStarted": 3.638704253474503
+                                    "auctionValueAverage": 2.0302797023351298,
+                                    "averageDraftPosition": 113.27533876052148,
+                                    "percentChange": -0.39377101896246813,
+                                    "percentOwned": 80.48444731438205,
+                                    "percentStarted": 3.6943987076975464
                                 },
                                 "proTeamId": 10,
                                 "rankings": {
@@ -26879,7 +26869,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 42,
+                                            "rank": 41,
                                             "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -26935,7 +26925,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 40.75,
+                                            "averageRank": 40.625,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -27061,8 +27051,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27450,11 +27439,11 @@
                                 "lastNewsDate": 1692670928000,
                                 "lastVideoDate": 1692720924000,
                                 "ownership": {
-                                    "auctionValueAverage": 2.526899611758181,
-                                    "averageDraftPosition": 113.01138732394367,
-                                    "percentChange": 0.44387686677320914,
-                                    "percentOwned": 82.42923418127522,
-                                    "percentStarted": 11.62816664586768
+                                    "auctionValueAverage": 2.5808106721395587,
+                                    "averageDraftPosition": 112.1201687363856,
+                                    "percentChange": 0.7885144016875216,
+                                    "percentOwned": 82.66489209290351,
+                                    "percentStarted": 11.90320959764793
                                 },
                                 "proTeamId": 28,
                                 "rankings": {
@@ -27677,8 +27666,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28067,11 +28055,11 @@
                                 "lastNewsDate": 1692889216000,
                                 "lastVideoDate": 1692739201000,
                                 "ownership": {
-                                    "auctionValueAverage": 0.5167822468793343,
-                                    "averageDraftPosition": 157.88928873239436,
-                                    "percentChange": -5.484547023740319,
-                                    "percentOwned": 54.92196103415586,
-                                    "percentStarted": 2.050534308026771
+                                    "auctionValueAverage": 0.5416987426225301,
+                                    "averageDraftPosition": 157.87497367589765,
+                                    "percentChange": -4.832132754706322,
+                                    "percentOwned": 54.652063327277446,
+                                    "percentStarted": 2.0542953542694002
                                 },
                                 "proTeamId": 20,
                                 "rankings": {
@@ -28095,7 +28083,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 43,
+                                            "rank": 45,
                                             "rankSourceId": 6,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -28151,7 +28139,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 49.25,
+                                            "averageRank": 49.5,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -28275,8 +28263,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28641,11 +28628,11 @@
                                 "lastNewsDate": 1683052116000,
                                 "lastVideoDate": 1692633880000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.2423738214087632,
-                                    "averageDraftPosition": 135.01980309581825,
-                                    "percentChange": 1.0005980975312951,
-                                    "percentOwned": 72.92841629593302,
-                                    "percentStarted": 6.6764896486495955
+                                    "auctionValueAverage": 1.25910723447922,
+                                    "averageDraftPosition": 134.65840303782142,
+                                    "percentChange": 1.2540377887050767,
+                                    "percentOwned": 73.21549443750027,
+                                    "percentStarted": 6.741857654821872
                                 },
                                 "proTeamId": 12,
                                 "rankings": {
@@ -28860,8 +28847,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29254,11 +29240,11 @@
                                 "injured": false,
                                 "lastName": "D/ST",
                                 "ownership": {
-                                    "auctionValueAverage": 2.03568345323741,
-                                    "averageDraftPosition": 99.16671416764044,
-                                    "percentChange": 0.5186157199738943,
-                                    "percentOwned": 95.67725003768165,
-                                    "percentStarted": 85.84233998599129
+                                    "auctionValueAverage": 2.0510695187165777,
+                                    "averageDraftPosition": 99.5373338129113,
+                                    "percentChange": 0.5428198802566442,
+                                    "percentOwned": 95.7453832098755,
+                                    "percentStarted": 85.99708579250253
                                 },
                                 "proTeamId": 23,
                                 "rankings": {
@@ -29497,8 +29483,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29961,11 +29946,11 @@
                                 "lastName": "Bass",
                                 "lastNewsDate": 1691945252000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.2173396674584323,
-                                    "averageDraftPosition": 143.05702895900998,
-                                    "percentChange": 1.202550870449727,
-                                    "percentOwned": 83.76383271558136,
-                                    "percentStarted": 76.60094852906843
+                                    "auctionValueAverage": 1.2289356984478936,
+                                    "averageDraftPosition": 143.31742166589524,
+                                    "percentChange": 1.3306002482623853,
+                                    "percentOwned": 83.97831674101208,
+                                    "percentStarted": 76.84917516680242
                                 },
                                 "proTeamId": 2,
                                 "rankings": {
@@ -30158,8 +30143,7 @@
                                         "seasonId": 2023,
                                         "statSourceId": 0,
                                         "statSplitTypeId": 0,
-                                        "stats": {},
-                                        "variance": {}
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {

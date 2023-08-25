@@ -2,129 +2,145 @@
     {
         "name": "Bijan Robinson",
         "id": 4430807,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 18.18,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 17.8,
+        "season_avg_points": 18.3,
+        "team_id": 1
     },
     {
         "name": "Derrick Henry",
         "id": 3043078,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 17.88,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 17.1,
+        "season_avg_points": 18.9,
+        "team_id": 10
     },
     {
         "name": "Jaylen Waddle",
         "id": 4372016,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 15.28,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 15.3,
+        "season_avg_points": 15.2,
+        "team_id": 15
     },
     {
         "name": "DK Metcalf",
         "id": 4047650,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 15.01,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 16.2,
+        "season_avg_points": 13.3,
+        "team_id": 26
     },
     {
         "name": "Dameon Pierce",
         "id": 4360238,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 14.53,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 13.1,
+        "season_avg_points": 12.8,
+        "team_id": 34
     },
     {
         "name": "Deshaun Watson",
         "id": 3122840,
-        "position_id": 1,
-        "health": false,
-        "week_proj_points": 18.72,
-        "position": "qb"
+        "position": "qb",
+        "injured": false,
+        "week_proj_points": 18.5,
+        "season_avg_points": 14.3,
+        "team_id": 5
     },
     {
         "name": "DJ Moore",
         "id": 3915416,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 13.59,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 12.7,
+        "season_avg_points": 11.7,
+        "team_id": 3
     },
     {
         "name": "Dallas Goedert",
         "id": 3121023,
-        "position_id": 4,
-        "health": false,
-        "week_proj_points": 10.59,
-        "position": "te"
+        "position": "te",
+        "injured": false,
+        "week_proj_points": 9.9,
+        "season_avg_points": 11.8,
+        "team_id": 21
     },
     {
         "name": "Christian Kirk",
         "id": 3895856,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 12.64,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 12.3,
+        "season_avg_points": 14.2,
+        "team_id": 30
     },
     {
         "name": "Jahan Dotson",
         "id": 4361409,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.59,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 11.1,
+        "season_avg_points": 10.0,
+        "team_id": 28
     },
     {
         "name": "Treylon Burks",
         "id": 4567156,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.75,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 11.0,
+        "season_avg_points": 8.6,
+        "team_id": 10
     },
     {
         "name": "Jordan Addison",
         "id": 4429205,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.19,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 9.5,
+        "season_avg_points": 11.1,
+        "team_id": 16
     },
     {
         "name": "Antonio Gibson",
         "id": 4360294,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 10.45,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 10.6,
+        "season_avg_points": 11.1,
+        "team_id": 28
     },
     {
         "name": "Tyler Higbee",
         "id": 2573401,
-        "position_id": 4,
-        "health": false,
-        "week_proj_points": 9.54,
-        "position": "te"
+        "position": "te",
+        "injured": false,
+        "week_proj_points": 9.7,
+        "season_avg_points": 8.9,
+        "team_id": 14
     },
     {
         "name": "Patriots D/ST",
         "id": -16017,
-        "position_id": 16,
-        "health": false,
-        "week_proj_points": 6.22,
-        "position": "defense"
+        "position": "defense",
+        "injured": false,
+        "week_proj_points": 4.4,
+        "season_avg_points": 10.2,
+        "team_id": 17
     },
     {
         "name": "Jason Myers",
         "id": 2473037,
-        "position_id": 5,
-        "health": false,
-        "week_proj_points": 8.15,
-        "position": "kicker"
+        "position": "kicker",
+        "injured": false,
+        "week_proj_points": 8.6,
+        "season_avg_points": 9.2,
+        "team_id": 26
     }
 ]

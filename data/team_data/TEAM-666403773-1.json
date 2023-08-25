@@ -2,129 +2,145 @@
     {
         "name": "Ja'Marr Chase",
         "id": 4362628,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 20.86,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 20.4,
+        "season_avg_points": 20.2,
+        "team_id": 4
     },
     {
         "name": "Stefon Diggs",
         "id": 2976212,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 17.58,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 17.4,
+        "season_avg_points": 19.8,
+        "team_id": 2
     },
     {
         "name": "Aaron Jones",
         "id": 3042519,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 16.14,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 15.2,
+        "season_avg_points": 14.6,
+        "team_id": 9
     },
     {
         "name": "Lamar Jackson",
         "id": 3916387,
-        "position_id": 1,
-        "health": false,
-        "week_proj_points": 21.73,
-        "position": "qb"
+        "position": "qb",
+        "injured": false,
+        "week_proj_points": 22.5,
+        "season_avg_points": 18.2,
+        "team_id": 33
     },
     {
         "name": "Chris Godwin",
         "id": 3116165,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 14.59,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 14.2,
+        "season_avg_points": 14.9,
+        "team_id": 27
     },
     {
         "name": "Darren Waller",
         "id": 2576925,
-        "position_id": 4,
-        "health": false,
-        "week_proj_points": 12.39,
-        "position": "te"
+        "position": "te",
+        "injured": false,
+        "week_proj_points": 12.0,
+        "season_avg_points": 9.4,
+        "team_id": 19
     },
     {
         "name": "J.K. Dobbins",
         "id": 4241985,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 14.24,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 13.3,
+        "season_avg_points": 10.2,
+        "team_id": 33
     },
     {
         "name": "Alexander Mattison",
         "id": 4048244,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 14.35,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 14.6,
+        "season_avg_points": 5.2,
+        "team_id": 16
     },
     {
         "name": "Brandon Aiyuk",
         "id": 4360438,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.95,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 10.6,
+        "season_avg_points": 13.4,
+        "team_id": 25
     },
     {
         "name": "Michael Thomas",
         "id": 2976316,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 13.64,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 12.1,
+        "season_avg_points": 17.0,
+        "team_id": 18
     },
     {
         "name": "DJ Chark Jr.",
         "id": 3115394,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.6,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 0.0,
+        "season_avg_points": 8.9,
+        "team_id": 29
     },
     {
         "name": "Khalil Herbert",
         "id": 4035886,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 10.32,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 10.4,
+        "season_avg_points": 9.1,
+        "team_id": 3
     },
     {
         "name": "Jeff Wilson Jr.",
         "id": 3122976,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 11.6,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 9.9,
+        "season_avg_points": 9.9,
+        "team_id": 15
     },
     {
         "name": "Raheem Mostert",
         "id": 2576414,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 9.89,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 7.9,
+        "season_avg_points": 10.5,
+        "team_id": 15
     },
     {
         "name": "Packers D/ST",
         "id": -16009,
-        "position_id": 16,
-        "health": false,
-        "week_proj_points": 7.06,
-        "position": "defense"
+        "position": "defense",
+        "injured": false,
+        "week_proj_points": 6.0,
+        "season_avg_points": 6.2,
+        "team_id": 9
     },
     {
         "name": "Graham Gano",
         "id": 12460,
-        "position_id": 5,
-        "health": false,
-        "week_proj_points": 8.25,
-        "position": "kicker"
+        "position": "kicker",
+        "injured": false,
+        "week_proj_points": 8.1,
+        "season_avg_points": 8.4,
+        "team_id": 19
     }
 ]

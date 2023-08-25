@@ -51,22 +51,32 @@ def get_players_list(league_id, team_id):
         }
 
         for entry in entries:
+            if entry["playerPoolEntry"]["player"]["defaultPositionId"] in POSITION_MAP:
+                temp_position = POSITION_MAP[entry["playerPoolEntry"]["player"]["defaultPositionId"]]
+            elif "D/ST" in entry["playerPoolEntry"]["player"]["fullName"]:
+                temp_position = "defense"
+            else:
+                # Default to "unknown" if position is not in POSITION_MAP
+                temp_position = "unknown"
+            
             player_info = {
                 "name": entry["playerPoolEntry"]["player"]["fullName"],
                 "id": entry["playerPoolEntry"]["player"]["id"],
-                "position_id": entry["playerPoolEntry"]["player"]["defaultPositionId"],
-                "health": entry["playerPoolEntry"]["player"]["injured"],
-                "week_proj_points": round(entry["playerPoolEntry"]["player"]["stats"][0]["appliedAverage"], 2),
+                "position": temp_position,
+                "injured": entry["playerPoolEntry"]["player"]["injured"],
+                "week_proj_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1),
+                "season_avg_points": round(entry["playerPoolEntry"]["player"]["stats"][3]["appliedAverage"], 1),
+                "team_id": entry["playerPoolEntry"]["player"]["proTeamId"],
             }
 
-            # Map position_id to position using POSITION_MAP
-            if "D/ST" in player_info["name"]:
-                player_info["position"] = "defense"
-            elif player_info["position_id"] in POSITION_MAP:
-                player_info["position"] = POSITION_MAP[player_info["position_id"]]
-            else:
-                # Default to "unknown" if position is not in POSITION_MAP
-                player_info["position"] = "unknown"
+            # # Map position_id to position using POSITION_MAP
+            # if "D/ST" in player_info["name"]:
+            #     player_info["position"] = "defense"
+            # elif player_info["position_id"] in POSITION_MAP:
+            #     player_info["position"] = POSITION_MAP[player_info["position_id"]]
+            # else:
+            #     # Default to "unknown" if position is not in POSITION_MAP
+            #     player_info["position"] = "unknown"
 
             player_list.append(player_info)
 
@@ -78,7 +88,7 @@ def get_players_list(league_id, team_id):
 
 
 if __name__ == "__main__":
-    print("============================================================================================================================")
+    print("=================================================================================================================")
     for team in teams:
         league_id = team["league_id"]
         team_id = team["team_id"]
@@ -97,4 +107,4 @@ if __name__ == "__main__":
             json.dump(players_list, json_file, indent=4)
 
         print(f"Team data saved to {filename}")
-        print("============================================================================================================================")
+        print("=================================================================================================================")

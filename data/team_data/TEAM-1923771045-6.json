@@ -2,129 +2,145 @@
     {
         "name": "Austin Ekeler",
         "id": 3068267,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 19.54,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 17.5,
+        "season_avg_points": 21.9,
+        "team_id": 24
     },
     {
         "name": "Amon-Ra St. Brown",
         "id": 4374302,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 16.09,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 16.6,
+        "season_avg_points": 16.7,
+        "team_id": 8
     },
     {
         "name": "A.J. Brown",
         "id": 4047646,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 15.24,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 14.6,
+        "season_avg_points": 17.6,
+        "team_id": 21
     },
     {
         "name": "DeVonta Smith",
         "id": 4241478,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 14.66,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 14.0,
+        "season_avg_points": 15.0,
+        "team_id": 21
     },
     {
         "name": "Dameon Pierce",
         "id": 4360238,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 14.53,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 13.1,
+        "season_avg_points": 12.8,
+        "team_id": 34
     },
     {
         "name": "Chris Godwin",
         "id": 3116165,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 14.59,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 14.2,
+        "season_avg_points": 14.9,
+        "team_id": 27
     },
     {
         "name": "Justin Herbert",
         "id": 4038941,
-        "position_id": 1,
-        "health": false,
-        "week_proj_points": 18.48,
-        "position": "qb"
+        "position": "qb",
+        "injured": false,
+        "week_proj_points": 16.8,
+        "season_avg_points": 16.5,
+        "team_id": 24
     },
     {
         "name": "Dallas Goedert",
         "id": 3121023,
-        "position_id": 4,
-        "health": false,
-        "week_proj_points": 10.59,
-        "position": "te"
+        "position": "te",
+        "injured": false,
+        "week_proj_points": 9.9,
+        "season_avg_points": 11.8,
+        "team_id": 21
     },
     {
         "name": "Christian Kirk",
         "id": 3895856,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 12.64,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 12.3,
+        "season_avg_points": 14.2,
+        "team_id": 30
     },
     {
         "name": "Treylon Burks",
         "id": 4567156,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.75,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 11.0,
+        "season_avg_points": 8.6,
+        "team_id": 10
     },
     {
         "name": "Courtland Sutton",
         "id": 3128429,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.17,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 12.2,
+        "season_avg_points": 10.6,
+        "team_id": 7
     },
     {
         "name": "Gabe Davis",
         "id": 4243537,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 10.8,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 10.0,
+        "season_avg_points": 11.4,
+        "team_id": 2
     },
     {
         "name": "Tua Tagovailoa",
         "id": 4241479,
-        "position_id": 1,
-        "health": false,
-        "week_proj_points": 17.11,
-        "position": "qb"
+        "position": "qb",
+        "injured": false,
+        "week_proj_points": 17.7,
+        "season_avg_points": 17.8,
+        "team_id": 15
     },
     {
         "name": "Zach Charbonnet",
         "id": 4426385,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 9.25,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 8.2,
+        "season_avg_points": 9.2,
+        "team_id": 26
     },
     {
         "name": "Saints D/ST",
         "id": -16018,
-        "position_id": 16,
-        "health": false,
-        "week_proj_points": 7.2,
-        "position": "defense"
+        "position": "defense",
+        "injured": false,
+        "week_proj_points": 6.6,
+        "season_avg_points": 6.2,
+        "team_id": 18
     },
     {
         "name": "Eddy Pineiro",
         "id": 4034949,
-        "position_id": 5,
-        "health": false,
-        "week_proj_points": 7.7,
-        "position": "kicker"
+        "position": "kicker",
+        "injured": false,
+        "week_proj_points": 7.8,
+        "season_avg_points": 8.5,
+        "team_id": 29
     }
 ]

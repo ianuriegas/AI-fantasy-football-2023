@@ -2,129 +2,145 @@
     {
         "name": "Justin Jefferson",
         "id": 4262921,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 21.56,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 20.2,
+        "season_avg_points": 21.7,
+        "team_id": 16
     },
     {
         "name": "CeeDee Lamb",
         "id": 4241389,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 17.67,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 17.7,
+        "season_avg_points": 17.7,
+        "team_id": 6
     },
     {
         "name": "Jonathan Taylor",
         "id": 4242335,
-        "position_id": 2,
-        "health": true,
-        "week_proj_points": 18.22,
-        "position": "rb"
+        "position": "rb",
+        "injured": true,
+        "week_proj_points": 17.2,
+        "season_avg_points": 13.3,
+        "team_id": 11
     },
     {
         "name": "Calvin Ridley",
         "id": 3925357,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 13.74,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 14.3,
+        "season_avg_points": 0.0,
+        "team_id": 30
     },
     {
         "name": "Mark Andrews",
         "id": 3116365,
-        "position_id": 4,
-        "health": false,
-        "week_proj_points": 13.42,
-        "position": "te"
+        "position": "te",
+        "injured": false,
+        "week_proj_points": 13.3,
+        "season_avg_points": 12.7,
+        "team_id": 33
     },
     {
         "name": "Rachaad White",
         "id": 4697815,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 14.48,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 14.0,
+        "season_avg_points": 8.2,
+        "team_id": 27
     },
     {
         "name": "Deshaun Watson",
         "id": 3122840,
-        "position_id": 1,
-        "health": false,
-        "week_proj_points": 18.72,
-        "position": "qb"
+        "position": "qb",
+        "injured": false,
+        "week_proj_points": 18.5,
+        "season_avg_points": 14.3,
+        "team_id": 5
     },
     {
         "name": "Isiah Pacheco",
         "id": 4361529,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 13.75,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 13.8,
+        "season_avg_points": 7.9,
+        "team_id": 12
     },
     {
         "name": "George Pickens",
         "id": 4426354,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.34,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 10.8,
+        "season_avg_points": 9.8,
+        "team_id": 23
     },
     {
         "name": "Brian Robinson Jr.",
         "id": 4241474,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 10.83,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 11.2,
+        "season_avg_points": 9.4,
+        "team_id": 28
     },
     {
         "name": "David Njoku",
         "id": 3123076,
-        "position_id": 4,
-        "health": false,
-        "week_proj_points": 9.99,
-        "position": "te"
+        "position": "te",
+        "injured": false,
+        "week_proj_points": 10.0,
+        "season_avg_points": 10.1,
+        "team_id": 5
     },
     {
         "name": "Rondale Moore",
         "id": 4372485,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 11.39,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 10.3,
+        "season_avg_points": 11.0,
+        "team_id": 22
     },
     {
         "name": "Jeff Wilson Jr.",
         "id": 3122976,
-        "position_id": 2,
-        "health": false,
-        "week_proj_points": 11.6,
-        "position": "rb"
+        "position": "rb",
+        "injured": false,
+        "week_proj_points": 9.9,
+        "season_avg_points": 9.9,
+        "team_id": 15
     },
     {
         "name": "Michael Gallup",
         "id": 4036348,
-        "position_id": 3,
-        "health": false,
-        "week_proj_points": 10.48,
-        "position": "wr"
+        "position": "wr",
+        "injured": false,
+        "week_proj_points": 9.4,
+        "season_avg_points": 7.5,
+        "team_id": 6
     },
     {
         "name": "Dolphins D/ST",
         "id": -16015,
-        "position_id": 16,
-        "health": false,
-        "week_proj_points": 7.92,
-        "position": "defense"
+        "position": "defense",
+        "injured": false,
+        "week_proj_points": 5.9,
+        "season_avg_points": 5.2,
+        "team_id": 15
     },
     {
         "name": "Matt Gay",
         "id": 4249087,
-        "position_id": 5,
-        "health": false,
-        "week_proj_points": 7.8,
-        "position": "kicker"
+        "position": "kicker",
+        "injured": false,
+        "week_proj_points": 8.1,
+        "season_avg_points": 7.7,
+        "team_id": 11
     }
 ]

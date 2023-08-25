@@ -20,9 +20,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # - name: Activate virtual environment
-      #   run: |
-      #     source venv/bin/activate
-
       - name: Get all my teams info and store it into a JSON.
         run: python get_my_team.py
+
+      - name: Position sorter + AI results.
+        run: python position_sorter.py

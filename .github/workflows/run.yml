@@ -1,7 +1,7 @@
 name: Python run
 
 on:
-  workflow_dispatch:  # This event will trigger the workflow when manually dispatched
+  [push]
 
 jobs:
   build:

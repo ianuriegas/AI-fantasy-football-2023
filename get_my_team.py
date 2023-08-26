@@ -60,7 +60,7 @@ def get_players_list(league_id, team_id):
                 temp_position = "unknown"
             
             if entry["playerPoolEntry"]["player"]["injured"] is False:
-                injured = 1
+                injured = 20
             else:
                 injured = 0 
 

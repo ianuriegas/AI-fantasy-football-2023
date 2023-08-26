@@ -10,7 +10,7 @@
         "days_since_last_game": 0,
         "avg_points": 21.7,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 20.2
     },
     {
@@ -24,7 +24,7 @@
         "days_since_last_game": 0,
         "avg_points": 17.7,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 17.7
     },
     {
@@ -52,7 +52,7 @@
         "days_since_last_game": 0,
         "avg_points": 0.0,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 14.3
     },
     {
@@ -66,7 +66,7 @@
         "days_since_last_game": 0,
         "avg_points": 12.7,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 13.3
     },
     {
@@ -80,7 +80,7 @@
         "days_since_last_game": 0,
         "avg_points": 8.2,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 14.0
     },
     {
@@ -94,7 +94,7 @@
         "days_since_last_game": 0,
         "avg_points": 14.3,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 18.5
     },
     {
@@ -108,7 +108,7 @@
         "days_since_last_game": 0,
         "avg_points": 7.9,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 13.8
     },
     {
@@ -122,7 +122,7 @@
         "days_since_last_game": 0,
         "avg_points": 9.8,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 10.8
     },
     {
@@ -136,7 +136,7 @@
         "days_since_last_game": 0,
         "avg_points": 9.4,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 11.2
     },
     {
@@ -150,7 +150,7 @@
         "days_since_last_game": 0,
         "avg_points": 10.1,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 10.0
     },
     {
@@ -164,7 +164,7 @@
         "days_since_last_game": 0,
         "avg_points": 11.0,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 10.3
     },
     {
@@ -178,7 +178,7 @@
         "days_since_last_game": 0,
         "avg_points": 9.9,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 9.9
     },
     {
@@ -192,7 +192,7 @@
         "days_since_last_game": 0,
         "avg_points": 7.5,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 9.4
     },
     {
@@ -206,7 +206,7 @@
         "days_since_last_game": 0,
         "avg_points": 5.2,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 5.9
     },
     {
@@ -220,7 +220,7 @@
         "days_since_last_game": 0,
         "avg_points": 7.7,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 8.1
     }
 ]

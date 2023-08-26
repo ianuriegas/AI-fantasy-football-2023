@@ -10,7 +10,7 @@
         "days_since_last_game": 0,
         "avg_points": 21.9,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 17.5
     },
     {
@@ -24,7 +24,7 @@
         "days_since_last_game": 0,
         "avg_points": 16.7,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 16.6
     },
     {
@@ -38,7 +38,7 @@
         "days_since_last_game": 0,
         "avg_points": 17.6,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 14.6
     },
     {
@@ -52,7 +52,7 @@
         "days_since_last_game": 0,
         "avg_points": 15.0,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 14.0
     },
     {
@@ -66,7 +66,7 @@
         "days_since_last_game": 0,
         "avg_points": 12.8,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 13.1
     },
     {
@@ -80,7 +80,7 @@
         "days_since_last_game": 0,
         "avg_points": 14.9,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 14.2
     },
     {
@@ -94,7 +94,7 @@
         "days_since_last_game": 0,
         "avg_points": 16.5,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 16.8
     },
     {
@@ -108,7 +108,7 @@
         "days_since_last_game": 0,
         "avg_points": 11.8,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 9.9
     },
     {
@@ -122,7 +122,7 @@
         "days_since_last_game": 0,
         "avg_points": 14.2,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 12.3
     },
     {
@@ -136,8 +136,8 @@
         "days_since_last_game": 0,
         "avg_points": 8.6,
         "is_home_game": 0,
-        "injury_status": 1,
-        "next_game_points": 11.0
+        "injury_status": 20,
+        "next_game_points": 0.0
     },
     {
         "player_name": "Courtland Sutton",
@@ -150,8 +150,8 @@
         "days_since_last_game": 0,
         "avg_points": 10.6,
         "is_home_game": 0,
-        "injury_status": 1,
-        "next_game_points": 12.2
+        "injury_status": 20,
+        "next_game_points": 13.0
     },
     {
         "player_name": "Gabe Davis",
@@ -164,7 +164,7 @@
         "days_since_last_game": 0,
         "avg_points": 11.4,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 10.0
     },
     {
@@ -178,7 +178,7 @@
         "days_since_last_game": 0,
         "avg_points": 17.8,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 17.7
     },
     {
@@ -192,7 +192,7 @@
         "days_since_last_game": 0,
         "avg_points": 9.2,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 8.2
     },
     {
@@ -206,7 +206,7 @@
         "days_since_last_game": 0,
         "avg_points": 6.2,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 6.6
     },
     {
@@ -220,7 +220,7 @@
         "days_since_last_game": 0,
         "avg_points": 8.5,
         "is_home_game": 0,
-        "injury_status": 1,
+        "injury_status": 20,
         "next_game_points": 7.8
     }
 ]

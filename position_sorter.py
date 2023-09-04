@@ -47,12 +47,12 @@ for filename in os.listdir(folder_path):
             # print(json.dumps(rb_players, indent=4))
             print("=================================================================================================================")
             # Getting the sorted data arrays
-            # qb_stats = get_qb_pytorch_stats(qb_players)
-            # rb_stats = get_rb_pytorch_stats(rb_players)
-            # wr_stats = get_wr_pytorch_stats(wr_players)
-            # te_stats = get_te_pytorch_stats(te_players)
-            # kicker_stats = get_kicker_pytorch_stats(kicker_players)
-            # defense_stats = get_defense_pytorch_stats(defense_players)
+            qb_stats = get_qb_pytorch_stats(qb_players)
+            rb_stats = get_rb_pytorch_stats(rb_players)
+            wr_stats = get_wr_pytorch_stats(wr_players)
+            te_stats = get_te_pytorch_stats(te_players)
+            kicker_stats = get_kicker_pytorch_stats(kicker_players)
+            defense_stats = get_defense_pytorch_stats(defense_players)
 
             # Printing pretty JSON format and calculating combined length
             # print_pretty_json("QB Stats", qb_stats)
@@ -64,15 +64,15 @@ for filename in os.listdir(folder_path):
             
 
             # combined_length = get_combined_length(qb_stats, rb_stats, wr_stats, te_stats, kicker_stats, defense_stats)
-            combined_length_2 = get_combined_length(qb_players, rb_players, wr_players, te_players, kicker_players, defense_players)
-            # print(f"Combined Length of All Arrays: {combined_length}")
-            print(len(qb_players))
-            print(len(rb_players))
-            print(len(wr_players))
-            print(len(te_players))
-            print(len(kicker_players))
-            print(len(defense_players))
-            print(f"Combined Length of All Arrays: {combined_length_2}")
+            # combined_length_2 = get_combined_length(qb_players, rb_players, wr_players, te_players, kicker_players, defense_players)
+            # # print(f"Combined Length of All Arrays: {combined_length}")
+            # print(len(qb_players))
+            # print(len(rb_players))
+            # print(len(wr_players))
+            # print(len(te_players))
+            # print(len(kicker_players))
+            # print(len(defense_players))
+            # print(f"Combined Length of All Arrays: {combined_length_2}")
 
             qb_players = []
             rb_players = []

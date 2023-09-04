@@ -78,6 +78,12 @@ def get_qb_pytorch_stats(data):
         else:
             player_selections[selected_player] = 1
 
+    all_player_names = set(df['player_name'])
+
+    for player_name in all_player_names:
+        if player_name not in player_selections:
+            player_selections[player_name] = 0
+
     # Print the tally of player selections
     sorted_selections = sorted(player_selections.items(),
                                key=lambda x: x[1], reverse=True)
@@ -144,6 +150,12 @@ def get_rb_pytorch_stats(data):
             player_selections[selected_player] += 1
         else:
             player_selections[selected_player] = 1
+
+    all_player_names = set(df['player_name'])
+
+    for player_name in all_player_names:
+        if player_name not in player_selections:
+            player_selections[player_name] = 0
 
     # Print the tally of player selections
     sorted_selections = sorted(player_selections.items(),
@@ -212,6 +224,12 @@ def get_wr_pytorch_stats(data):
         else:
             player_selections[selected_player] = 1
 
+    all_player_names = set(df['player_name'])
+
+    for player_name in all_player_names:
+        if player_name not in player_selections:
+            player_selections[player_name] = 0
+
     # Print the tally of player selections
     sorted_selections = sorted(player_selections.items(),
                                key=lambda x: x[1], reverse=True)
@@ -279,6 +297,12 @@ def get_te_pytorch_stats(data):
         else:
             player_selections[selected_player] = 1
 
+    all_player_names = set(df['player_name'])
+
+    for player_name in all_player_names:
+        if player_name not in player_selections:
+            player_selections[player_name] = 0
+
     # Print the tally of player selections
     sorted_selections = sorted(player_selections.items(),
                                key=lambda x: x[1], reverse=True)
@@ -287,6 +311,7 @@ def get_te_pytorch_stats(data):
 
     print(sorted_selections)
     return sorted_selections
+
 
 def get_kicker_pytorch_stats(data):
     max_defense_rank = 32  # Assuming 32 is the worst rank
@@ -354,6 +379,7 @@ def get_kicker_pytorch_stats(data):
     print(sorted_selections)
     return sorted_selections
 
+
 def get_defense_pytorch_stats(data):
     max_defense_rank = 32  # Assuming 32 is the worst rank
     max_offense_rank = 32  # Assuming 32 is the worst rank
@@ -410,6 +436,12 @@ def get_defense_pytorch_stats(data):
             player_selections[selected_player] += 1
         else:
             player_selections[selected_player] = 1
+
+    all_player_names = set(df['player_name'])
+
+    for player_name in all_player_names:
+        if player_name not in player_selections:
+            player_selections[player_name] = 0
 
     # Print the tally of player selections
     sorted_selections = sorted(player_selections.items(),

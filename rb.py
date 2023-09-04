@@ -90,7 +90,7 @@ def get_qb_pytorch_stats(data):
     # for player, count in sorted_selections:
     #     print(f"{player}: {count} times")
 
-    print(sorted_selections)
+    # print(sorted_selections)
     return sorted_selections
 
 
@@ -163,7 +163,7 @@ def get_rb_pytorch_stats(data):
     # for player, count in sorted_selections:
     #     print(f"{player}: {count} times")
 
-    print(sorted_selections)
+    # print(sorted_selections)
     return sorted_selections
 
 
@@ -236,7 +236,7 @@ def get_wr_pytorch_stats(data):
     # for player, count in sorted_selections:
     #     print(f"{player}: {count} times")
 
-    print(sorted_selections)
+    # print(sorted_selections)
     return sorted_selections
 
 
@@ -309,7 +309,7 @@ def get_te_pytorch_stats(data):
     # for player, count in sorted_selections:
     #     print(f"{player}: {count} times")
 
-    print(sorted_selections)
+    # print(sorted_selections)
     return sorted_selections
 
 
@@ -376,7 +376,7 @@ def get_kicker_pytorch_stats(data):
     # for player, count in sorted_selections:
     #     print(f"{player}: {count} times")
 
-    print(sorted_selections)
+    # print(sorted_selections)
     return sorted_selections
 
 
@@ -449,5 +449,5 @@ def get_defense_pytorch_stats(data):
     # for player, count in sorted_selections:
     #     print(f"{player}: {count} times")
 
-    print(sorted_selections)
+    # print(sorted_selections)
     return sorted_selections

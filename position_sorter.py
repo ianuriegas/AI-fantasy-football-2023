@@ -13,6 +13,14 @@ te_players = []
 defense_players = []
 kicker_players = []
 
+def print_players(position_stats, position_name, max_count):
+    count = 0
+    for player_name, _ in position_stats:
+        print(f"{position_name}: {player_name}")
+        count += 1
+        if count == max_count:
+            break
+
 def print_pretty_json(title, data):
     print(f"{title}:")
     pretty_json = json.dumps(data, indent=4)
@@ -22,6 +30,7 @@ def print_pretty_json(title, data):
 def get_combined_length(*arrays):
     total_length = sum(len(arr) for arr in arrays)
     return total_length
+
 
 # Iterate through each JSON file in the folder
 for filename in os.listdir(folder_path):
@@ -61,7 +70,6 @@ for filename in os.listdir(folder_path):
             # print_pretty_json("TE Stats", te_stats)
             # print_pretty_json("Kicker Stats", kicker_stats)
             # print_pretty_json("Defense Stats", defense_stats)
-            
 
             # combined_length = get_combined_length(qb_stats, rb_stats, wr_stats, te_stats, kicker_stats, defense_stats)
             # combined_length_2 = get_combined_length(qb_players, rb_players, wr_players, te_players, kicker_players, defense_players)
@@ -73,6 +81,12 @@ for filename in os.listdir(folder_path):
             # print(len(kicker_players))
             # print(len(defense_players))
             # print(f"Combined Length of All Arrays: {combined_length_2}")
+            print_players(qb_stats, "QB", 1)
+            print_players(rb_stats, "RB", 2)
+            print_players(wr_stats, "WR", 2)
+            print_players(te_stats, "TE", 1)
+            print_players(kicker_stats, "Kicker", 1)
+            print_players(defense_stats, "Defense", 1)
 
             qb_players = []
             rb_players = []

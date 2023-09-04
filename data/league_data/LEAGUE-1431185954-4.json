@@ -2545,11 +2545,6 @@
                 },
                 {
                     "enabled": true,
-                    "id": "ab3c1d28-d342-39b7-b432-8aaae63cc956",
-                    "type": "KEY_STAT_UPDATE"
-                },
-                {
-                    "enabled": true,
                     "id": "c67f2bca-0114-3cfb-9680-059ba61f3edd",
                     "type": "TEAM_PLAYER_NEWS"
                 },
@@ -2557,6 +2552,11 @@
                     "enabled": true,
                     "id": "0d016fdc-ecfa-3eee-b8c4-c395858b4920",
                     "type": "TEAM_MATCHUP_SCORE"
+                },
+                {
+                    "enabled": true,
+                    "id": "ab3c1d28-d342-39b7-b432-8aaae63cc956",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
@@ -2645,13 +2645,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "ada4396b-84a1-3746-855e-07fb433b3558",
-                    "type": "REDZONE"
+                    "id": "e8177b60-8341-3501-91f9-3b258e2550f0",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "e8177b60-8341-3501-91f9-3b258e2550f0",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "ada4396b-84a1-3746-855e-07fb433b3558",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2815,23 +2815,23 @@
                 },
                 {
                     "enabled": true,
-                    "id": "f406c9b6-0cc4-30b7-9988-4cccb99be3c8",
-                    "type": "TEAM_PLAYER_STARTBENCH"
-                },
-                {
-                    "enabled": true,
                     "id": "1e1dfdf9-6cad-3250-82d7-f292b885bf5f",
                     "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "bb831107-6d36-3fbb-a959-75ae9ffc7024",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "1dbf30cb-510a-3660-8cf1-5e747561e336",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
-                    "id": "1dbf30cb-510a-3660-8cf1-5e747561e336",
-                    "type": "DRAFT"
+                    "id": "f406c9b6-0cc4-30b7-9988-4cccb99be3c8",
+                    "type": "TEAM_PLAYER_STARTBENCH"
+                },
+                {
+                    "enabled": true,
+                    "id": "bb831107-6d36-3fbb-a959-75ae9ffc7024",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2980,13 +2980,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "43a8cbb0-998f-3d90-ba8c-8ca52949d3c0",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "ec1442b3-c716-32c3-aa77-8f764fed2a6d",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "ec1442b3-c716-32c3-aa77-8f764fed2a6d",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "43a8cbb0-998f-3d90-ba8c-8ca52949d3c0",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
@@ -3025,13 +3025,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "3d8064f2-a225-385f-bd5c-25e7e5774f23",
-                    "type": "REDZONE"
+                    "id": "2f63e716-26f8-36bb-ba55-e8b3402aa0d1",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "2f63e716-26f8-36bb-ba55-e8b3402aa0d1",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "3d8064f2-a225-385f-bd5c-25e7e5774f23",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -20728,19 +20728,6 @@
                                 "seasonOutlook": "Robinson was selected in the first round of April's draft. The 5-foot-11, 215-pound Texas product is easily the class of the 2023 rookie RB class, with the size, speed (4.46 40-yard dash) and skill set to be a three-down superstar in the pros. Robinson's collegiate rushing efficiency was elite, as he posted a 4.1 YAC (fourth in this year's rookie class) and 3.0 forced missed tackle rate (first) during 31 games. He's also a capable receiver, having posted a 60-805-8 line in his career, which included a class best YPR (13.4) and YPT (9.8). All six RBs drafted in the top 10 since 2011 have finished their rookie season top 15 in fantasy PPG (three finished top five), which only adds to Robinson's 2023 appeal. He's a no-brainer top pick in 2023 rookie drafts and a strong RB1 with elite upside in season-long formats.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 18.178097739428573,
                                         "appliedStats": {
                                             "53": 49.86546468,
@@ -20828,6 +20815,19 @@
                                             "68": 1.245281921,
                                             "72": 2.930332032
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21315,19 +21315,6 @@
                                 "seasonOutlook": "Henry is back for his eighth season in Tennessee following another huge showing in 2022. The big man led the NFL in carries for the third time in four seasons and showed he was still at the top of his game, averaging 2.54 yards after contact (third highest). Henry expanded his game a bit as well, setting career-high marks in targets, receptions and receiving yards, while pacing all backs in yards per reception and yards per target. Henry is entering his age-29 season, but he's been a top-four fantasy back on a per-game basis each of the past four seasons and he's shown no signs of slowing down. Especially with the expanded passing-game role, Henry is secure as a midrange RB1.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 17.87576425357143,
                                         "appliedStats": {
                                             "53": 33.20890718,
@@ -21415,6 +21402,19 @@
                                             "68": 2.609795389,
                                             "72": 1.929210733
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22066,19 +22066,6 @@
                                 "seasonOutlook": "Waddle has finished each of his first two NFL seasons as a top-15 fantasy WR, but he took very different paths each year. As a rookie in 2021, Waddle was a short-range target (7.0 aDOT) and caught 104 passes for 1,015 yards and six TDs. Last season, Waddle played more of a downfield role (12.0 aDOT) and led all WRs in yards per reception (18.1) and yards per target (11.6) while finishing second in RAC (7.0). His reception total plummeted, but his yardage skyrocketed and his numbers actually would've been better if Tua Tagovailoa missed less time (287 yards and zero TDs in five games Tagovailoa was out or left injured). More goal line work would be nice (he has eight career end zone targets), but Waddle is a budding star and a featured target in a good offense. The 24-year-old is a fringe WR1.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 15.278948766933333,
                                         "appliedStats": {
                                             "53": 82.29318511,
@@ -22163,6 +22150,19 @@
                                             "68": 1.629017034,
                                             "72": 1.35136958
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22801,19 +22801,6 @@
                                 "seasonOutlook": "Metcalf appeared to be in line for a step back last season as Seattle transitioned from Russell Wilson to Geno Smith at quarterback. Instead, Metcalf hit career highs in targets and receptions en route to his third consecutive top-16 fantasy campaign. Metcalf has actually finished outside the top 20 in fantasy PPG each of the last two seasons, but he hasn't missed a single game and he had some horrific TD luck last season. The big man saw 24 end zone targets (nine more than any other player) but found the end zone only six times (nearly half of his WR-high expected total of 11.0). Metcalf is in his prime at age 25, a lock for a huge target share and a good bet for more TDs. He's a fringe WR1.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 15.014498307866669,
                                         "appliedStats": {
                                             "53": 77.02689451,
@@ -22878,6 +22865,19 @@
                                             "68": 1.709725185,
                                             "72": 1.595411164
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23440,19 +23440,6 @@
                                 "seasonOutlook": "Pierce enters 2023 atop the depth chart in Houston, but he'll have more competition for touches after the team signed reliable veteran Devin Singletary. Pierce was promoted into a feature role in Week 2 of his rookie campaign and was fantasy's No. 14 RB prior to missing the final four games of the season with an ankle injury. The 2022 fourth-round pick had trouble finding the end zone (five TDs on 250 touches) and with receiving efficiency (4.1 yards per target), though neither is a shock considering the team's QB woes. Pierce may see a reduction from the 16.9 carries and 3.1 targets per game he saw last season with Singletary in the mix, but the 23-year-old looks the part of a lead back and is primed for a step forward in 2023. He's in the RB2 mix.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 14.526806336714285,
                                         "appliedStats": {
                                             "53": 37.41748507,
@@ -23540,6 +23527,19 @@
                                             "68": 1.245281921,
                                             "72": 2.930332032
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24177,19 +24177,6 @@
                                 "seasonOutlook": "The 2023 season will be Watson's first as Cleveland's full-time starter. The former Texan was suspended for 11 games last season and struggled upon his return, ranking 22nd in fantasy points per game. On the plus side, he finished strong with his only two top-eight weekly finishes and he was his usual productive self with his legs (fourth at QB in rushing yards during six active weeks). Watson, who was a top-five fantasy QB in three straight seasons prior to missing 2021, is a good bet to improve in his second season with the Browns. He'll be working behind a good offensive line and has a solid group of targets led by Amari Cooper and David Njoku. It's safest to view Watson as a fringe QB1, but he has elite upside.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 18.71809714175,
                                         "appliedStats": {
                                             "19": 2.85655329,
@@ -24288,6 +24275,19 @@
                                             "68": 3.037232686,
                                             "72": 1.473437798
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24964,19 +24964,6 @@
                                 "seasonOutlook": "Moore was traded to the Bears after spending his first five NFL seasons with the Panthers. The 26-year-old has handled a target share of at least 24% and has finished as a top-25 fantasy WR each of the last four seasons. Moore figures to maintain a generous target share in Chicago, but he's moving to an offense that ranked 31st in WR targets, 30th in snaps and was second run-heaviest in the league last season. Those numbers figure to improve a bit, but perhaps not a ton with Justin Fields (who ranked first in scrambles last season) under center. Moore, who has cleared four TDs once in his career, is best viewed as a WR3.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 13.589664246866668,
                                         "appliedStats": {
                                             "53": 63.64153264,
@@ -25063,6 +25050,19 @@
                                             "68": 1.854593475,
                                             "72": 1.656291199
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25685,19 +25685,6 @@
                                 "seasonOutlook": "Goedert finished a career-best fifth in fantasy PPG last season and the veteran tight end has been 11th or better in the category in four consecutive campaigns. The 2018 second-round pick has been super-efficient, pacing the position in yards per target each of the past two seasons and ranking top five in RAC both years. On the other hand, Goedert has been limited by a lack of goal line work (he's never cleared five TDs in a season and has exactly two end zone targets each of the past two seasons) and shaky durability (his last full season was 2018 and he's missed 13 games over the past four seasons). The 28-year-old will maintain a substantial role in the high-scoring Eagles offense (only A.J. Brown and DeVonta Smith are ahead of him for targets) and he is a solid TE1 target.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 10.594817974571429,
                                         "appliedStats": {
                                             "53": 62.31089296,
@@ -25760,6 +25747,19 @@
                                             "68": 1.330271681,
                                             "72": 1.160248811
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26312,19 +26312,6 @@
                                 "seasonOutlook": "Kirk signed with the Jaguars last offseason and proceeded to have the best season of his career. The 2018 second-round pick posted modest numbers during four seasons in Arizona but was a featured target in Jacksonville and ended up no lower than 15th among WRs in targets, receptions, yards, TDs and fantasy points. The 26-year-old will remain a featured target in a Jaguars offense on the ascent, but the arrival of Calvin Ridley figures to reduce his volume a bit. Kirk had never produced a top-25 fantasy campaign prior to 2022 and, especially with Ridley, Zay Jones, Evan Engram and Travis Etienne in the mix this season, he's safest viewed as a high-floor WR3 in 2023.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 12.636532466733335,
                                         "appliedStats": {
                                             "53": 70.78270123,
@@ -26409,6 +26396,19 @@
                                             "68": 1.109085965,
                                             "72": 0.649043468
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27023,19 +27023,6 @@
                                 "seasonOutlook": "Dotson is entering his second NFL season following an impressive, but fairly unheralded rookie campaign. The 2022 first-round pick missed five games due to injury but finished the year strong. He handled a target share of at least 21% in each of the team's final five games, which produced a 21-344-3 receiving line and 14.7 fantasy PPG (17th among WRs). And that came with Terry McLaurin averaging 15.5 PPG (13th-best) during the same span. Dotson's WR-high 11.3% TD rate isn't sustainable and his vertical role (14.4 aDOT ranked fourth) may lead to volatile production, but he's a good bet for a boost in volume in Year 2. He's a breakout candidate who you should be on your radar in the middle rounds.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 11.593926562,
                                         "appliedStats": {
                                             "53": 63.37914481,
@@ -27100,6 +27087,19 @@
                                             "68": 0.212255415,
                                             "72": 2.358709913
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27661,19 +27661,6 @@
                                 "seasonOutlook": "Burks was selected in the first round of the 2022 draft and was on the field for 11 games during his rookie campaign. The Arkansas product struggled to make much of an impact and ended up with only three weekly fantasy finishes better than 45th. On the plus side, Tennessee manufactured touches for him (47 yards on four carries) and he was terrific with the ball in his hands (5.3 RAC ranked 12th at WR). The 23-year-old will operate as the Titans' No. 2 wideout opposite DeAndre Hopkins and his production will be limited by Tennessee's run-heavy scheme. However, he's a first-round talent with potential for a Year 2 breakout. He's on the flex radar.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 11.751109502066667,
                                         "appliedStats": {
                                             "53": 62.70007835,
@@ -27760,6 +27747,19 @@
                                             "68": 0.212255415,
                                             "72": 2.358709913
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28391,19 +28391,6 @@
                                 "seasonOutlook": "Addison was selected in the first round of April's draft. He's an undersized (173 pounds) slot receiver who was a big-time weapon at Pitt (including a 100-1,593-17 receiving line in 2021), but his usage dipped a bit in 2022 -- his lone season at USC (59-875-8). Addison's 29 career TDs (35 games) were second most in this rookie WR class and he cleaned up early-career drop woes in 2022. He underwhelmed athletically at the combine, which included a 4.49 40-yard dash at 173 pounds (85 speed score, third lowest among 50 WRs in this class), but he landed in a great spot as Justin Jefferson's running mate in a Vikings offense that ranks fifth in TDs over the past three seasons. Addison should play a ton out of the gate and is well worth a mid-to-late-round flier.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 11.189631984466669,
                                         "appliedStats": {
                                             "53": 56.57604158,
@@ -28487,6 +28474,19 @@
                                             "68": 0.212255415,
                                             "72": 2.358709913
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28964,19 +28964,6 @@
                                 "seasonOutlook": "Gibson appeared to be budding into a feature back during his first two NFL seasons (2,373 yards and 21 TDs), but the 2020 third-round pick was demoted to a lesser role with Brian Robinson Jr. in the fold last season. In six full games together without J.D. McKissic, Gibson was limited to 31% of the carries (11.0 per game), but handled a hefty 14% of the targets (3.8). He wasn't much of a fantasy factor (9.3 PPG), but he'll find himself on the PPR flex radar in deeper leagues if he maintains the change-of-pace rushing role while handling most of Washington's passing-down work. The 25-year-old has a low ceiling as long as Robinson is in the mix, but he's a fine bench option.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 10.452785078142856,
                                         "appliedStats": {
                                             "53": 47.17555377,
@@ -29071,6 +29058,19 @@
                                             "101": 0.535096449,
                                             "114": 68.58078685
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29724,19 +29724,6 @@
                                 "seasonOutlook": "It was a rough 2022 season for the Rams, but that didn't stop Higbee from posting a career-best sixth-place fantasy finish. Granted, there was some survivorship bias (he finished 14th on a per-game basis after he was 13th in 2021), but the tight end cleared 100 targets for the first time and ranked fifth among tight ends in receptions. On the negative side, Higbee led the position in drops (eight) and was held to three TDs (he's yet to clear five in a season). The 30-year-old may continue to see a healthy target share in an offense lacking standouts behind Cooper Kupp. He has settled in as a fringe TE1, at best, in recent seasons, and it's fair to expect that to continue.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 9.541514913066667,
                                         "appliedStats": {
                                             "53": 60.53224312,
@@ -29799,6 +29786,19 @@
                                             "68": 0.784580602,
                                             "72": 2.428690447
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -30257,19 +30257,6 @@
                                 "seasonOutlook": "The Patriots D/ST is the reigning top-scoring fantasy unit and has now finished top 10 in nine of the last 11 seasons. New England last finished lower than third in INTs in 2017 and has ranked 11th or better in points allowed in 10 straight seasons. The Patriots have also had a knack for scoring non-offensive TDs, producing at least three in five straight seasons. Incredibly, of the top 22 Patriots defenders in 2022 snaps, 21 remain under contract, with retired Devin McCourty the exception. As usual, the Patriots defense doesn't look loaded on paper, but it's solid across the board and Bill Belichick almost always gets the most out of his personnel. You can never go wrong with the New England D/ST.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 6.218106347470588,
                                         "appliedStats": {
                                             "96": 17.847802684,
@@ -30373,6 +30360,19 @@
                                             "120": 40.03719749,
                                             "127": 348.6590371
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -31088,19 +31088,6 @@
                                 "seasonOutlook": "Myers finished fourth in fantasy points last season -- his third top 10 in the last five seasons. He produced a position-best 12 top-10 fantasy weeks. The veteran kicker's year-to-year accuracy has been all over the map, but he was terrific in 2022. Including the playoffs, he nailed 35 of 38 FG attempts (92.1%) and 43 of 44 XP tries (97.7%). Tracing back to 2017, Myers has been extremely accurate in even years and terribly inaccurate in odd years, so it's too be seen which version of the 32-year-old we get in 2023. Seattle's kicker is fine starting option in fantasy.",
                                 "stats": [
                                     {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
-                                    },
-                                    {
                                         "appliedAverage": 8.15265302735294,
                                         "appliedStats": {
                                             "80": 49.37289654,
@@ -31158,6 +31145,19 @@
                                             "199": 4.63646632,
                                             "200": 2.196123636
                                         }
+                                    },
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {

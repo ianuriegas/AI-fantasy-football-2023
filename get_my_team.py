@@ -6,12 +6,12 @@ Gets players from my team and puts them into a list
 """
 teams = [
     {"league_id": 1431185954, "team_id": 4},
-    {"league_id": 666403773, "team_id": 1},
-    {"league_id": 1510308944, "team_id": 6},
-    {"league_id": 2082362407, "team_id": 1},
-    {"league_id": 1923771045, "team_id": 6},
-    # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
-    {"league_id": 1542218952, "team_id": 7},
+    # {"league_id": 666403773, "team_id": 1},
+    # {"league_id": 1510308944, "team_id": 6},
+    # {"league_id": 2082362407, "team_id": 1},
+    # {"league_id": 1923771045, "team_id": 6},
+    # # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
+    # {"league_id": 1542218952, "team_id": 7},
 ]
 
 
@@ -52,25 +52,28 @@ def get_players_list(league_id, team_id):
 
         for entry in entries:
             if entry["playerPoolEntry"]["player"]["defaultPositionId"] in POSITION_MAP:
-                temp_position = POSITION_MAP[entry["playerPoolEntry"]["player"]["defaultPositionId"]]
+                temp_position = POSITION_MAP[entry["playerPoolEntry"]
+                                             ["player"]["defaultPositionId"]]
             elif "D/ST" in entry["playerPoolEntry"]["player"]["fullName"]:
                 temp_position = "defense"
             else:
                 # Default to "unknown" if position is not in POSITION_MAP
                 temp_position = "unknown"
-            
+
             if entry["playerPoolEntry"]["player"]["injured"] is False:
                 injured = 20
             else:
-                injured = 0 
+                injured = 0
 
             player_info = {
                 "player_name": entry["playerPoolEntry"]["player"]["fullName"],
-                "id": entry["playerPoolEntry"]["player"]["id"],                 # <------delete this line from the json in position_sorter.py
-                "position": temp_position,                                      # <------delete this line from the json in position_sorter.py || We need this to sort
-            #     "injured": entry["playerPoolEntry"]["player"]["injured"],
-            #     "week_proj_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1),
-            #     "season_avg_points": round(entry["playerPoolEntry"]["player"]["stats"][3]["appliedAverage"], 1),
+                # <------delete this line from the json in position_sorter.py
+                "id": entry["playerPoolEntry"]["player"]["id"],
+                # <------delete this line from the json in position_sorter.py || We need this to sort
+                "position": temp_position,
+                #     "injured": entry["playerPoolEntry"]["player"]["injured"],
+                #     "week_proj_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1),
+                #     "season_avg_points": round(entry["playerPoolEntry"]["player"]["stats"][3]["appliedAverage"], 1),
                 "team_id": entry["playerPoolEntry"]["player"]["proTeamId"],
 
                 "opponent_defense_rank": 0,
@@ -82,7 +85,6 @@ def get_players_list(league_id, team_id):
                 "injury_status": injured,
                 "next_game_points": round(entry["playerPoolEntry"]["player"]["stats"][2]["appliedTotal"], 1)
             }
-
 
             # # Map position_id to position using POSITION_MAP
             # if "D/ST" in player_info["name"]:
@@ -102,7 +104,23 @@ def get_players_list(league_id, team_id):
         return []
 
 
+def delete_files_in_folder(folder_path):
+    try:
+        for filename in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+        #         print(f"Deleted: {file_path}")
+        # print("All files in the folder have been deleted.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
 if __name__ == "__main__":
+    paths = ["data/league_data", "data/team_data"]
+    for path in paths:
+        delete_files_in_folder(path)
+
     print("=================================================================================================================")
     for team in teams:
         league_id = team["league_id"]

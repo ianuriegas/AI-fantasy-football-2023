@@ -8,10 +8,10 @@
         "team_offense_rank": 0,
         "weather_condition": 0,
         "days_since_last_game": 0,
-        "avg_points": 18.3,
+        "avg_points": 18.2,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 17.8
+        "next_game_points": 17.2
     },
     {
         "player_name": "Derrick Henry",
@@ -53,7 +53,7 @@
         "avg_points": 13.3,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 16.2
+        "next_game_points": 16.3
     },
     {
         "player_name": "Dameon Pierce",
@@ -67,7 +67,7 @@
         "avg_points": 12.8,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 13.1
+        "next_game_points": 13.6
     },
     {
         "player_name": "Deshaun Watson",
@@ -151,7 +151,7 @@
         "avg_points": 8.6,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 0.0
+        "next_game_points": 9.8
     },
     {
         "player_name": "Jordan Addison",
@@ -165,7 +165,7 @@
         "avg_points": 11.1,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 9.5
+        "next_game_points": 9.4
     },
     {
         "player_name": "Antonio Gibson",
@@ -179,7 +179,7 @@
         "avg_points": 11.1,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 10.6
+        "next_game_points": 10.7
     },
     {
         "player_name": "Tyler Higbee",
@@ -207,7 +207,7 @@
         "avg_points": 10.2,
         "is_home_game": 0,
         "injury_status": 20,
-        "next_game_points": 4.3
+        "next_game_points": 4.2
     },
     {
         "player_name": "Jason Myers",

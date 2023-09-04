@@ -6,12 +6,12 @@ Gets players from my team and puts them into a list
 """
 teams = [
     {"league_id": 1431185954, "team_id": 4},
-    {"league_id": 666403773, "team_id": 1},
-    {"league_id": 1510308944, "team_id": 6},
-    {"league_id": 2082362407, "team_id": 1},
-    {"league_id": 1923771045, "team_id": 6},
-    # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
-    {"league_id": 1542218952, "team_id": 7},
+    # {"league_id": 666403773, "team_id": 1},
+    # {"league_id": 1510308944, "team_id": 6},
+    # {"league_id": 2082362407, "team_id": 1},
+    # {"league_id": 1923771045, "team_id": 6},
+    # # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
+    # {"league_id": 1542218952, "team_id": 7},
 ]
 
 

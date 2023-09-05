@@ -1,12 +1,12 @@
 ===============================================================================================
-League Name: Pittsburgh Pro H2H Points PPR League
-Team Name: Wemby
-QB: Deshaun Watson
-RB: Derrick Henry
-RB: Bijan Robinson
-WR: Jaylen Waddle
-WR: Treylon Burks
-TE: Dallas Goedert
-Kicker: Jason Myers
-Defense: Patriots D/ST
+**League Name:** Pittsburgh Pro H2H Points PPR League
+**Team Name:** Wemby
+**QB**: Deshaun Watson
+**RB**: Derrick Henry
+**RB**: Bijan Robinson
+**WR**: Jaylen Waddle
+**WR**: Treylon Burks
+**TE**: Dallas Goedert
+**Kicker**: Jason Myers
+**Defense**: Patriots D/ST
 ===============================================================================================

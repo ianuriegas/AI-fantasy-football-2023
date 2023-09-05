@@ -12,7 +12,7 @@ player_info_file = "player_info.xlsx"
 def print_players(position_stats, position_name, max_count):
     count = 0
     for player_name, _ in position_stats:
-        print(f"{position_name}: {player_name}")
+        print(f"**{position_name}**: {player_name}")
         count += 1
         if count == max_count:
             break
@@ -112,8 +112,8 @@ def main():
                 kicker_stats = get_kicker_pytorch_stats(kicker_players)
                 defense_stats = get_defense_pytorch_stats(defense_players)
 
-                print("League Name:", league_name)
-                print("Team Name:", team_name)
+                print("**League Name:**", league_name)
+                print("**Team Name:**", team_name)
                 # qb_players_list = get_players(qb_stats, "QB", 1)
                 # print(qb_players_list)
                 # rb_players_list = get_players(rb_stats, "RB", 2)

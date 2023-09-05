@@ -12,6 +12,8 @@ teams = [
     {"league_id": 1923771045, "team_id": 6},
     # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
     {"league_id": 1542218952, "team_id": 7},
+    {"league_id": 134808853, "team_id": 6},
+    {"league_id": 949609208, "team_id": 2},
 ]
 
 
@@ -127,6 +129,7 @@ def get_league_and_team_name(league_id, team_id):
         # print(team_name)
         return league_name, team_name
 
+
 if __name__ == "__main__":
     paths = ["data/league_data", "data/team_data"]
     for path in paths:
@@ -145,7 +148,7 @@ if __name__ == "__main__":
 
         # Construct the filename and path
         filename = f"data/team_data/TEAM-{league_id}-{team_id}.json"
-       
+
         # Write the JSON data to the file
         with open(filename, "w") as json_file:
             json.dump(players_list, json_file, indent=4)

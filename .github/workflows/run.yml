@@ -2,7 +2,7 @@ name: Python run
 
 on:
   schedule:
-    - cron: '40 * * * *'  # This will run every hour
+    - cron: '35 * * * *'  # This will run every hour
 
 jobs:
   build:

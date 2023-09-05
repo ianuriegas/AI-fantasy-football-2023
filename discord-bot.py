@@ -9,6 +9,6 @@ with open(starter_list, "r") as f:
 
 # Send a message with file contents
 payload = {
-    "content": f"Optimal starting lineups for this week:\n{file_contents}"
+    "content": f"**@everyone**\n**Optimal starting lineups for this week:**\n{file_contents}"
 }
 requests.post(webhook_url, json=payload)

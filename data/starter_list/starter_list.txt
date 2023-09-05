@@ -1,4 +1,26 @@
 ===============================================================================================
+**League Name:** Tampa Bay Pro H2H Points PPR League
+**Team Name:** Team Uriegas
+**QB**: Justin Fields
+**RB**: Derrick Henry
+**RB**: Travis Etienne Jr.
+**WR**: Davante Adams
+**WR**: Odell Beckham Jr.
+**TE**: Evan Engram
+**Kicker**: Daniel Carlson
+**Defense**: Patriots D/ST
+===============================================================================================
+**League Name:** Arizona Pro H2H Points PPR League
+**Team Name:** Sochan
+**QB**: Daniel Jones
+**RB**: Josh Jacobs
+**RB**: Rachaad White
+**WR**: Justin Jefferson
+**WR**: Kadarius Toney
+**TE**: George Kittle
+**Kicker**: Matt Gay
+**Defense**: Bills D/ST
+===============================================================================================
 **League Name:** Pittsburgh Pro H2H Points PPR League
 **Team Name:** Wemby
 **QB**: Deshaun Watson
@@ -9,4 +31,59 @@
 **TE**: Dallas Goedert
 **Kicker**: Jason Myers
 **Defense**: Patriots D/ST
+===============================================================================================
+**League Name:** New Orleans Pro H2H Points PPR League
+**Team Name:** Tim Duncan
+**QB**: Tua Tagovailoa
+**RB**: Austin Ekeler
+**RB**: Zach Charbonnet
+**WR**: A.J. Brown
+**WR**: Amon-Ra St. Brown
+**TE**: Dallas Goedert
+**Kicker**: Eddy Pineiro
+**Defense**: Saints D/ST
+===============================================================================================
+**League Name:** Denver Beginner H2H Points PPR League
+**Team Name:** Python
+**QB**: Daniel Jones
+**RB**: Joe Mixon
+**RB**: Tony Pollard
+**WR**: Ja'Marr Chase
+**WR**: Skyy Moore
+**TE**: Zach Ertz
+**Kicker**: Younghoe Koo
+**Defense**: Browns D/ST
+===============================================================================================
+**League Name:** Baltimore Pro H2H Points PPR League
+**Team Name:** Popovich
+**QB**: Deshaun Watson
+**RB**: Breece Hall
+**RB**: Rachaad White
+**WR**: Cooper Kupp
+**WR**: Treylon Burks
+**TE**: Pat Freiermuth
+**Kicker**: Tyler Bass
+**Defense**: Steelers D/ST
+===============================================================================================
+**League Name:** Tampa Bay Beginner H2H Points PPR League
+**Team Name:** Team Uriegas
+**QB**: Deshaun Watson
+**RB**: Brian Robinson Jr.
+**RB**: Rachaad White
+**WR**: Justin Jefferson
+**WR**: Calvin Ridley
+**TE**: Mark Andrews
+**Kicker**: Matt Gay
+**Defense**: Dolphins D/ST
+===============================================================================================
+**League Name:** Tampa Bay Pro H2H Points PPR League
+**Team Name:** Luka Doncic
+**QB**: Lamar Jackson
+**RB**: Aaron Jones
+**RB**: Alexander Mattison
+**WR**: Ja'Marr Chase
+**WR**: DJ Chark Jr.
+**TE**: Darren Waller
+**Kicker**: Graham Gano
+**Defense**: Packers D/ST
 ===============================================================================================

@@ -2545,8 +2545,8 @@
                 },
                 {
                     "enabled": true,
-                    "id": "ab3c1d28-d342-39b7-b432-8aaae63cc956",
-                    "type": "KEY_STAT_UPDATE"
+                    "id": "0d016fdc-ecfa-3eee-b8c4-c395858b4920",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
@@ -2555,8 +2555,8 @@
                 },
                 {
                     "enabled": true,
-                    "id": "0d016fdc-ecfa-3eee-b8c4-c395858b4920",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "ab3c1d28-d342-39b7-b432-8aaae63cc956",
+                    "type": "KEY_STAT_UPDATE"
                 },
                 {
                     "enabled": true,
@@ -2590,13 +2590,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "18398e85-ebdb-3413-a61e-a07da97ad04b",
-                    "type": "DRAFT"
+                    "id": "3343b7bb-396d-3d3f-a222-bb5328bb0b48",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
-                    "id": "3343b7bb-396d-3d3f-a222-bb5328bb0b48",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "18398e85-ebdb-3413-a61e-a07da97ad04b",
+                    "type": "DRAFT"
                 },
                 {
                     "enabled": true,
@@ -2645,13 +2645,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "ada4396b-84a1-3746-855e-07fb433b3558",
-                    "type": "REDZONE"
+                    "id": "e8177b60-8341-3501-91f9-3b258e2550f0",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "e8177b60-8341-3501-91f9-3b258e2550f0",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "ada4396b-84a1-3746-855e-07fb433b3558",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -2675,13 +2675,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "222f35a3-e7ce-3b34-ab89-43fecec83430",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "84b1ae47-e941-373f-8f4e-04042252e8c1",
+                    "type": "TEAM_MATCHUP_SCORE"
                 },
                 {
                     "enabled": true,
-                    "id": "84b1ae47-e941-373f-8f4e-04042252e8c1",
-                    "type": "TEAM_MATCHUP_SCORE"
+                    "id": "222f35a3-e7ce-3b34-ab89-43fecec83430",
+                    "type": "TEAM_PLAYER_NEWS"
                 }
             ]
         },
@@ -2750,13 +2750,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "30ebf9fb-9077-35f8-b71d-9d606387562c",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "a6d83802-eb47-3ced-bd6e-71d90dc2c89a",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "a6d83802-eb47-3ced-bd6e-71d90dc2c89a",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "30ebf9fb-9077-35f8-b71d-9d606387562c",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -2775,23 +2775,23 @@
                 },
                 {
                     "enabled": true,
-                    "id": "0c37ea67-97d5-3a06-8a1b-ba88630deb4a",
-                    "type": "TEAM_PLAYER_AVAILABILITY"
-                },
-                {
-                    "enabled": true,
                     "id": "e4b2ac10-16e6-3deb-ba8f-6111c0d622e6",
                     "type": "DRAFT"
                 },
                 {
                     "enabled": true,
-                    "id": "24e95bf0-615b-3fd0-ac2e-272f28c883ea",
-                    "type": "REDZONE"
+                    "id": "0c37ea67-97d5-3a06-8a1b-ba88630deb4a",
+                    "type": "TEAM_PLAYER_AVAILABILITY"
                 },
                 {
                     "enabled": true,
                     "id": "efe7a599-8cf8-38bd-8674-1e8e3bd9b77d",
                     "type": "TEAM_MATCHUP_SCORE"
+                },
+                {
+                    "enabled": true,
+                    "id": "24e95bf0-615b-3fd0-ac2e-272f28c883ea",
+                    "type": "REDZONE"
                 }
             ]
         },
@@ -2820,8 +2820,8 @@
                 },
                 {
                     "enabled": true,
-                    "id": "f406c9b6-0cc4-30b7-9988-4cccb99be3c8",
-                    "type": "TEAM_PLAYER_STARTBENCH"
+                    "id": "1e1dfdf9-6cad-3250-82d7-f292b885bf5f",
+                    "type": "TEAM_PLAYER_INJURY"
                 },
                 {
                     "enabled": true,
@@ -2830,8 +2830,8 @@
                 },
                 {
                     "enabled": true,
-                    "id": "1e1dfdf9-6cad-3250-82d7-f292b885bf5f",
-                    "type": "TEAM_PLAYER_INJURY"
+                    "id": "f406c9b6-0cc4-30b7-9988-4cccb99be3c8",
+                    "type": "TEAM_PLAYER_STARTBENCH"
                 },
                 {
                     "enabled": true,
@@ -2930,13 +2930,13 @@
                 },
                 {
                     "enabled": true,
-                    "id": "cffd3bad-5820-3c2d-a25c-aa1793a9cd0d",
-                    "type": "TEAM_PLAYER_NEWS"
+                    "id": "3a28647c-9121-3c0a-977c-8ed28e343e35",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "3a28647c-9121-3c0a-977c-8ed28e343e35",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "cffd3bad-5820-3c2d-a25c-aa1793a9cd0d",
+                    "type": "TEAM_PLAYER_NEWS"
                 },
                 {
                     "enabled": true,
@@ -3025,13 +3025,13 @@
             "notificationSettings": [
                 {
                     "enabled": true,
-                    "id": "3d8064f2-a225-385f-bd5c-25e7e5774f23",
-                    "type": "REDZONE"
+                    "id": "2f63e716-26f8-36bb-ba55-e8b3402aa0d1",
+                    "type": "TEAM_TRADE_OFFER"
                 },
                 {
                     "enabled": true,
-                    "id": "2f63e716-26f8-36bb-ba55-e8b3402aa0d1",
-                    "type": "TEAM_TRADE_OFFER"
+                    "id": "3d8064f2-a225-385f-bd5c-25e7e5774f23",
+                    "type": "REDZONE"
                 },
                 {
                     "enabled": true,
@@ -19956,7 +19956,7 @@
         "standingsUpdateDate": 1689628582301,
         "teamsJoined": 10,
         "transactionScoringPeriod": 1,
-        "waiverLastExecutionDate": 1693811636293,
+        "waiverLastExecutionDate": 1693897322005,
         "waiverProcessStatus": {
             "2023-07-19T07:14:25.448+0000": 2,
             "2023-08-15T07:03:20.061+0000": 1
@@ -20484,11 +20484,11 @@
                                 "lastNewsDate": 1692413306000,
                                 "lastVideoDate": 1693238166000,
                                 "ownership": {
-                                    "auctionValueAverage": 53.61981910346884,
-                                    "averageDraftPosition": 10.250551673219187,
-                                    "percentChange": 0.18745193819397343,
-                                    "percentOwned": 99.79264670702466,
-                                    "percentStarted": 99.10072728631047
+                                    "auctionValueAverage": 53.63663860050683,
+                                    "averageDraftPosition": 10.260193656978156,
+                                    "percentChange": 0.14249995838508767,
+                                    "percentOwned": 99.81313524223158,
+                                    "percentStarted": 99.16711907853497
                                 },
                                 "proTeamId": 1,
                                 "rankings": {
@@ -20668,7 +20668,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 6,
+                                            "rank": 4,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 2
@@ -20692,14 +20692,14 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 6,
+                                            "rank": 4,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 4.75,
+                                            "averageRank": 4.25,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -20708,7 +20708,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 4.375,
+                                            "averageRank": 4.125,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -20727,6 +20727,19 @@
                                 },
                                 "seasonOutlook": "Robinson was selected in the first round of April's draft. The 5-foot-11, 215-pound Texas product is easily the class of the 2023 rookie RB class, with the size, speed (4.46 40-yard dash) and skill set to be a three-down superstar in the pros. Robinson's collegiate rushing efficiency was elite, as he posted a 4.1 YAC (fourth in this year's rookie class) and 3.0 forced missed tackle rate (first) during 31 games. He's also a capable receiver, having posted a 60-805-8 line in his career, which included a class best YPR (13.4) and YPT (9.8). All six RBs drafted in the top 10 since 2011 have finished their rookie season top 15 in fantasy PPG (three finished top five), which only adds to Robinson's 2023 appeal. He's a no-brainer top pick in 2023 rookie drafts and a strong RB1 with elite upside in season-long formats.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 18.178097739428573,
                                         "appliedStats": {
@@ -20815,19 +20828,6 @@
                                             "68": 1.245281921,
                                             "72": 2.930332032
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21071,11 +21071,11 @@
                                 "lastNewsDate": 1686160324000,
                                 "lastVideoDate": 1693326603000,
                                 "ownership": {
-                                    "auctionValueAverage": 50.562879013818474,
-                                    "averageDraftPosition": 11.280143941430728,
-                                    "percentChange": 0.03386065751641354,
-                                    "percentOwned": 99.90295938122897,
-                                    "percentStarted": 99.51892967614978
+                                    "auctionValueAverage": 50.66993704521298,
+                                    "averageDraftPosition": 11.252147668560985,
+                                    "percentChange": 0.024096697222248054,
+                                    "percentOwned": 99.90905090420893,
+                                    "percentStarted": 99.54455491261541
                                 },
                                 "proTeamId": 10,
                                 "rankings": {
@@ -21315,6 +21315,19 @@
                                 "seasonOutlook": "Henry is back for his eighth season in Tennessee following another huge showing in 2022. The big man led the NFL in carries for the third time in four seasons and showed he was still at the top of his game, averaging 2.54 yards after contact (third highest). Henry expanded his game a bit as well, setting career-high marks in targets, receptions and receiving yards, while pacing all backs in yards per reception and yards per target. Henry is entering his age-29 season, but he's been a top-four fantasy back on a per-game basis each of the past four seasons and he's shown no signs of slowing down. Especially with the expanded passing-game role, Henry is secure as a midrange RB1.",
                                 "stats": [
                                     {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
+                                    {
                                         "appliedAverage": 17.87576425357143,
                                         "appliedStats": {
                                             "53": 33.20890718,
@@ -21402,19 +21415,6 @@
                                             "68": 2.609795389,
                                             "72": 1.929210733
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -21822,11 +21822,11 @@
                                 "lastNewsDate": 1693339599000,
                                 "lastVideoDate": 1692290410000,
                                 "ownership": {
-                                    "auctionValueAverage": 33.169698777214435,
-                                    "averageDraftPosition": 26.675740178519725,
-                                    "percentChange": 0.06895902197774717,
-                                    "percentOwned": 99.70005865307738,
-                                    "percentStarted": 94.6614572984933
+                                    "auctionValueAverage": 33.15902215681465,
+                                    "averageDraftPosition": 26.77039928122925,
+                                    "percentChange": 0.04861754572435473,
+                                    "percentOwned": 99.7072864954414,
+                                    "percentStarted": 94.63314266845019
                                 },
                                 "proTeamId": 15,
                                 "rankings": {
@@ -22013,6 +22013,15 @@
                                         },
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 12.0,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
                                             "published": true,
                                             "rank": 11,
                                             "rankSourceId": 11,
@@ -22029,11 +22038,11 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 12.0,
+                                            "averageRank": 11.625,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
-                                            "rankType": "STANDARD",
+                                            "rankType": "PPR",
                                             "slotId": 4
                                         },
                                         {
@@ -22041,15 +22050,6 @@
                                             "published": true,
                                             "rank": 9,
                                             "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 11.625,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -22065,6 +22065,19 @@
                                 },
                                 "seasonOutlook": "Waddle has finished each of his first two NFL seasons as a top-15 fantasy WR, but he took very different paths each year. As a rookie in 2021, Waddle was a short-range target (7.0 aDOT) and caught 104 passes for 1,015 yards and six TDs. Last season, Waddle played more of a downfield role (12.0 aDOT) and led all WRs in yards per reception (18.1) and yards per target (11.6) while finishing second in RAC (7.0). His reception total plummeted, but his yardage skyrocketed and his numbers actually would've been better if Tua Tagovailoa missed less time (287 yards and zero TDs in five games Tagovailoa was out or left injured). More goal line work would be nice (he has eight career end zone targets), but Waddle is a budding star and a featured target in a good offense. The 24-year-old is a fringe WR1.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 15.278948766933333,
                                         "appliedStats": {
@@ -22150,19 +22163,6 @@
                                             "68": 1.629017034,
                                             "72": 1.35136958
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -22557,11 +22557,11 @@
                                 "lastNewsDate": 1693446629000,
                                 "lastVideoDate": 1692913638000,
                                 "ownership": {
-                                    "auctionValueAverage": 30.78103568233774,
-                                    "averageDraftPosition": 26.603939305575373,
-                                    "percentChange": 0.08416469006972704,
-                                    "percentOwned": 99.79559041150543,
-                                    "percentStarted": 95.81182873464743
+                                    "auctionValueAverage": 30.89340309000245,
+                                    "averageDraftPosition": 26.55314342781054,
+                                    "percentChange": 0.06157536426511001,
+                                    "percentOwned": 99.80628222070955,
+                                    "percentStarted": 95.99635930905227
                                 },
                                 "proTeamId": 26,
                                 "rankings": {
@@ -22733,7 +22733,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 7,
+                                            "rank": 9,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 4
@@ -22741,7 +22741,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 7,
+                                            "rank": 9,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -22764,7 +22764,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 8.25,
+                                            "averageRank": 8.75,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -22781,7 +22781,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 9.875,
+                                            "averageRank": 10.125,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -22800,6 +22800,19 @@
                                 },
                                 "seasonOutlook": "Metcalf appeared to be in line for a step back last season as Seattle transitioned from Russell Wilson to Geno Smith at quarterback. Instead, Metcalf hit career highs in targets and receptions en route to his third consecutive top-16 fantasy campaign. Metcalf has actually finished outside the top 20 in fantasy PPG each of the last two seasons, but he hasn't missed a single game and he had some horrific TD luck last season. The big man saw 24 end zone targets (nine more than any other player) but found the end zone only six times (nearly half of his WR-high expected total of 11.0). Metcalf is in his prime at age 25, a lock for a huge target share and a good bet for more TDs. He's a fringe WR1.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 15.014498307866669,
                                         "appliedStats": {
@@ -22865,19 +22878,6 @@
                                             "68": 1.709725185,
                                             "72": 1.595411164
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23196,11 +23196,11 @@
                                 "lastNewsDate": 1693195371000,
                                 "lastVideoDate": 1691683827000,
                                 "ownership": {
-                                    "auctionValueAverage": 20.283626603042052,
-                                    "averageDraftPosition": 43.992422362303735,
-                                    "percentChange": 1.2818979421870296,
-                                    "percentOwned": 97.44586054082237,
-                                    "percentStarted": 78.1808124415847
+                                    "auctionValueAverage": 20.81064508216826,
+                                    "averageDraftPosition": 43.357763635468096,
+                                    "percentChange": 1.0158891614543535,
+                                    "percentOwned": 97.57899994962808,
+                                    "percentStarted": 78.91473714256931
                                 },
                                 "proTeamId": 34,
                                 "rankings": {
@@ -23380,7 +23380,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 22,
+                                            "rank": 20,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 2
@@ -23404,14 +23404,14 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 22,
+                                            "rank": 20,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 21.75,
+                                            "averageRank": 21.25,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -23420,7 +23420,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 21.75,
+                                            "averageRank": 21.5,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -23439,6 +23439,19 @@
                                 },
                                 "seasonOutlook": "Pierce enters 2023 atop the depth chart in Houston, but he'll have more competition for touches after the team signed reliable veteran Devin Singletary. Pierce was promoted into a feature role in Week 2 of his rookie campaign and was fantasy's No. 14 RB prior to missing the final four games of the season with an ankle injury. The 2022 fourth-round pick had trouble finding the end zone (five TDs on 250 touches) and with receiving efficiency (4.1 yards per target), though neither is a shock considering the team's QB woes. Pierce may see a reduction from the 16.9 carries and 3.1 targets per game he saw last season with Singletary in the mix, but the 23-year-old looks the part of a lead back and is primed for a step forward in 2023. He's in the RB2 mix.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 14.526806336714285,
                                         "appliedStats": {
@@ -23527,19 +23540,6 @@
                                             "68": 1.245281921,
                                             "72": 2.930332032
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -23933,11 +23933,11 @@
                                 "lastNewsDate": 1693083237000,
                                 "lastVideoDate": 1693411331000,
                                 "ownership": {
-                                    "auctionValueAverage": 6.646512092744353,
-                                    "averageDraftPosition": 75.51571087104793,
-                                    "percentChange": 2.089605755936475,
-                                    "percentOwned": 93.11536586220852,
-                                    "percentStarted": 64.04660078459366
+                                    "auctionValueAverage": 6.6672147319960535,
+                                    "averageDraftPosition": 75.52007866641694,
+                                    "percentChange": 1.3432399765023746,
+                                    "percentOwned": 93.25572456438881,
+                                    "percentStarted": 63.978626609562475
                                 },
                                 "proTeamId": 5,
                                 "rankings": {
@@ -24177,6 +24177,19 @@
                                 "seasonOutlook": "The 2023 season will be Watson's first as Cleveland's full-time starter. The former Texan was suspended for 11 games last season and struggled upon his return, ranking 22nd in fantasy points per game. On the plus side, he finished strong with his only two top-eight weekly finishes and he was his usual productive self with his legs (fourth at QB in rushing yards during six active weeks). Watson, who was a top-five fantasy QB in three straight seasons prior to missing 2021, is a good bet to improve in his second season with the Browns. He'll be working behind a good offensive line and has a solid group of targets led by Amari Cooper and David Njoku. It's safest to view Watson as a fringe QB1, but he has elite upside.",
                                 "stats": [
                                     {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
+                                    {
                                         "appliedAverage": 18.71809714175,
                                         "appliedStats": {
                                             "19": 2.85655329,
@@ -24275,19 +24288,6 @@
                                             "68": 3.037232686,
                                             "72": 1.473437798
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -24720,11 +24720,11 @@
                                 "lastNewsDate": 1693073442000,
                                 "lastVideoDate": 1693410997000,
                                 "ownership": {
-                                    "auctionValueAverage": 11.881323924063214,
-                                    "averageDraftPosition": 60.07440397405777,
-                                    "percentChange": 1.398820126881688,
-                                    "percentOwned": 95.84782429012856,
-                                    "percentStarted": 63.173551328187585
+                                    "auctionValueAverage": 11.900269762118858,
+                                    "averageDraftPosition": 60.16741482006104,
+                                    "percentChange": 0.9400549668253575,
+                                    "percentOwned": 95.95584711595168,
+                                    "percentStarted": 63.742053467301254
                                 },
                                 "proTeamId": 3,
                                 "rankings": {
@@ -24896,7 +24896,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 23,
+                                            "rank": 29,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 4
@@ -24904,7 +24904,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 23,
+                                            "rank": 29,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -24927,7 +24927,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 20.75,
+                                            "averageRank": 22.25,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -24944,7 +24944,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 26.125,
+                                            "averageRank": 26.875,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -24963,6 +24963,19 @@
                                 },
                                 "seasonOutlook": "Moore was traded to the Bears after spending his first five NFL seasons with the Panthers. The 26-year-old has handled a target share of at least 24% and has finished as a top-25 fantasy WR each of the last four seasons. Moore figures to maintain a generous target share in Chicago, but he's moving to an offense that ranked 31st in WR targets, 30th in snaps and was second run-heaviest in the league last season. Those numbers figure to improve a bit, but perhaps not a ton with Justin Fields (who ranked first in scrambles last season) under center. Moore, who has cleared four TDs once in his career, is best viewed as a WR3.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 13.589664246866668,
                                         "appliedStats": {
@@ -25050,19 +25063,6 @@
                                             "68": 1.854593475,
                                             "72": 1.656291199
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -25441,11 +25441,11 @@
                                 "lastNewsDate": 1691880909000,
                                 "lastVideoDate": 1693498619000,
                                 "ownership": {
-                                    "auctionValueAverage": 6.773802424965216,
-                                    "averageDraftPosition": 69.00498839763237,
-                                    "percentChange": 1.2891880849820723,
-                                    "percentOwned": 96.08978730235937,
-                                    "percentStarted": 84.60910589420911
+                                    "auctionValueAverage": 6.779058361942129,
+                                    "averageDraftPosition": 68.91519366810188,
+                                    "percentChange": 0.8776054517016973,
+                                    "percentOwned": 96.2085589893595,
+                                    "percentStarted": 84.70508643433278
                                 },
                                 "proTeamId": 21,
                                 "rankings": {
@@ -25685,6 +25685,19 @@
                                 "seasonOutlook": "Goedert finished a career-best fifth in fantasy PPG last season and the veteran tight end has been 11th or better in the category in four consecutive campaigns. The 2018 second-round pick has been super-efficient, pacing the position in yards per target each of the past two seasons and ranking top five in RAC both years. On the other hand, Goedert has been limited by a lack of goal line work (he's never cleared five TDs in a season and has exactly two end zone targets each of the past two seasons) and shaky durability (his last full season was 2018 and he's missed 13 games over the past four seasons). The 28-year-old will maintain a substantial role in the high-scoring Eagles offense (only A.J. Brown and DeVonta Smith are ahead of him for targets) and he is a solid TE1 target.",
                                 "stats": [
                                     {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
+                                    {
                                         "appliedAverage": 10.594817974571429,
                                         "appliedStats": {
                                             "53": 62.31089296,
@@ -25747,19 +25760,6 @@
                                             "68": 1.330271681,
                                             "72": 1.160248811
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26068,11 +26068,11 @@
                                 "lastNewsDate": 1693106364000,
                                 "lastVideoDate": 1692728524000,
                                 "ownership": {
-                                    "auctionValueAverage": 4.721841137289989,
-                                    "averageDraftPosition": 88.67025692251376,
-                                    "percentChange": 2.3521161268380553,
-                                    "percentOwned": 91.47813025285218,
-                                    "percentStarted": 28.287257251171273
+                                    "auctionValueAverage": 4.769601831411986,
+                                    "averageDraftPosition": 88.87708014171629,
+                                    "percentChange": 1.557952286580857,
+                                    "percentOwned": 91.60204088057574,
+                                    "percentStarted": 28.892186348935173
                                 },
                                 "proTeamId": 30,
                                 "rankings": {
@@ -26244,7 +26244,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 29,
+                                            "rank": 31,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 4
@@ -26252,7 +26252,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 29,
+                                            "rank": 31,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -26275,7 +26275,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 30.0,
+                                            "averageRank": 30.5,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -26292,7 +26292,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 31.5,
+                                            "averageRank": 31.75,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -26311,6 +26311,19 @@
                                 },
                                 "seasonOutlook": "Kirk signed with the Jaguars last offseason and proceeded to have the best season of his career. The 2018 second-round pick posted modest numbers during four seasons in Arizona but was a featured target in Jacksonville and ended up no lower than 15th among WRs in targets, receptions, yards, TDs and fantasy points. The 26-year-old will remain a featured target in a Jaguars offense on the ascent, but the arrival of Calvin Ridley figures to reduce his volume a bit. Kirk had never produced a top-25 fantasy campaign prior to 2022 and, especially with Ridley, Zay Jones, Evan Engram and Travis Etienne in the mix this season, he's safest viewed as a high-floor WR3 in 2023.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 12.636532466733335,
                                         "appliedStats": {
@@ -26396,19 +26409,6 @@
                                             "68": 1.109085965,
                                             "72": 0.649043468
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -26779,11 +26779,11 @@
                                 "lastNewsDate": 1692670107000,
                                 "lastVideoDate": 1692723873000,
                                 "ownership": {
-                                    "auctionValueAverage": 3.8786402942053475,
-                                    "averageDraftPosition": 102.30974928288245,
-                                    "percentChange": 3.0436730858983765,
-                                    "percentOwned": 87.21105725328253,
-                                    "percentStarted": 13.030468483633234
+                                    "auctionValueAverage": 3.9089348483609907,
+                                    "averageDraftPosition": 102.55569652501784,
+                                    "percentChange": 2.0340934177895917,
+                                    "percentOwned": 87.3477674423811,
+                                    "percentStarted": 13.731642544522426
                                 },
                                 "proTeamId": 28,
                                 "rankings": {
@@ -26970,6 +26970,15 @@
                                         },
                                         {
                                             "auctionValue": 0,
+                                            "averageRank": 31.25,
+                                            "published": true,
+                                            "rank": 0,
+                                            "rankSourceId": 0,
+                                            "rankType": "STANDARD",
+                                            "slotId": 4
+                                        },
+                                        {
+                                            "auctionValue": 0,
                                             "published": true,
                                             "rank": 29,
                                             "rankSourceId": 11,
@@ -26986,11 +26995,11 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 31.25,
+                                            "averageRank": 32.875,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
-                                            "rankType": "STANDARD",
+                                            "rankType": "PPR",
                                             "slotId": 4
                                         },
                                         {
@@ -26998,15 +27007,6 @@
                                             "published": true,
                                             "rank": 23,
                                             "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 4
-                                        },
-                                        {
-                                            "auctionValue": 0,
-                                            "averageRank": 32.875,
-                                            "published": true,
-                                            "rank": 0,
-                                            "rankSourceId": 0,
                                             "rankType": "PPR",
                                             "slotId": 4
                                         },
@@ -27022,6 +27022,19 @@
                                 },
                                 "seasonOutlook": "Dotson is entering his second NFL season following an impressive, but fairly unheralded rookie campaign. The 2022 first-round pick missed five games due to injury but finished the year strong. He handled a target share of at least 21% in each of the team's final five games, which produced a 21-344-3 receiving line and 14.7 fantasy PPG (17th among WRs). And that came with Terry McLaurin averaging 15.5 PPG (13th-best) during the same span. Dotson's WR-high 11.3% TD rate isn't sustainable and his vertical role (14.4 aDOT ranked fourth) may lead to volatile production, but he's a good bet for a boost in volume in Year 2. He's a breakout candidate who you should be on your radar in the middle rounds.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 11.593926562,
                                         "appliedStats": {
@@ -27087,19 +27100,6 @@
                                             "68": 0.212255415,
                                             "72": 2.358709913
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -27417,11 +27417,11 @@
                                 "lastNewsDate": 1693504568000,
                                 "lastVideoDate": 1692805998000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.5334526294860324,
-                                    "averageDraftPosition": 121.49251030440654,
-                                    "percentChange": 0.3697477590916094,
-                                    "percentOwned": 80.0973420099758,
-                                    "percentStarted": 3.39353893203544
+                                    "auctionValueAverage": 1.568310031886191,
+                                    "averageDraftPosition": 121.06242548175726,
+                                    "percentChange": 0.8636514340162336,
+                                    "percentOwned": 80.19408401259007,
+                                    "percentStarted": 3.525931854418101
                                 },
                                 "proTeamId": 10,
                                 "rankings": {
@@ -27593,7 +27593,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 37,
+                                            "rank": 41,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 4
@@ -27601,7 +27601,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 37,
+                                            "rank": 41,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -27624,7 +27624,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 41.75,
+                                            "averageRank": 42.75,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -27641,7 +27641,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 44.625,
+                                            "averageRank": 45.125,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -27660,6 +27660,19 @@
                                 },
                                 "seasonOutlook": "Burks was selected in the first round of the 2022 draft and was on the field for 11 games during his rookie campaign. The Arkansas product struggled to make much of an impact and ended up with only three weekly fantasy finishes better than 45th. On the plus side, Tennessee manufactured touches for him (47 yards on four carries) and he was terrific with the ball in his hands (5.3 RAC ranked 12th at WR). The 23-year-old will operate as the Titans' No. 2 wideout opposite DeAndre Hopkins and his production will be limited by Tennessee's run-heavy scheme. However, he's a first-round talent with potential for a Year 2 breakout. He's on the flex radar.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 11.751109502066667,
                                         "appliedStats": {
@@ -27747,19 +27760,6 @@
                                             "68": 0.212255415,
                                             "72": 2.358709913
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28147,11 +28147,11 @@
                                 "lastName": "Addison",
                                 "lastNewsDate": 1692819124000,
                                 "ownership": {
-                                    "auctionValueAverage": 3.426995328496173,
-                                    "averageDraftPosition": 109.8983004227228,
-                                    "percentChange": 3.638290467319308,
-                                    "percentOwned": 84.61027984127149,
-                                    "percentStarted": 6.444908758123392
+                                    "auctionValueAverage": 3.4843456224965257,
+                                    "averageDraftPosition": 110.2175502183332,
+                                    "percentChange": 2.375038619095676,
+                                    "percentOwned": 84.76783802880949,
+                                    "percentStarted": 6.608623258872666
                                 },
                                 "proTeamId": 16,
                                 "rankings": {
@@ -28323,7 +28323,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 48,
+                                            "rank": 43,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 4
@@ -28331,7 +28331,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 48,
+                                            "rank": 43,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 4
@@ -28354,7 +28354,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 45.5,
+                                            "averageRank": 44.25,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -28371,7 +28371,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 44.25,
+                                            "averageRank": 43.625,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -28390,6 +28390,19 @@
                                 },
                                 "seasonOutlook": "Addison was selected in the first round of April's draft. He's an undersized (173 pounds) slot receiver who was a big-time weapon at Pitt (including a 100-1,593-17 receiving line in 2021), but his usage dipped a bit in 2022 -- his lone season at USC (59-875-8). Addison's 29 career TDs (35 games) were second most in this rookie WR class and he cleaned up early-career drop woes in 2022. He underwhelmed athletically at the combine, which included a 4.49 40-yard dash at 173 pounds (85 speed score, third lowest among 50 WRs in this class), but he landed in a great spot as Justin Jefferson's running mate in a Vikings offense that ranks fifth in TDs over the past three seasons. Addison should play a ton out of the gate and is well worth a mid-to-late-round flier.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 11.189631984466669,
                                         "appliedStats": {
@@ -28474,19 +28487,6 @@
                                             "68": 0.212255415,
                                             "72": 2.358709913
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -28720,11 +28720,11 @@
                                 "lastNewsDate": 1692671288000,
                                 "lastVideoDate": 1693584983000,
                                 "ownership": {
-                                    "auctionValueAverage": 2.19212801908359,
-                                    "averageDraftPosition": 116.62130195870809,
-                                    "percentChange": 2.782909817140876,
-                                    "percentOwned": 82.72106421414624,
-                                    "percentStarted": 8.633070082646993
+                                    "auctionValueAverage": 2.1856453854328457,
+                                    "averageDraftPosition": 117.10569706357415,
+                                    "percentChange": 1.667787789634943,
+                                    "percentOwned": 82.74721715203994,
+                                    "percentStarted": 8.789119206145877
                                 },
                                 "proTeamId": 28,
                                 "rankings": {
@@ -28904,7 +28904,7 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 35,
+                                            "rank": 38,
                                             "rankSourceId": 3,
                                             "rankType": "STANDARD",
                                             "slotId": 2
@@ -28928,14 +28928,14 @@
                                         {
                                             "auctionValue": 0,
                                             "published": true,
-                                            "rank": 35,
+                                            "rank": 38,
                                             "rankSourceId": 3,
                                             "rankType": "PPR",
                                             "slotId": 2
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 34.25,
+                                            "averageRank": 35.0,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -28944,7 +28944,7 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "averageRank": 31.875,
+                                            "averageRank": 32.25,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
@@ -28963,6 +28963,19 @@
                                 },
                                 "seasonOutlook": "Gibson appeared to be budding into a feature back during his first two NFL seasons (2,373 yards and 21 TDs), but the 2020 third-round pick was demoted to a lesser role with Brian Robinson Jr. in the fold last season. In six full games together without J.D. McKissic, Gibson was limited to 31% of the carries (11.0 per game), but handled a hefty 14% of the targets (3.8). He wasn't much of a fantasy factor (9.3 PPG), but he'll find himself on the PPR flex radar in deeper leagues if he maintains the change-of-pace rushing role while handling most of Washington's passing-down work. The 25-year-old has a low ceiling as long as Robinson is in the mix, but he's a fine bench option.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 10.452785078142856,
                                         "appliedStats": {
@@ -29058,19 +29071,6 @@
                                             "101": 0.535096449,
                                             "114": 68.58078685
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -29480,11 +29480,11 @@
                                 "lastNewsDate": 1673231036000,
                                 "lastVideoDate": 1692653664000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.3059033989266546,
-                                    "averageDraftPosition": 123.20524280277962,
-                                    "percentChange": 2.0971059833986487,
-                                    "percentOwned": 82.15128745984387,
-                                    "percentStarted": 26.56726121311637
+                                    "auctionValueAverage": 1.329573320255027,
+                                    "averageDraftPosition": 122.21720624427826,
+                                    "percentChange": 1.7665246063588427,
+                                    "percentOwned": 82.40659377562358,
+                                    "percentStarted": 27.223041554610916
                                 },
                                 "proTeamId": 14,
                                 "rankings": {
@@ -29724,6 +29724,19 @@
                                 "seasonOutlook": "It was a rough 2022 season for the Rams, but that didn't stop Higbee from posting a career-best sixth-place fantasy finish. Granted, there was some survivorship bias (he finished 14th on a per-game basis after he was 13th in 2021), but the tight end cleared 100 targets for the first time and ranked fifth among tight ends in receptions. On the negative side, Higbee led the position in drops (eight) and was held to three TDs (he's yet to clear five in a season). The 30-year-old may continue to see a healthy target share in an offense lacking standouts behind Cooper Kupp. He has settled in as a fringe TE1, at best, in recent seasons, and it's fair to expect that to continue.",
                                 "stats": [
                                     {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
+                                    {
                                         "appliedAverage": 9.541514913066667,
                                         "appliedStats": {
                                             "53": 60.53224312,
@@ -29786,19 +29799,6 @@
                                             "68": 0.784580602,
                                             "72": 2.428690447
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -30093,11 +30093,11 @@
                                 "injured": false,
                                 "lastName": "D/ST",
                                 "ownership": {
-                                    "auctionValueAverage": 1.0549671679728871,
-                                    "averageDraftPosition": 146.31916048146755,
-                                    "percentChange": -0.7604180402676235,
-                                    "percentOwned": 71.05663873931665,
-                                    "percentStarted": 54.477690518308286
+                                    "auctionValueAverage": 1.051496901457624,
+                                    "averageDraftPosition": 146.4173928965647,
+                                    "percentChange": -2.14011078280231,
+                                    "percentOwned": 70.44130087749457,
+                                    "percentStarted": 53.710556612023574
                                 },
                                 "proTeamId": 17,
                                 "rankings": {
@@ -30257,6 +30257,19 @@
                                 "seasonOutlook": "The Patriots D/ST is the reigning top-scoring fantasy unit and has now finished top 10 in nine of the last 11 seasons. New England last finished lower than third in INTs in 2017 and has ranked 11th or better in points allowed in 10 straight seasons. The Patriots have also had a knack for scoring non-offensive TDs, producing at least three in five straight seasons. Incredibly, of the top 22 Patriots defenders in 2022 snaps, 21 remain under contract, with retired Devin McCourty the exception. As usual, the Patriots defense doesn't look loaded on paper, but it's solid across the board and Bill Belichick almost always gets the most out of his personnel. You can never go wrong with the New England D/ST.",
                                 "stats": [
                                     {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
+                                    {
                                         "appliedAverage": 6.218106347470588,
                                         "appliedStats": {
                                             "96": 17.847802684,
@@ -30360,19 +30373,6 @@
                                             "120": 40.03719749,
                                             "127": 348.6590371
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {
@@ -30844,11 +30844,11 @@
                                 "lastName": "Myers",
                                 "lastNewsDate": 1692668766000,
                                 "ownership": {
-                                    "auctionValueAverage": 1.0544879041374633,
-                                    "averageDraftPosition": 147.44243565974497,
-                                    "percentChange": 2.1374533753081693,
-                                    "percentOwned": 87.07297548201444,
-                                    "percentStarted": 80.60249858453965
+                                    "auctionValueAverage": 1.0600670515924753,
+                                    "averageDraftPosition": 147.11130641421744,
+                                    "percentChange": 1.90798960188188,
+                                    "percentOwned": 87.11227212864767,
+                                    "percentStarted": 80.67129629629629
                                 },
                                 "proTeamId": 26,
                                 "rankings": {
@@ -31028,19 +31028,19 @@
                                         },
                                         {
                                             "auctionValue": 0,
-                                            "published": true,
-                                            "rank": 3,
-                                            "rankSourceId": 11,
-                                            "rankType": "PPR",
-                                            "slotId": 17
-                                        },
-                                        {
-                                            "auctionValue": 0,
                                             "averageRank": 3.25,
                                             "published": true,
                                             "rank": 0,
                                             "rankSourceId": 0,
                                             "rankType": "STANDARD",
+                                            "slotId": 17
+                                        },
+                                        {
+                                            "auctionValue": 0,
+                                            "published": true,
+                                            "rank": 3,
+                                            "rankSourceId": 11,
+                                            "rankType": "PPR",
                                             "slotId": 17
                                         },
                                         {
@@ -31087,6 +31087,19 @@
                                 },
                                 "seasonOutlook": "Myers finished fourth in fantasy points last season -- his third top 10 in the last five seasons. He produced a position-best 12 top-10 fantasy weeks. The veteran kicker's year-to-year accuracy has been all over the map, but he was terrific in 2022. Including the playoffs, he nailed 35 of 38 FG attempts (92.1%) and 43 of 44 XP tries (97.7%). Tracing back to 2017, Myers has been extremely accurate in even years and terribly inaccurate in odd years, so it's too be seen which version of the 32-year-old we get in 2023. Seattle's kicker is fine starting option in fantasy.",
                                 "stats": [
+                                    {
+                                        "appliedAverage": 0.0,
+                                        "appliedStats": {},
+                                        "appliedTotal": 0.0,
+                                        "externalId": "2023",
+                                        "id": "002023",
+                                        "proTeamId": 0,
+                                        "scoringPeriodId": 0,
+                                        "seasonId": 2023,
+                                        "statSourceId": 0,
+                                        "statSplitTypeId": 0,
+                                        "stats": {}
+                                    },
                                     {
                                         "appliedAverage": 8.15265302735294,
                                         "appliedStats": {
@@ -31145,19 +31158,6 @@
                                             "199": 4.63646632,
                                             "200": 2.196123636
                                         }
-                                    },
-                                    {
-                                        "appliedAverage": 0.0,
-                                        "appliedStats": {},
-                                        "appliedTotal": 0.0,
-                                        "externalId": "2023",
-                                        "id": "002023",
-                                        "proTeamId": 0,
-                                        "scoringPeriodId": 0,
-                                        "seasonId": 2023,
-                                        "statSourceId": 0,
-                                        "statSplitTypeId": 0,
-                                        "stats": {}
                                     },
                                     {
                                         "appliedStats": {

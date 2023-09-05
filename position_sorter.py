@@ -4,6 +4,7 @@ import re
 # from qb import get_qb_pytorch_stats
 from rb import get_qb_pytorch_stats, get_rb_pytorch_stats, get_wr_pytorch_stats, get_te_pytorch_stats, get_kicker_pytorch_stats, get_defense_pytorch_stats
 import openpyxl
+from colorama import Fore, Back, Style, init
 # Path to the folder containing JSON files
 folder_path = "data/team_data"
 player_info_file = "player_info.xlsx"
@@ -76,12 +77,6 @@ def main():
     defense_players = []
     kicker_players = []
 
-    # Delete the player_info.xlsx file if it already exists
-    if os.path.exists(player_info_file):
-        os.remove(player_info_file)
-
-    wb = openpyxl.Workbook()
-
     for filename in os.listdir(folder_path):
         if filename.endswith(".json"):
             file_path = os.path.join(folder_path, filename)
@@ -109,8 +104,8 @@ def main():
                         kicker_players.append(player)
 
                 # print(json.dumps(rb_players, indent=4))
-                print("=================================================================================================================")
-
+                print(
+                    "===============================================================================================")
                 # Getting the sorted data arrays
                 qb_stats = get_qb_pytorch_stats(qb_players)
                 rb_stats = get_rb_pytorch_stats(rb_players)
@@ -121,40 +116,24 @@ def main():
 
                 print("League Name:", league_name)
                 print("Team Name:", team_name)
-
-                qb_players_list = get_players(qb_stats, "QB", 1)
-                print(qb_players_list)
-                rb_players_list = get_players(rb_stats, "RB", 2)
-                print(rb_players_list)
-                wr_players_list = get_players(wr_stats, "WR", 2)
-                print(wr_players_list)
-                te_players_list = get_players(te_stats, "TE", 1)
-                print(te_players_list)
-                kicker_players_list = get_players(kicker_stats, "Kicker", 1)
-                print(kicker_players_list)
-                defense_players_list = get_players(defense_stats, "Kicker", 1)
-                print(defense_players_list)
-
-                all_players = [
-                    qb_players_list,
-                    rb_players_list,
-                    wr_players_list,
-                    te_players_list,
-                    kicker_players_list,
-                    defense_players_list
-                ]
-                # Create a new worksheet for each league
-                sheet_title = league_name[:31]
-
-                ws = wb.create_sheet(sheet_title)
-
-                # Start from column B (index 2)
-                for col_idx, players in enumerate(all_players, start=2):
-                    for position, player_name in players:
-                        ws.cell(row=1, column=col_idx,
-                                value=position)  # Header row
-                        ws.cell(row=players.index((position, player_name)) + 2,
-                                column=col_idx, value=player_name)  # Data rows
+                # qb_players_list = get_players(qb_stats, "QB", 1)
+                # print(qb_players_list)
+                # rb_players_list = get_players(rb_stats, "RB", 2)
+                # print(rb_players_list)
+                # wr_players_list = get_players(wr_stats, "WR", 2)
+                # print(wr_players_list)
+                # te_players_list = get_players(te_stats, "TE", 1)
+                # print(te_players_list)
+                # kicker_players_list = get_players(kicker_stats, "Kicker", 1)
+                # print(kicker_players_list)
+                # defense_players_list = get_players(defense_stats, "Defense", 1)
+                # print(defense_players_list)
+                print_players(qb_stats, "QB", 1)
+                print_players(rb_stats, "RB", 2)
+                print_players(wr_stats, "WR", 2)
+                print_players(te_stats, "TE", 1)
+                print_players(kicker_stats, "Kicker", 1)
+                print_players(defense_stats, "Defense", 1)
 
                 qb_players = []
                 rb_players = []
@@ -162,8 +141,8 @@ def main():
                 te_players = []
                 kicker_players = []
                 defense_players = []
-    wb.save(player_info_file)
-    print("=================================================================================================================")
+
+    print("===============================================================================================")
 
 
 if __name__ == "__main__":

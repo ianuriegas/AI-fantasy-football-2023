@@ -1,6 +1,8 @@
 name: Python run
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: '30 16 * * *'  # This will run at 11:30 am CT (16:30 UTC)
 
 jobs:
   build:
@@ -14,7 +16,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      # we would want to freeze to see all the packages we need to install if possible and `pip freeze > requirements.txt`
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip

@@ -1,6 +1,6 @@
 name: Python run
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-
+      # we would want to freeze to see all the packages we need to install if possible and `pip freeze > requirements.txt`
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -24,4 +24,7 @@ jobs:
         run: python get_my_team.py
 
       - name: Position sorter + AI results.
-        run: python position_sorter.py
+        run: python position_sorter.py > data/starter_list/starter_list.txt
+
+      - name: Send results to Discord.
+        run: python discord-bot.py

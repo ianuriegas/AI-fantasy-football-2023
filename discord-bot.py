@@ -3,7 +3,7 @@ import logging
 import datetime
 import time
 def is_start_of_hour(time):
-    return time.minute == 7
+    return time.minute == 30
 
 logging.basicConfig(level=logging.DEBUG)  # Set logging level to DEBUG
 logger = logging.getLogger(__name__)

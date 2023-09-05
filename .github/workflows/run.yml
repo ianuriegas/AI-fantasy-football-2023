@@ -2,7 +2,7 @@ name: Python run
 
 on:
   schedule:
-    - cron: '45 * * * *'  # This will run at 45 minutes past the hour
+    - cron: '10 * * * *'  # This will run at 45 minutes past the hour
 
 jobs:
   build:

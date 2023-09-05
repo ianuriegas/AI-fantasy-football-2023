@@ -2,7 +2,7 @@ import os
 import json
 import re
 # from qb import get_qb_pytorch_stats
-from rb import get_qb_pytorch_stats, get_rb_pytorch_stats, get_wr_pytorch_stats, get_te_pytorch_stats, get_kicker_pytorch_stats, get_defense_pytorch_stats
+from torch_evaluation import get_qb_pytorch_stats, get_rb_pytorch_stats, get_wr_pytorch_stats, get_te_pytorch_stats, get_kicker_pytorch_stats, get_defense_pytorch_stats
 # Path to the folder containing JSON files
 folder_path = "data/team_data"
 player_info_file = "player_info.xlsx"

@@ -8,7 +8,7 @@ starter_list = "data/starter_list/starter_list.txt"
 def wait_until_end_of_hour():
     while True:
         current_minute = time.localtime().tm_min
-        if current_minute == 0:
+        if current_minute == 20:
             break
         time.sleep(60)  # Wait for a minute before checking again
 

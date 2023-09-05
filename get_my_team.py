@@ -6,12 +6,12 @@ Gets players from my team and puts them into a list
 """
 teams = [
     {"league_id": 1431185954, "team_id": 4},
-    # {"league_id": 666403773, "team_id": 1},
-    # {"league_id": 1510308944, "team_id": 6},
-    # {"league_id": 2082362407, "team_id": 1},
-    # {"league_id": 1923771045, "team_id": 6},
-    # # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
-    # {"league_id": 1542218952, "team_id": 7},
+    {"league_id": 666403773, "team_id": 1},
+    {"league_id": 1510308944, "team_id": 6},
+    {"league_id": 2082362407, "team_id": 1},
+    {"league_id": 1923771045, "team_id": 6},
+    # {"league_id": 448465869, "team_id": 6}, # This league doesn't work for some reason
+    {"league_id": 1542218952, "team_id": 7},
 ]
 
 
@@ -37,6 +37,7 @@ def get_players_list(league_id, team_id):
     if response.status_code == 200:
         data = response.json()
         make_league_data_json(league_id, team_id, data)
+
         entries = data["teams"][team_id-1]["roster"]["entries"]
 
         player_list = []
@@ -116,6 +117,16 @@ def delete_files_in_folder(folder_path):
         print(f"An error occurred: {e}")
 
 
+def get_league_and_team_name(league_id, team_id):
+    league_data_path = f"data/league_data/LEAGUE-{league_id}-{team_id}.json"
+    with open(league_data_path, "r") as json_file:
+        data = json.load(json_file)
+        league_name = data['settings']['name']
+        team_name = data['teams'][team_id-1]['name']
+        # print(league_name)
+        # print(team_name)
+        return league_name, team_name
+
 if __name__ == "__main__":
     paths = ["data/league_data", "data/team_data"]
     for path in paths:
@@ -134,7 +145,7 @@ if __name__ == "__main__":
 
         # Construct the filename and path
         filename = f"data/team_data/TEAM-{league_id}-{team_id}.json"
-
+       
         # Write the JSON data to the file
         with open(filename, "w") as json_file:
             json.dump(players_list, json_file, indent=4)

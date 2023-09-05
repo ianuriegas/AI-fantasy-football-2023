@@ -1,5 +1,6 @@
 import os
 import json
+import re
 # from qb import get_qb_pytorch_stats
 from rb import get_qb_pytorch_stats, get_rb_pytorch_stats, get_wr_pytorch_stats, get_te_pytorch_stats, get_kicker_pytorch_stats, get_defense_pytorch_stats
 # Path to the folder containing JSON files
@@ -31,12 +32,37 @@ def get_combined_length(*arrays):
     total_length = sum(len(arr) for arr in arrays)
     return total_length
 
+def parse_json_filename(filename):
+    pattern = r'TEAM-(\d+)-(\d+)\.json'
+    match = re.match(pattern, filename)
+    
+    if match:
+        league_id = match.group(1)
+        team_id = match.group(2)
+        return league_id, team_id
+    else:
+        return None, None
+
+def get_league_and_team_name(league_id, team_id):
+    league_data_path = f"data/league_data/LEAGUE-{league_id}-{team_id}.json"
+    with open(league_data_path, "r") as json_file:
+        data = json.load(json_file)
+        league_name = data['settings']['name']
+        team_name = data['teams'][team_id-1]['name']
+        # print(league_name)
+        # print(team_name)
+        return league_name, team_name
 
 # Iterate through each JSON file in the folder
 for filename in os.listdir(folder_path):
     if filename.endswith(".json"):
         file_path = os.path.join(folder_path, filename)
+        # print(filename)
+        league_id, team_id = parse_json_filename(filename)
+        league_name, team_name = get_league_and_team_name(league_id, int(team_id))
         with open(file_path, "r") as json_file:
+            # print(json_file)
+            
             data = json.load(json_file)
             for player in data:
                 position = player.get("position", "").lower()
@@ -55,6 +81,7 @@ for filename in os.listdir(folder_path):
 
             # print(json.dumps(rb_players, indent=4))
             print("=================================================================================================================")
+            
             # Getting the sorted data arrays
             qb_stats = get_qb_pytorch_stats(qb_players)
             rb_stats = get_rb_pytorch_stats(rb_players)
@@ -81,6 +108,8 @@ for filename in os.listdir(folder_path):
             # print(len(kicker_players))
             # print(len(defense_players))
             # print(f"Combined Length of All Arrays: {combined_length_2}")
+            print("League Name:", league_name)
+            print("Team Name:", team_name)
             print_players(qb_stats, "QB", 1)
             print_players(rb_stats, "RB", 2)
             print_players(wr_stats, "WR", 2)

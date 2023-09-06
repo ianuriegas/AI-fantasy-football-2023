@@ -2,7 +2,8 @@ name: Python run
 
 on:
   schedule:
-    - cron: '10 * * * *'  # This will run at 45 minutes past the hour
+    - cron: '0 9 * * 4'  # This will run every Thursday at 9:00 AM UTC
+  workflow_dispatch:
 
 jobs:
   build:

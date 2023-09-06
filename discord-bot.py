@@ -2,8 +2,11 @@ import requests
 import logging
 import datetime
 import time
+
+
 def is_start_of_hour(time):
-    return time.minute == 30
+    return time.minute == 0
+
 
 logging.basicConfig(level=logging.DEBUG)  # Set logging level to DEBUG
 logger = logging.getLogger(__name__)
@@ -15,7 +18,8 @@ with open(starter_list, "r") as f:
     file_contents = f.read()
 
 # Split the input text into individual league entries
-entries = file_contents.split("===============================================================================================")
+entries = file_contents.split(
+    "===============================================================================================")
 
 # Get the current date and time
 current_datetime = datetime.datetime.now()
@@ -36,14 +40,16 @@ while True:
                         "==============================================================================================="
                     }
                     try:
-                        logger.debug("Sending request to webhook for header...")
+                        logger.debug(
+                            "Sending request to webhook for header...")
                         requests.post(webhook_url, json=payload)
                         logger.debug("Header request sent successfully.")
                     except Exception as e:
-                        logger.error("An error occurred while sending header:", exc_info=True)
-                    
+                        logger.error(
+                            "An error occurred while sending header:", exc_info=True)
+
                     header_printed = True
-                
+
                 payload = {
                     "content": f"{entry}" +
                     "==============================================================================================="
@@ -54,8 +60,10 @@ while True:
                     requests.post(webhook_url, json=payload)
                     logger.debug("Entry request sent successfully.")
                 except Exception as e:
-                    logger.error("An error occurred while sending entry:", exc_info=True)
+                    logger.error(
+                        "An error occurred while sending entry:", exc_info=True)
         break
     else:
-        print(f"It's not the start of the hour. ({current_datetime.strftime('%I').rjust(2, '0')}:{current_datetime.strftime('%M').rjust(2, '0')})")
+        print(
+            f"It's not the start of the hour. ({current_datetime.strftime('%I').rjust(2, '0')}:{current_datetime.strftime('%M').rjust(2, '0')})")
     time.sleep(60)  # Wait for 60 seconds before checking again
